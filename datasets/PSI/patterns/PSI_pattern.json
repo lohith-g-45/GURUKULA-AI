@@ -1,0 +1,43 @@
+{
+    "exam": "PSI",
+    "prelims": {
+        "papers": 2,
+        "total_marks": 200,
+        "duration": "2 Hours Each",
+        "papers_details": [
+            {
+                "paper": "Paper 1",
+                "subject": "General Studies",
+                "marks": 100
+            },
+            {
+                "paper": "Paper 2",
+                "subject": "Kannada Language",
+                "marks": 100
+            }
+        ]
+    },
+    "mains": {
+        "papers": 2,
+        "total_marks": 400,
+        "duration": "3 Hours Each",
+        "papers_details": [
+            {
+                "paper": "Paper 1",
+                "subject": "General Studies & Mental Ability",
+                "marks": 200
+            },
+            {
+                "paper": "Paper 2",
+                "subject": "Kannada & English Language",
+                "marks": 200
+            }
+        ]
+    },
+    "physical_test": {
+        "marks": 100
+    },
+    "interview": {
+        "marks": 50
+    }
+}

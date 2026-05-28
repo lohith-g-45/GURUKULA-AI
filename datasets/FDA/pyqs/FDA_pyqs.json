@@ -1,0 +1,16 @@
+{
+    "exam": "FDA",
+    "papers": [
+        {
+            "year": 2022,
+            "stage": "Prelims",
+            "paper": 1,
+            "subject": "General Studies",
+            "pdf_url": "https://kpsc.kar.nic.in/images/Notification/FDA2022/Previous/2022_FDA_P1.pdf",
+            "downloaded": true,
+            "local_path": "datasets\\FDA\\pyqs\\fda_prelims_paper_1_2022.pdf"
+        }
+    ],
+    "total_years": 4,
+    "available_papers": 8
+}

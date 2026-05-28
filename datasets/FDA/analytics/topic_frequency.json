@@ -1,0 +1,20 @@
+[
+    {
+        "subject": "General Studies",
+        "topic": "Karnataka History & Culture",
+        "frequency_score": 10,
+        "importance": "Very High"
+    },
+    {
+        "subject": "Kannada Language",
+        "topic": "Kannada Grammar",
+        "frequency_score": 7,
+        "importance": "High"
+    },
+    {
+        "subject": "English Language",
+        "topic": "English Grammar",
+        "frequency_score": 7,
+        "importance": "High"
+    }
+]

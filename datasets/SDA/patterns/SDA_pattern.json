@@ -1,0 +1,32 @@
+{
+    "exam": "SDA",
+    "prelims": {
+        "papers": 1,
+        "total_marks": 200,
+        "duration": "2 Hours",
+        "papers_details": [
+            {
+                "paper": "Paper 1",
+                "subject": "General Knowledge, Kannada & English",
+                "marks": 200
+            }
+        ]
+    },
+    "mains": {
+        "papers": 2,
+        "total_marks": 400,
+        "duration": "2 Hours Each",
+        "papers_details": [
+            {
+                "paper": "Paper 1",
+                "subject": "General Knowledge",
+                "marks": 200
+            },
+            {
+                "paper": "Paper 2",
+                "subject": "Kannada & English",
+                "marks": 200
+            }
+        ]
+    }
+}

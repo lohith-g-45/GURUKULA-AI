@@ -1,0 +1,16 @@
+{
+    "exam": "SDA",
+    "papers": [
+        {
+            "year": 2022,
+            "stage": "Prelims",
+            "paper": 1,
+            "subject": "General Knowledge",
+            "pdf_url": "https://kpsc.kar.nic.in/images/Notification/SDA2022/Previous/2022_SDA_P1.pdf",
+            "downloaded": true,
+            "local_path": "datasets\\SDA\\pyqs\\sda_prelims_paper_1_2022.pdf"
+        }
+    ],
+    "total_years": 3,
+    "available_papers": 6
+}

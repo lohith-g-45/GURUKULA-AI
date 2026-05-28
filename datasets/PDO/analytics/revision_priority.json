@@ -1,0 +1,29 @@
+[
+    {
+        "subject": "Rural Development & Panchayati Raj",
+        "topic": "Karnataka Panchayati Raj",
+        "importance": "Very High",
+        "pyq_frequency": "Very High",
+        "revision_priority": "Very High",
+        "estimated_prep_time": "15-20 hours",
+        "weak_topic_sensitivity": "Very High"
+    },
+    {
+        "subject": "General Studies",
+        "topic": "Karnataka History & Culture",
+        "importance": "High",
+        "pyq_frequency": "High",
+        "revision_priority": "High",
+        "estimated_prep_time": "10-12 hours",
+        "weak_topic_sensitivity": "High"
+    },
+    {
+        "subject": "Kannada Language",
+        "topic": "Kannada Grammar",
+        "importance": "High",
+        "pyq_frequency": "High",
+        "revision_priority": "High",
+        "estimated_prep_time": "6-8 hours",
+        "weak_topic_sensitivity": "Medium"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "subject": "History",
+        "topic": "Modern India",
+        "importance": "Very High",
+        "pyq_frequency": "Very High",
+        "revision_priority": "Very High",
+        "estimated_prep_time": "15-20 hours",
+        "weak_topic_sensitivity": "Very High"
+    },
+    {
+        "subject": "Polity",
+        "topic": "Constitution of India",
+        "importance": "Very High",
+        "pyq_frequency": "Very High",
+        "revision_priority": "Very High",
+        "estimated_prep_time": "20-25 hours",
+        "weak_topic_sensitivity": "Very High"
+    },
+    {
+        "subject": "Geography",
+        "topic": "Karnataka Geography",
+        "importance": "Very High",
+        "pyq_frequency": "Very High",
+        "revision_priority": "Very High",
+        "estimated_prep_time": "8-10 hours",
+        "weak_topic_sensitivity": "High"
+    },
+    {
+        "subject": "Current Affairs",
+        "topic": "Karnataka Current Affairs",
+        "importance": "Very High",
+        "pyq_frequency": "Very High",
+        "revision_priority": "Very High",
+        "estimated_prep_time": "Ongoing",
+        "weak_topic_sensitivity": "Very High"
+    },
+    {
+        "subject": "Geography",
+        "topic": "Indian Geography",
+        "importance": "Very High",
+        "pyq_frequency": "High",
+        "revision_priority": "Very High",
+        "estimated_prep_time": "12-15 hours",
+        "weak_topic_sensitivity": "High"
+    },
+    {
+        "subject": "Economics",
+        "topic": "Indian Economy",
+        "importance": "Very High",
+        "pyq_frequency": "High",
+        "revision_priority": "High",
+        "estimated_prep_time": "12-15 hours",
+        "weak_topic_sensitivity": "High"
+    },
+    {
+        "subject": "Economics",
+        "topic": "Karnataka Economy",
+        "importance": "Very High",
+        "pyq_frequency": "High",
+        "revision_priority": "High",
+        "estimated_prep_time": "8-10 hours",
+        "weak_topic_sensitivity": "High"
+    },
+    {
+        "subject": "History",
+        "topic": "Karnataka History",
+        "importance": "High",
+        "pyq_frequency": "High",
+        "revision_priority": "High",
+        "estimated_prep_time": "10-12 hours",
+        "weak_topic_sensitivity": "High"
+    },
+    {
+        "subject": "Polity",
+        "topic": "Karnataka State Polity",
+        "importance": "High",
+        "pyq_frequency": "High",
+        "revision_priority": "High",
+        "estimated_prep_time": "8-10 hours",
+        "weak_topic_sensitivity": "High"
+    },
+    {
+        "subject": "History",
+        "topic": "Ancient India",
+        "importance": "High",
+        "pyq_frequency": "Medium",
+        "revision_priority": "High",
+        "estimated_prep_time": "8-10 hours",
+        "weak_topic_sensitivity": "Medium"
+    }
+]

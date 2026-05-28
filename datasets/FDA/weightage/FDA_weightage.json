@@ -1,0 +1,28 @@
+{
+    "exam": "FDA",
+    "stage": "Prelims & Mains",
+    "subjects": {
+        "General Studies": {
+            "prelims_weightage": 40,
+            "mains_weightage": 150,
+            "priority": "Very High",
+            "difficulty": "Easy-Medium"
+        },
+        "Kannada Language": {
+            "prelims_weightage": 30,
+            "mains_weightage": 100,
+            "priority": "Very High",
+            "difficulty": "Easy"
+        },
+        "English Language": {
+            "prelims_weightage": 30,
+            "mains_weightage": 100,
+            "priority": "High",
+            "difficulty": "Easy"
+        }
+    },
+    "total_marks": {
+        "prelims": 200,
+        "mains": 400
+    }
+}

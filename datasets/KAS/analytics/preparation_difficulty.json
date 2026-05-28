@@ -1,0 +1,16 @@
+{
+    "easy_subjects": [
+        "Geography"
+    ],
+    "medium_subjects": [
+        "History",
+        "Polity",
+        "Economics",
+        "Current Affairs"
+    ],
+    "hard_subjects": [],
+    "time_consuming_subjects": [
+        "Economics",
+        "Current Affairs"
+    ]
+}

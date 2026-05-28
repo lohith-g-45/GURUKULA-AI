@@ -1,0 +1,47 @@
+{
+    "research_agent": {
+        "focus_areas": [
+            "PDO exam pattern and syllabus",
+            "Subject weightage and priority",
+            "PYQ trends and frequently asked topics"
+        ],
+        "data_needed": [
+            "syllabus",
+            "pyqs",
+            "weightage"
+        ]
+    },
+    "planning_agent": {
+        "focus_areas": [
+            "Time allocation",
+            "Subject sequencing",
+            "Weekly study targets"
+        ],
+        "data_needed": [
+            "subject_priority",
+            "prep_difficulty"
+        ]
+    },
+    "revision_agent": {
+        "focus_areas": [
+            "Weak areas",
+            "High-frequency topics",
+            "Revision scheduling"
+        ],
+        "data_needed": [
+            "revision_priority",
+            "topic_frequency"
+        ]
+    },
+    "insight_agent": {
+        "focus_areas": [
+            "Exam patterns",
+            "Success factors",
+            "Preparation strategies"
+        ],
+        "data_needed": [
+            "topic_frequency",
+            "pyq_trends"
+        ]
+    }
+}

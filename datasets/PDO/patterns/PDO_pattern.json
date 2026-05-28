@@ -1,0 +1,32 @@
+{
+    "exam": "PDO",
+    "prelims": {
+        "papers": 1,
+        "total_marks": 200,
+        "duration": "2 Hours",
+        "papers_details": [
+            {
+                "paper": "Paper 1",
+                "subject": "General Studies, Rural Development",
+                "marks": 200
+            }
+        ]
+    },
+    "mains": {
+        "papers": 2,
+        "total_marks": 400,
+        "duration": "3 Hours Each",
+        "papers_details": [
+            {
+                "paper": "Paper 1",
+                "subject": "Rural Development & Panchayati Raj",
+                "marks": 200
+            },
+            {
+                "paper": "Paper 2",
+                "subject": "General Studies & Kannada",
+                "marks": 200
+            }
+        ]
+    }
+}

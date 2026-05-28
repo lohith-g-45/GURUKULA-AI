@@ -1,0 +1,68 @@
+{
+    "exam": "KAS",
+    "prelims": {
+        "papers": 2,
+        "total_marks": 400,
+        "duration": "2 Hours Each",
+        "papers_details": [
+            {
+                "paper": "Paper 1",
+                "subject": "General Studies",
+                "marks": 200
+            },
+            {
+                "paper": "Paper 2",
+                "subject": "CSAT (Aptitude)",
+                "marks": 200
+            }
+        ]
+    },
+    "mains": {
+        "papers": 9,
+        "total_marks": 1250,
+        "duration": "3 Hours Each",
+        "papers_details": [
+            {
+                "paper": "Kannada Language",
+                "qualifying": true,
+                "marks": 150
+            },
+            {
+                "paper": "English Language",
+                "qualifying": true,
+                "marks": 150
+            },
+            {
+                "paper": "Essay",
+                "marks": 200
+            },
+            {
+                "paper": "General Studies 1",
+                "marks": 200
+            },
+            {
+                "paper": "General Studies 2",
+                "marks": 200
+            },
+            {
+                "paper": "General Studies 3",
+                "marks": 200
+            },
+            {
+                "paper": "General Studies 4",
+                "marks": 200
+            },
+            {
+                "paper": "Optional Subject 1",
+                "marks": 200
+            },
+            {
+                "paper": "Optional Subject 2",
+                "marks": 200
+            }
+        ]
+    },
+    "interview": {
+        "marks": 200
+    }
+}

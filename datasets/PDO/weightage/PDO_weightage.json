@@ -1,0 +1,28 @@
+{
+    "exam": "PDO",
+    "stage": "Prelims & Mains",
+    "subjects": {
+        "Rural Development & Panchayati Raj": {
+            "prelims_weightage": 50,
+            "mains_weightage": 200,
+            "priority": "Very High",
+            "difficulty": "Medium"
+        },
+        "General Studies": {
+            "prelims_weightage": 30,
+            "mains_weightage": 100,
+            "priority": "High",
+            "difficulty": "Medium"
+        },
+        "Kannada Language": {
+            "prelims_weightage": 20,
+            "mains_weightage": 50,
+            "priority": "High",
+            "difficulty": "Easy"
+        }
+    },
+    "total_marks": {
+        "prelims": 200,
+        "mains": 400
+    }
+}

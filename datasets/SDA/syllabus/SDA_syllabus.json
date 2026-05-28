@@ -1,0 +1,69 @@
+{
+    "exam": "SDA",
+    "subjects": [
+        {
+            "name": "General Knowledge",
+            "difficulty": "Easy",
+            "priority": "Very High",
+            "estimated_weightage": 40,
+            "preparation_complexity": "Low",
+            "revision_frequency": "Every 2 Days",
+            "recommended_revision_gap": "2-4 days",
+            "weak_area_focus": "Medium",
+            "topics": [
+                {
+                    "name": "Karnataka GK",
+                    "importance": "Very High",
+                    "pyq_frequency": "Very High",
+                    "revision_priority": "Very High",
+                    "estimated_prep_time": "5-6 hours",
+                    "weak_topic_sensitivity": "Medium",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "name": "Kannada Language",
+            "difficulty": "Easy",
+            "priority": "High",
+            "estimated_weightage": 30,
+            "preparation_complexity": "Low",
+            "revision_frequency": "Weekly",
+            "recommended_revision_gap": "5-7 days",
+            "weak_area_focus": "Medium",
+            "topics": [
+                {
+                    "name": "Basic Kannada",
+                    "importance": "High",
+                    "pyq_frequency": "High",
+                    "revision_priority": "High",
+                    "estimated_prep_time": "4-6 hours",
+                    "weak_topic_sensitivity": "Medium",
+                    "subtopics": []
+                }
+            ]
+        },
+        {
+            "name": "English Language",
+            "difficulty": "Easy",
+            "priority": "High",
+            "estimated_weightage": 30,
+            "preparation_complexity": "Low",
+            "revision_frequency": "Weekly",
+            "recommended_revision_gap": "5-7 days",
+            "weak_area_focus": "Medium",
+            "topics": [
+                {
+                    "name": "Basic English",
+                    "importance": "High",
+                    "pyq_frequency": "High",
+                    "revision_priority": "High",
+                    "estimated_prep_time": "4-6 hours",
+                    "weak_topic_sensitivity": "Medium",
+                    "subtopics": []
+                }
+            ]
+        }
+    ],
+    "source_used": "https://edurev.in"
+}

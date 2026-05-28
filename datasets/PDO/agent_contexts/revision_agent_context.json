@@ -1,0 +1,192 @@
+{
+    "agent_name": "Revision Agent",
+    "exam": "PDO",
+    "purpose": "Optimize PDO revision and practice",
+    "focus_areas": [
+        "Weak areas",
+        "High-frequency topics",
+        "Revision scheduling"
+    ],
+    "data": {
+        "revision_priority": [
+            {
+                "subject": "Rural Development & Panchayati Raj",
+                "topic": "Karnataka Panchayati Raj",
+                "importance": "Very High",
+                "pyq_frequency": "Very High",
+                "revision_priority": "Very High",
+                "estimated_prep_time": "15-20 hours",
+                "weak_topic_sensitivity": "Very High"
+            },
+            {
+                "subject": "General Studies",
+                "topic": "Karnataka History & Culture",
+                "importance": "High",
+                "pyq_frequency": "High",
+                "revision_priority": "High",
+                "estimated_prep_time": "10-12 hours",
+                "weak_topic_sensitivity": "High"
+            },
+            {
+                "subject": "Kannada Language",
+                "topic": "Kannada Grammar",
+                "importance": "High",
+                "pyq_frequency": "High",
+                "revision_priority": "High",
+                "estimated_prep_time": "6-8 hours",
+                "weak_topic_sensitivity": "Medium"
+            }
+        ],
+        "topic_frequency": [
+            {
+                "subject": "Rural Development & Panchayati Raj",
+                "topic": "Karnataka Panchayati Raj",
+                "frequency_score": 10,
+                "importance": "Very High"
+            },
+            {
+                "subject": "General Studies",
+                "topic": "Karnataka History & Culture",
+                "frequency_score": 7,
+                "importance": "High"
+            },
+            {
+                "subject": "Kannada Language",
+                "topic": "Kannada Grammar",
+                "frequency_score": 7,
+                "importance": "High"
+            }
+        ],
+        "pyq_trends": {
+            "exam": "PDO",
+            "repeated_topics": [
+                {
+                    "name": "Karnataka Panchayati Raj",
+                    "importance": "Very High",
+                    "pyq_frequency": "Very High",
+                    "revision_priority": "Very High",
+                    "estimated_prep_time": "15-20 hours",
+                    "weak_topic_sensitivity": "Very High",
+                    "subtopics": []
+                }
+            ],
+            "important_subjects": [
+                "Rural Development & Panchayati Raj",
+                "General Studies",
+                "Kannada Language"
+            ],
+            "year_wise_availability": [
+                2024,
+                2023,
+                2022,
+                2021
+            ],
+            "paper_wise_trends": {
+                "exam": "PDO",
+                "prelims": {
+                    "papers": 1,
+                    "total_marks": 200,
+                    "duration": "2 Hours",
+                    "papers_details": [
+                        {
+                            "paper": "Paper 1",
+                            "subject": "General Studies, Rural Development",
+                            "marks": 200
+                        }
+                    ]
+                },
+                "mains": {
+                    "papers": 2,
+                    "total_marks": 400,
+                    "duration": "3 Hours Each",
+                    "papers_details": [
+                        {
+                            "paper": "Paper 1",
+                            "subject": "Rural Development & Panchayati Raj",
+                            "marks": 200
+                        },
+                        {
+                            "paper": "Paper 2",
+                            "subject": "General Studies & Kannada",
+                            "marks": 200
+                        }
+                    ]
+                }
+            }
+        },
+        "syllabus": {
+            "exam": "PDO",
+            "subjects": [
+                {
+                    "name": "Rural Development & Panchayati Raj",
+                    "difficulty": "Medium",
+                    "priority": "Very High",
+                    "estimated_weightage": 50,
+                    "preparation_complexity": "High",
+                    "revision_frequency": "Daily",
+                    "recommended_revision_gap": "1-2 days",
+                    "weak_area_focus": "Very High",
+                    "topics": [
+                        {
+                            "name": "Karnataka Panchayati Raj",
+                            "importance": "Very High",
+                            "pyq_frequency": "Very High",
+                            "revision_priority": "Very High",
+                            "estimated_prep_time": "15-20 hours",
+                            "weak_topic_sensitivity": "Very High",
+                            "subtopics": []
+                        }
+                    ]
+                },
+                {
+                    "name": "General Studies",
+                    "difficulty": "Medium",
+                    "priority": "High",
+                    "estimated_weightage": 30,
+                    "preparation_complexity": "Medium",
+                    "revision_frequency": "Weekly",
+                    "recommended_revision_gap": "3-5 days",
+                    "weak_area_focus": "High",
+                    "topics": [
+                        {
+                            "name": "Karnataka History & Culture",
+                            "importance": "High",
+                            "pyq_frequency": "High",
+                            "revision_priority": "High",
+                            "estimated_prep_time": "10-12 hours",
+                            "weak_topic_sensitivity": "High",
+                            "subtopics": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Kannada Language",
+                    "difficulty": "Easy",
+                    "priority": "High",
+                    "estimated_weightage": 20,
+                    "preparation_complexity": "Low",
+                    "revision_frequency": "Weekly",
+                    "recommended_revision_gap": "5-7 days",
+                    "weak_area_focus": "Medium",
+                    "topics": [
+                        {
+                            "name": "Kannada Grammar",
+                            "importance": "High",
+                            "pyq_frequency": "High",
+                            "revision_priority": "High",
+                            "estimated_prep_time": "6-8 hours",
+                            "weak_topic_sensitivity": "Medium",
+                            "subtopics": []
+                        }
+                    ]
+                }
+            ],
+            "source_used": "https://edurev.in"
+        }
+    },
+    "tasks": [
+        "Create weekly revision plans",
+        "Identify high-yield topics",
+        "Recommend practice questions"
+    ]
+}

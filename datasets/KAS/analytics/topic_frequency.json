@@ -1,0 +1,62 @@
+[
+    {
+        "subject": "History",
+        "topic": "Modern India",
+        "frequency_score": 10,
+        "importance": "Very High"
+    },
+    {
+        "subject": "Polity",
+        "topic": "Constitution of India",
+        "frequency_score": 10,
+        "importance": "Very High"
+    },
+    {
+        "subject": "Geography",
+        "topic": "Karnataka Geography",
+        "frequency_score": 10,
+        "importance": "Very High"
+    },
+    {
+        "subject": "Current Affairs",
+        "topic": "Karnataka Current Affairs",
+        "frequency_score": 10,
+        "importance": "Very High"
+    },
+    {
+        "subject": "History",
+        "topic": "Karnataka History",
+        "frequency_score": 7,
+        "importance": "High"
+    },
+    {
+        "subject": "Polity",
+        "topic": "Karnataka State Polity",
+        "frequency_score": 7,
+        "importance": "High"
+    },
+    {
+        "subject": "Geography",
+        "topic": "Indian Geography",
+        "frequency_score": 7,
+        "importance": "Very High"
+    },
+    {
+        "subject": "Economics",
+        "topic": "Indian Economy",
+        "frequency_score": 7,
+        "importance": "Very High"
+    },
+    {
+        "subject": "Economics",
+        "topic": "Karnataka Economy",
+        "frequency_score": 7,
+        "importance": "Very High"
+    },
+    {
+        "subject": "History",
+        "topic": "Ancient India",
+        "frequency_score": 4,
+        "importance": "High"
+    }
+]

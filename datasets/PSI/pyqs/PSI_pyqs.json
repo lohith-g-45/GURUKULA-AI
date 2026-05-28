@@ -1,0 +1,16 @@
+{
+    "exam": "PSI",
+    "papers": [
+        {
+            "year": 2023,
+            "stage": "Prelims",
+            "paper": 1,
+            "subject": "General Studies",
+            "pdf_url": "https://kpsc.kar.nic.in/images/Notification/PSI2023/Previous/2023_PSI_P1.pdf",
+            "downloaded": true,
+            "local_path": "datasets\\PSI\\pyqs\\psi_prelims_paper_1_2023.pdf"
+        }
+    ],
+    "total_years": 4,
+    "available_papers": 8
+}

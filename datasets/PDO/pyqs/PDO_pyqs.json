@@ -1,0 +1,16 @@
+{
+    "exam": "PDO",
+    "papers": [
+        {
+            "year": 2023,
+            "stage": "Prelims",
+            "paper": 1,
+            "subject": "Rural Development",
+            "pdf_url": "https://kpsc.kar.nic.in/images/Notification/PDO2023/Previous/2023_PDO_P1.pdf",
+            "downloaded": true,
+            "local_path": "datasets\\PDO\\pyqs\\pdo_prelims_paper_1_2023.pdf"
+        }
+    ],
+    "total_years": 3,
+    "available_papers": 6
+}

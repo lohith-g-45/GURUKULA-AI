@@ -1,0 +1,25 @@
+{
+    "exam": "KAS",
+    "papers": [
+        {
+            "year": 2024,
+            "stage": "Prelims",
+            "paper": 1,
+            "subject": "General Studies",
+            "pdf_url": "https://kpsc.kar.nic.in/images/Notification/KAS2024/Previous/2024_GS1.pdf",
+            "downloaded": true,
+            "local_path": "datasets\\KAS\\pyqs\\kas_prelims_paper_1_2024.pdf"
+        },
+        {
+            "year": 2024,
+            "stage": "Prelims",
+            "paper": 2,
+            "subject": "CSAT",
+            "pdf_url": "https://kpsc.kar.nic.in/images/Notification/KAS2024/Previous/2024_GS2.pdf",
+            "downloaded": true,
+            "local_path": "datasets\\KAS\\pyqs\\kas_prelims_paper_2_2024.pdf"
+        }
+    ],
+    "total_years": 5,
+    "available_papers": 10
+}

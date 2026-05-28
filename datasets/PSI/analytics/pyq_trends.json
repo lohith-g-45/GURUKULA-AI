@@ -1,0 +1,77 @@
+{
+    "exam": "PSI",
+    "repeated_topics": [
+        {
+            "name": "Karnataka History & Culture",
+            "importance": "Very High",
+            "pyq_frequency": "Very High",
+            "revision_priority": "Very High",
+            "estimated_prep_time": "10-12 hours",
+            "weak_topic_sensitivity": "High",
+            "subtopics": []
+        },
+        {
+            "name": "Indian Polity",
+            "importance": "High",
+            "pyq_frequency": "High",
+            "revision_priority": "High",
+            "estimated_prep_time": "8-10 hours",
+            "weak_topic_sensitivity": "Medium",
+            "subtopics": []
+        }
+    ],
+    "important_subjects": [
+        "General Studies",
+        "Mental Ability",
+        "Kannada Language"
+    ],
+    "year_wise_availability": [
+        2024,
+        2023,
+        2022,
+        2021
+    ],
+    "paper_wise_trends": {
+        "exam": "PSI",
+        "prelims": {
+            "papers": 2,
+            "total_marks": 200,
+            "duration": "2 Hours Each",
+            "papers_details": [
+                {
+                    "paper": "Paper 1",
+                    "subject": "General Studies",
+                    "marks": 100
+                },
+                {
+                    "paper": "Paper 2",
+                    "subject": "Kannada Language",
+                    "marks": 100
+                }
+            ]
+        },
+        "mains": {
+            "papers": 2,
+            "total_marks": 400,
+            "duration": "3 Hours Each",
+            "papers_details": [
+                {
+                    "paper": "Paper 1",
+                    "subject": "General Studies & Mental Ability",
+                    "marks": 200
+                },
+                {
+                    "paper": "Paper 2",
+                    "subject": "Kannada & English Language",
+                    "marks": 200
+                }
+            ]
+        },
+        "physical_test": {
+            "marks": 100
+        },
+        "interview": {
+            "marks": 50
+        }
+    }
+}
