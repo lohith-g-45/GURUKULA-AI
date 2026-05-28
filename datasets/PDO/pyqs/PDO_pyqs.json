@@ -1,16 +1,6 @@
 {
     "exam": "PDO",
-    "papers": [
-        {
-            "year": 2023,
-            "stage": "Prelims",
-            "paper": 1,
-            "subject": "Rural Development",
-            "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-            "downloaded": true,
-            "local_path": "datasets\\PDO\\pyqs\\pdo_prelims_paper_1_2023.pdf"
-        }
-    ],
-    "total_years": 3,
-    "available_papers": 6
+    "papers": [],
+    "total_years": 0,
+    "available_papers": 0
 }

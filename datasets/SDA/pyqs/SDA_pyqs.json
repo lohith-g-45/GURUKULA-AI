@@ -1,16 +1,6 @@
 {
     "exam": "SDA",
-    "papers": [
-        {
-            "year": 2022,
-            "stage": "Prelims",
-            "paper": 1,
-            "subject": "General Knowledge",
-            "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-            "downloaded": true,
-            "local_path": "datasets\\SDA\\pyqs\\sda_prelims_paper_1_2022.pdf"
-        }
-    ],
-    "total_years": 3,
-    "available_papers": 6
+    "papers": [],
+    "total_years": 0,
+    "available_papers": 0
 }

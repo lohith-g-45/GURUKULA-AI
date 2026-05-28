@@ -1,16 +1,6 @@
 {
     "exam": "PSI",
-    "papers": [
-        {
-            "year": 2023,
-            "stage": "Prelims",
-            "paper": 1,
-            "subject": "General Studies",
-            "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-            "downloaded": true,
-            "local_path": "datasets\\PSI\\pyqs\\psi_prelims_paper_1_2023.pdf"
-        }
-    ],
-    "total_years": 4,
-    "available_papers": 8
+    "papers": [],
+    "total_years": 0,
+    "available_papers": 0
 }
