@@ -16,8 +16,14 @@ env/
 *.swo
 *~
 
+# Archive files
+*.zip
+*.tar
+*.gz
+*.rar
+
 # PDFs (optional: uncomment if you don't want to commit PDFs)
-# datasets/pyqs/*.pdf
+# datasets/*/pyqs/*.pdf
 
 # OS files
 .DS_Store
