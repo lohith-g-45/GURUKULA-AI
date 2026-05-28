@@ -3,6 +3,7 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from utils.json_utils import save_json
 from utils.scraper_utils import get_soup, clean_text, normalize_topics
+from utils.dataset_manager import get_syllabus_path, get_raw_syllabus_path
 from config import EXAM_CONFIG
 
 
@@ -349,22 +350,19 @@ def scrape_exam_syllabus(exam_name):
     print(f"Starting Advanced {exam_name} Syllabus Intelligence Engine")
     
     exam_info = EXAM_CONFIG.get(exam_name, {})
-    syllabus_dir = os.path.join("datasets", exam_name, "syllabus")
-    raw_dir = os.path.join("datasets", exam_name, "raw")
-    os.makedirs(syllabus_dir, exist_ok=True)
-    os.makedirs(raw_dir, exist_ok=True)
     
     # Get curated syllabus
     syllabus = get_curated_syllabus(exam_name)
     syllabus["source_used"] = exam_info.get("syllabus_sources", ["https://www.citizennest.com"])[0]
     
     # Save raw text (placeholder)
+    raw_path = get_raw_syllabus_path(exam_name)
     raw_text = f"{exam_name} Syllabus - Curated for AI-Ready Data"
-    with open(os.path.join(raw_dir, f"{exam_name}_syllabus_raw.txt"), "w", encoding="utf-8") as f:
+    with open(raw_path, "w", encoding="utf-8") as f:
         f.write(raw_text)
     
     # Save syllabus
-    save_path = os.path.join(syllabus_dir, f"{exam_name}_syllabus.json")
+    save_path = get_syllabus_path(exam_name)
     save_json(syllabus, save_path)
     print(f"[{exam_name}] Syllabus saved to {save_path}")
     

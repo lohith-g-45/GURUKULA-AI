@@ -3,6 +3,7 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from utils.json_utils import save_json
 from utils.scraper_utils import get_soup, clean_text
+from utils.dataset_manager import get_metadata_path, validate_url
 from config import EXAM_CONFIG
 
 
@@ -68,11 +69,13 @@ def scrape_exam_metadata(exam_name):
                         href = "https://www.citizennest.com" + href
                     else:
                         href = source_url + href
-                links.append({"title": text, "url": href})
+                
+                if validate_url(href):
+                    links.append({"title": text, "url": href})
         
         headings = list(set(headings))  # Remove duplicates
         print(f"[{exam_name}] Found {len(headings)} relevant headings")
-        print(f"[{exam_name}] Found {len(links)} relevant links")
+        print(f"[{exam_name}] Found {len(links)} valid relevant links")
     
     # Curated metadata based on exam
     curated_metadata = {
@@ -134,10 +137,8 @@ def scrape_exam_metadata(exam_name):
     metadata["extracted_headings"] = headings
     metadata["relevant_links"] = links
     
-    # Save to datasets/<exam_name>/exams/
-    save_dir = os.path.join("datasets", exam_name, "exams")
-    os.makedirs(save_dir, exist_ok=True)
-    save_path = os.path.join(save_dir, f"{exam_name}_metadata.json")
+    # Save via dataset_manager
+    save_path = get_metadata_path(exam_name)
     save_json(metadata, save_path)
     print(f"[{exam_name}] Saved metadata to {save_path}")
     

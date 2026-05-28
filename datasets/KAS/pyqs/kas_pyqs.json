@@ -6,7 +6,7 @@
             "stage": "Prelims",
             "paper": 1,
             "subject": "General Studies",
-            "pdf_url": "https://kpsc.kar.nic.in/images/Notification/KAS2024/Previous/2024_GS1.pdf",
+            "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
             "downloaded": true,
             "local_path": "datasets\\KAS\\pyqs\\kas_prelims_paper_1_2024.pdf"
         },
@@ -15,7 +15,7 @@
             "stage": "Prelims",
             "paper": 2,
             "subject": "CSAT",
-            "pdf_url": "https://kpsc.kar.nic.in/images/Notification/KAS2024/Previous/2024_GS2.pdf",
+            "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
             "downloaded": true,
             "local_path": "datasets\\KAS\\pyqs\\kas_prelims_paper_2_2024.pdf"
         }

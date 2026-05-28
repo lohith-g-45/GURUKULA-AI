@@ -1,5 +1,6 @@
 import os
-from .json_utils import save_json, load_json
+from utils.json_utils import save_json, load_json
+from utils.dataset_manager import get_data_path
 
 
 def generate_subject_priority(exam_name, syllabus_data):
@@ -93,7 +94,7 @@ def generate_prep_difficulty(exam_name, syllabus_data):
             categories["medium_subjects"].append(name)
         else:
             categories["hard_subjects"].append(name)
-            
+        
         if complexity in ["High", "Very High"]:
             categories["time_consuming_subjects"].append(name)
     
@@ -122,7 +123,7 @@ def generate_readiness_rules(exam_name, syllabus_data):
 
 
 def save_analytics(analytics_data, exam_name, base_dir="datasets"):
-    analytics_dir = os.path.join(base_dir, exam_name, "analytics")
+    analytics_dir = get_data_path(exam_name, "analytics")
     os.makedirs(analytics_dir, exist_ok=True)
     
     for filename, data in analytics_data.items():

@@ -2,6 +2,7 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from utils.json_utils import save_json
+from utils.dataset_manager import get_pattern_path
 from config import EXAM_CONFIG
 
 
@@ -127,13 +128,11 @@ def scrape_exam_pattern(exam_name):
     print(f"Starting {exam_name} Exam Pattern Scraper")
     
     pattern = get_curated_pattern(exam_name)
-    
-    pattern_dir = os.path.join("datasets", exam_name, "patterns")
-    os.makedirs(pattern_dir, exist_ok=True)
-    save_path = os.path.join(pattern_dir, f"{exam_name}_pattern.json")
+    save_path = get_pattern_path(exam_name)
     save_json(pattern, save_path)
     
     print(f"[{exam_name}] Exam pattern saved to {save_path}")
+    
     return pattern
 
 

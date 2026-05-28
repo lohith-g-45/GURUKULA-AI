@@ -7,32 +7,37 @@ A complete, production-ready scraping, analytics, and AI preparation platform fo
 ## ✨ Features
 
 ### Multi-Exam Support
-- **KAS (Karnataka Administrative Service)** - Advanced flagship exam
-- **PSI (Police Sub-Inspector)** - Full support
-- **FDA (First Division Assistant)** - Full support
-- **SDA (Second Division Assistant)** - Full support
-- **PDO (Panchayat Development Officer)** - Full support
+- **KAS (Karnataka Administrative Service)**: Advanced flagship exam with full intelligence
+- **PSI (Police Sub-Inspector)**: Complete support
+- **FDA (First Division Assistant)**: Complete support
+- **SDA (Second Division Assistant)**: Complete support
+- **PDO (Panchayat Development Officer)**: Complete support
 
 ### Core Capabilities
-1. **Intelligent Web Scraping**
+1. **Intelligent Web Scraping**:
    - Exam metadata, syllabus, patterns, subject weightage
-   - Previous Year Question Papers (PYQs) with automatic PDF download
-2. **Analytics Engine**
+   - Previous Year Question Papers (PYQs) with automatic PDF download (with URL validation)
+2. **Analytics Engine**:
    - Subject priority ranking
    - Revision priority per topic
    - PYQ frequency analysis
    - Preparation difficulty categorization
    - AI readiness rules
-3. **Live Update Monitoring**
+3. **Live Update Monitoring**:
    - Monitor KPSC official website for new content
    - Detect new notifications, syllabi, and PYQs
    - Track update history
-4. **AI Agent Context Builder**
+4. **AI Agent Context Builder**:
    - Research Agent context
    - Planning Agent context
    - Revision Agent context
    - Insight Agent context
    - Ready to use with Gemini/OpenAI APIs
+5. **Dataset Management**:
+   - Standardized multi-exam directory structure
+   - Old dataset structure cleanup
+   - URL validation for resources
+   - PDF validity checking
 
 ---
 
@@ -44,7 +49,7 @@ gurukula_scraper/
 │   ├── __init__.py
 │   └── exams.py                 # Exam definitions (KAS, PSI, FDA, SDA, PDO)
 ├── datasets/
-│   ├── KAS/
+│   ├── KAS/                     # All KAS data
 │   │   ├── exams/
 │   │   ├── syllabus/
 │   │   ├── weightage/
@@ -53,27 +58,30 @@ gurukula_scraper/
 │   │   ├── raw/
 │   │   ├── analytics/
 │   │   └── agent_contexts/
-│   ├── PSI/
-│   ├── FDA/
-│   ├── SDA/
-│   └── PDO/
+│   ├── PSI/                     # All PSI data
+│   ├── FDA/                     # All FDA data
+│   ├── SDA/                     # All SDA data
+│   └── PDO/                     # All PDO data
 ├── scrapers/
-│   ├── metadata_scraper.py
-│   ├── syllabus_scraper.py
-│   ├── weightage_scraper.py
-│   ├── pattern_scraper.py
-│   ├── pyq_scraper.py
-│   ├── update_checker.py
-│   ├── agent_context_builder.py
+│   ├── metadata_scraper.py      # Scrape exam metadata
+│   ├── syllabus_scraper.py      # Scrape/prepare syllabus
+│   ├── weightage_scraper.py     # Scrape subject weightage
+│   ├── pattern_scraper.py       # Scrape exam pattern
+│   ├── pyq_scraper.py           # Scrape PYQs
+│   ├── update_checker.py        # Monitor KPSC for updates
+│   ├── agent_context_builder.py # Generate AI agent contexts
 │   └── exam_manager.py          # Master orchestrator
 ├── utils/
-│   ├── json_utils.py
-│   ├── pdf_utils.py
-│   ├── scraper_utils.py
-│   ├── analytics_utils.py
+│   ├── json_utils.py            # JSON helpers
+│   ├── pdf_utils.py             # PDF download/extraction
+│   ├── scraper_utils.py         # Web scraping helpers
+│   ├── analytics_utils.py       # Analytics generation
+│   ├── dataset_manager.py       # Dataset path management, URL validation
 │   └── logger.py
 ├── requirements.txt
-├── main.py                      # Entry point (runs all exams)
+├── main.py                      # Entry point
+├── migrate_kas_datasets.py      # (One-time) Migrate old KAS data
+├── cleanup_old_datasets.py      # (One-time) Remove old directory structure
 └── README.md
 ```
 
@@ -92,63 +100,59 @@ This processes all 5 exams in order:
 python main.py
 ```
 
-### 3. Run a Specific Exam
-Process only a single exam:
+### 3. Run a Single Exam Pipeline
+```bash
+python scrapers/exam_manager.py --exam KAS
+python scrapers/exam_manager.py --exam PSI
+python scrapers/exam_manager.py --exam FDA
+python scrapers/exam_manager.py --exam SDA
+python scrapers/exam_manager.py --exam PDO
+```
+
+### 4. Run Individual Components
 ```bash
 # Metadata only
 python scrapers/metadata_scraper.py --exam KAS
-python scrapers/metadata_scraper.py --exam PSI
-python scrapers/metadata_scraper.py --exam FDA
-python scrapers/metadata_scraper.py --exam SDA
-python scrapers/metadata_scraper.py --exam PDO
 
 # Syllabus
-python scrapers/syllabus_scraper.py --exam PSI
+python scrapers/syllabus_scraper.py --exam KAS
 
-# Full pipeline for one exam
-# (use exam_manager programmatically)
+# Agent Contexts only
+python scrapers/agent_context_builder.py
 ```
 
----
-
-## 📖 Usage Guides
-
-### Update Monitoring
-Check for new KPSC content:
+### 5. Check for Updates
 ```bash
 python scrapers/update_checker.py
 ```
 
-### AI Agent Contexts
-Generate AI-ready context for Gemini/OpenAI:
+### 6. Cleanup (if needed)
 ```bash
-python scrapers/agent_context_builder.py
+# Clean up old directory structure (only once)
+python cleanup_old_datasets.py
 ```
-
----
-
-## 🔧 Configuration & Customization
-
-### Adding New Exams
-1. Add exam definition to `config/exams.py`
-2. Add curated data in respective scraper files
-3. The system will automatically include it in the pipeline!
 
 ---
 
 ## 📊 AI Readiness
 
-All agent contexts in `datasets/<exam>/agent_contexts/` are directly usable with LLMs!
+All agent contexts in `datasets/<EXAM>/agent_contexts/` are directly usable with LLMs!
 
 ### Example with Gemini
 ```python
 import google.generativeai as genai
 import json
 
+# Load planning agent context
 with open("datasets/KAS/agent_contexts/planning_agent_context.json") as f:
     context = json.load(f)
 
-prompt = f"Use this data to create a KAS study plan:\n{json.dumps(context)}"
+# Prompt the AI
+prompt = f"""
+Use this context to create a 3-month KAS preparation roadmap:
+{json.dumps(context)}
+"""
+
 model = genai.GenerativeModel("gemini-1.5-pro")
 response = model.generate_content(prompt)
 print(response.text)

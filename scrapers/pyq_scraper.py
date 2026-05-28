@@ -3,6 +3,7 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from utils.json_utils import save_json
 from utils.pdf_utils import download_pdf
+from utils.dataset_manager import get_pyqs_path, get_data_path, validate_pdf_url
 from config import EXAM_CONFIG
 
 
@@ -16,7 +17,7 @@ def get_curated_pyqs(exam_name):
                     "stage": "Prelims",
                     "paper": 1,
                     "subject": "General Studies",
-                    "pdf_url": "https://kpsc.kar.nic.in/images/Notification/KAS2024/Previous/2024_GS1.pdf",
+                    "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
                     "downloaded": False
                 },
                 {
@@ -24,7 +25,7 @@ def get_curated_pyqs(exam_name):
                     "stage": "Prelims",
                     "paper": 2,
                     "subject": "CSAT",
-                    "pdf_url": "https://kpsc.kar.nic.in/images/Notification/KAS2024/Previous/2024_GS2.pdf",
+                    "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
                     "downloaded": False
                 }
             ],
@@ -39,7 +40,7 @@ def get_curated_pyqs(exam_name):
                     "stage": "Prelims",
                     "paper": 1,
                     "subject": "General Studies",
-                    "pdf_url": "https://kpsc.kar.nic.in/images/Notification/PSI2023/Previous/2023_PSI_P1.pdf",
+                    "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
                     "downloaded": False
                 }
             ],
@@ -54,7 +55,7 @@ def get_curated_pyqs(exam_name):
                     "stage": "Prelims",
                     "paper": 1,
                     "subject": "General Studies",
-                    "pdf_url": "https://kpsc.kar.nic.in/images/Notification/FDA2022/Previous/2022_FDA_P1.pdf",
+                    "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
                     "downloaded": False
                 }
             ],
@@ -69,7 +70,7 @@ def get_curated_pyqs(exam_name):
                     "stage": "Prelims",
                     "paper": 1,
                     "subject": "General Knowledge",
-                    "pdf_url": "https://kpsc.kar.nic.in/images/Notification/SDA2022/Previous/2022_SDA_P1.pdf",
+                    "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
                     "downloaded": False
                 }
             ],
@@ -84,7 +85,7 @@ def get_curated_pyqs(exam_name):
                     "stage": "Prelims",
                     "paper": 1,
                     "subject": "Rural Development",
-                    "pdf_url": "https://kpsc.kar.nic.in/images/Notification/PDO2023/Previous/2023_PDO_P1.pdf",
+                    "pdf_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
                     "downloaded": False
                 }
             ],
@@ -99,28 +100,27 @@ def scrape_exam_pyqs(exam_name):
     print(f"Starting {exam_name} Previous Year Question (PYQ) Scraper")
     
     pyqs = get_curated_pyqs(exam_name)
+    pyqs_dir = get_data_path(exam_name, "pyqs")
     
-    pyqs_dir = os.path.join("datasets", exam_name, "pyqs")
-    os.makedirs(pyqs_dir, exist_ok=True)
-    
-    # Try to download PDFs (using sample URLs as fallback)
+    # Try to download PDFs
     for idx, paper in enumerate(pyqs["papers"]):
         print(f"[{exam_name}] Processing {paper['stage']} Paper {paper['paper']} ({paper['year']})")
         filename = f"{exam_name.lower()}_{paper['stage'].lower()}_paper_{paper['paper']}_{paper['year']}.pdf"
         save_path = os.path.join(pyqs_dir, filename)
         
-        # Download sample content
-        sample_pdf_url = "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
-        try:
-            download_pdf(sample_pdf_url, save_path)
-            print(f"[{exam_name}] Saved PDF to {save_path}")
-            paper["downloaded"] = True
-            paper["local_path"] = save_path
-        except Exception as e:
-            print(f"[{exam_name}] Warning: Could not download PDF - {e}")
+        if validate_pdf_url(paper["pdf_url"]):
+            try:
+                download_pdf(paper["pdf_url"], save_path)
+                print(f"[{exam_name}] Saved PDF to {save_path}")
+                paper["downloaded"] = True
+                paper["local_path"] = save_path
+            except Exception as e:
+                print(f"[{exam_name}] Warning: Could not download PDF - {e}")
+        else:
+            print(f"[{exam_name}] Warning: Invalid PDF URL - skipping download")
     
     # Save metadata
-    save_path = os.path.join(pyqs_dir, f"{exam_name}_pyqs.json")
+    save_path = get_pyqs_path(exam_name)
     save_json(pyqs, save_path)
     print(f"[{exam_name}] PYQ metadata saved to {save_path}")
     

@@ -2,43 +2,40 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from utils.json_utils import save_json, load_json
+from utils.dataset_manager import get_data_path, get_syllabus_path, get_pattern_path
 from config import EXAM_CONFIG
 
 
-def get_exam_dataset_path(exam_name, data_type):
-    return os.path.join("datasets", exam_name, data_type)
-
-
 def load_exam_metadata(exam_name):
-    metadata_path = os.path.join(get_exam_dataset_path(exam_name, "exams"), f"{exam_name}_metadata.json")
+    metadata_path = os.path.join(get_data_path(exam_name, "exams"), f"{exam_name}_metadata.json")
     if os.path.exists(metadata_path):
         return load_json(metadata_path)
     return None
 
 
 def load_syllabus(exam_name):
-    syllabus_path = os.path.join(get_exam_dataset_path(exam_name, "syllabus"), f"{exam_name}_syllabus.json")
+    syllabus_path = get_syllabus_path(exam_name)
     if os.path.exists(syllabus_path):
         return load_json(syllabus_path)
     return None
 
 
 def load_weightage(exam_name):
-    weightage_path = os.path.join(get_exam_dataset_path(exam_name, "weightage"), f"{exam_name}_weightage.json")
+    weightage_path = os.path.join(get_data_path(exam_name, "weightage"), f"{exam_name}_weightage.json")
     if os.path.exists(weightage_path):
         return load_json(weightage_path)
     return None
 
 
 def load_pattern(exam_name):
-    pattern_path = os.path.join(get_exam_dataset_path(exam_name, "patterns"), f"{exam_name}_pattern.json")
+    pattern_path = get_pattern_path(exam_name)
     if os.path.exists(pattern_path):
         return load_json(pattern_path)
     return None
 
 
 def load_pyq_trends(exam_name):
-    pyq_trends_path = os.path.join(get_exam_dataset_path(exam_name, "analytics"), "pyq_trends.json")
+    pyq_trends_path = os.path.join(get_data_path(exam_name, "analytics"), "pyq_trends.json")
     if os.path.exists(pyq_trends_path):
         return load_json(pyq_trends_path)
     return None
@@ -91,8 +88,8 @@ def build_planning_agent_context(exam_name):
             "Weekly study targets"
         ],
         "data": {
-            "subject_priority": load_json(os.path.join(get_exam_dataset_path(exam_name, "analytics"), "subject_priority.json")),
-            "prep_difficulty": load_json(os.path.join(get_exam_dataset_path(exam_name, "analytics"), "preparation_difficulty.json")),
+            "subject_priority": load_json(os.path.join(get_data_path(exam_name, "analytics"), "subject_priority.json")),
+            "prep_difficulty": load_json(os.path.join(get_data_path(exam_name, "analytics"), "preparation_difficulty.json")),
             "pattern": full.get("pattern"),
             "syllabus": full.get("syllabus")
         },
@@ -116,8 +113,8 @@ def build_revision_agent_context(exam_name):
             "Revision scheduling"
         ],
         "data": {
-            "revision_priority": load_json(os.path.join(get_exam_dataset_path(exam_name, "analytics"), "revision_priority.json")),
-            "topic_frequency": load_json(os.path.join(get_exam_dataset_path(exam_name, "analytics"), "topic_frequency.json")),
+            "revision_priority": load_json(os.path.join(get_data_path(exam_name, "analytics"), "revision_priority.json")),
+            "topic_frequency": load_json(os.path.join(get_data_path(exam_name, "analytics"), "topic_frequency.json")),
             "pyq_trends": full.get("pyq_trends"),
             "syllabus": full.get("syllabus")
         },
@@ -142,7 +139,7 @@ def build_insight_agent_context(exam_name):
         ],
         "data": {
             "pyq_trends": full.get("pyq_trends"),
-            "subject_priority": load_json(os.path.join(get_exam_dataset_path(exam_name, "analytics"), "subject_priority.json")),
+            "subject_priority": load_json(os.path.join(get_data_path(exam_name, "analytics"), "subject_priority.json")),
             "weightage": full.get("weightage"),
             "metadata": full.get("metadata")
         },
@@ -169,7 +166,7 @@ def build_agent_context(exam_name, agent_type):
 
 def build_all_agent_contexts(exam_name):
     agents = ["research", "planning", "revision", "insight", "full"]
-    contexts_dir = get_exam_dataset_path(exam_name, "agent_contexts")
+    contexts_dir = get_data_path(exam_name, "agent_contexts")
     os.makedirs(contexts_dir, exist_ok=True)
     
     for agent in agents:
@@ -183,9 +180,9 @@ def build_all_agent_contexts(exam_name):
 
 
 def main():
-    print("=" * 70)
+    print("=" * 80)
     print("GURUKULA AI - AGENT CONTEXT BUILDER")
-    print("=" * 70)
+    print("=" * 80)
     
     for exam_name in EXAM_CONFIG.keys():
         print(f"\nProcessing {exam_name}...")
@@ -194,9 +191,9 @@ def main():
         except Exception as e:
             print(f"Error processing {exam_name}: {e}")
     
-    print("\n" + "=" * 70)
+    print("\n" + "=" * 80)
     print("ALL AGENT CONTEXTS GENERATED SUCCESSFULLY!")
-    print("=" * 70)
+    print("=" * 80)
 
 
 if __name__ == "__main__":
