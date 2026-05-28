@@ -7,23 +7,57 @@ from utils.dataset_manager import get_metadata_path, validate_url
 from config import EXAM_CONFIG
 
 
+ALLOWED_KEYWORDS = [
+    "kas", 
+    "kpsc", 
+    "syllabus", 
+    "prelims", 
+    "mains", 
+    "karnataka", 
+    "exam-pattern",
+    "exam pattern",
+    "eligibility",
+    "posts",
+    "qualification",
+    "age limit",
+    "application",
+    "notification",
+    "vacancy"
+]
+
+BLOCKED_KEYWORDS = [
+    "jee", 
+    "banking", 
+    "rbi", 
+    "tnpsc", 
+    "mahatet", 
+    "railway", 
+    "nda", 
+    "neet", 
+    "mp si",
+    "rajasthan",
+    "engineering",
+    "medical"
+]
+
+
 def is_relevant_heading(text, exam_name):
     exam_info = EXAM_CONFIG.get(exam_name, {})
-    relevant_keywords = [
+    relevant_keywords = ALLOWED_KEYWORDS + [
         exam_name.lower(),
-        exam_info.get("full_name", "").lower(),
-        "prelims", "mains", "interview",
-        "syllabus", "exam pattern", "eligibility",
-        "posts", "qualification", "age limit",
-        "application", "notification", "vacancy"
-    ]
-    irrelevant_keywords = [
-        "jee", "rbi", "tnpsc", "mp si", "mahatet",
-        "rajasthan", "banking", "engineering", "medical"
+        exam_info.get("full_name", "").lower()
     ]
     text_lower = text.lower()
     has_relevant = any(keyword in text_lower for keyword in relevant_keywords)
-    has_irrelevant = any(keyword in text_lower for keyword in irrelevant_keywords)
+    has_irrelevant = any(keyword in text_lower for keyword in BLOCKED_KEYWORDS)
+    return has_relevant and not has_irrelevant
+
+
+def is_relevant_link(text, href):
+    text_lower = text.lower()
+    href_lower = href.lower()
+    has_relevant = any(k in text_lower or k in href_lower for k in ALLOWED_KEYWORDS)
+    has_irrelevant = any(k in text_lower or k in href_lower for k in BLOCKED_KEYWORDS)
     return has_relevant and not has_irrelevant
 
 
@@ -63,7 +97,7 @@ def scrape_exam_metadata(exam_name):
         for a_tag in soup.find_all('a', href=True):
             href = a_tag['href']
             text = clean_text(a_tag.get_text())
-            if text and ("notification" in text.lower() or "exam" in text.lower() or "syllabus" in text.lower()):
+            if is_relevant_link(text, href):
                 if not href.startswith('http'):
                     if source_url == backup_url:
                         href = "https://www.citizennest.com" + href

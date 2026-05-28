@@ -1,6 +1,7 @@
 import os
 from utils.json_utils import save_json, load_json
 from utils.dataset_manager import get_data_path
+from utils.pyq_analyzer import KAS_SUBJECTS, KAS_TOPICS, count_topic_frequency, extract_text_from_pyq_dir
 
 
 def generate_subject_priority(exam_name, syllabus_data):
@@ -57,21 +58,21 @@ def generate_revision_priority(exam_name, syllabus_data):
 
 
 def generate_topic_frequency(exam_name, syllabus_data):
-    topic_frequency = []
+    """Generate real topic frequency from PYQ data if available"""
+    pyq_texts = extract_text_from_pyq_dir(exam_name)
+    if pyq_texts:
+        return count_topic_frequency(pyq_texts, KAS_TOPICS)
     
+    # Fallback to syllabus-based if no PYQs
+    topic_frequency = []
     for subject in syllabus_data.get("subjects", []):
         for topic in subject.get("topics", []):
-            freq_score = {"Very High": 10, "High": 7, "Medium": 4, "Low": 2}.get(
-                topic.get("pyq_frequency", "Medium"), 4
-            )
             topic_frequency.append({
                 "subject": subject.get("name"),
                 "topic": topic.get("name"),
-                "frequency_score": freq_score,
+                "frequency_score": 0,
                 "importance": topic.get("importance", "Medium")
             })
-    
-    topic_frequency.sort(key=lambda x: x["frequency_score"], reverse=True)
     return topic_frequency
 
 

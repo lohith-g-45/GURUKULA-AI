@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 
 logger = logging.getLogger(__name__)
 
-MIN_PDF_SIZE_BYTES = 1000  # 1 KB minimum
+MIN_PDF_SIZE_BYTES = 5120  # 5 KB minimum
 
 
 def validate_pdf_url(url, timeout=10):
@@ -14,6 +14,11 @@ def validate_pdf_url(url, timeout=10):
         parsed = urlparse(url)
         if not all([parsed.scheme, parsed.netloc]):
             logger.warning(f"[INVALID URL] Invalid URL structure: {url}")
+            return False
+        
+        # Check if URL ends with .pdf
+        if not url.lower().endswith('.pdf'):
+            logger.warning(f"[URL NOT PDF] Does not end with .pdf: {url}")
             return False
 
         headers = {
@@ -61,7 +66,7 @@ def download_real_pdf(url, save_path, timeout=30):
             return False
         
         if len(content) < MIN_PDF_SIZE_BYTES:
-            logger.warning(f"[PDF TOO SMALL] Size {len(content)} bytes (min {MIN_PDF_SIZE_BYTES})")
+            logger.warning(f"[PDF TOO SMALL] Size {len(content)} bytes (min {MIN_PDF_SIZE_BYTES} / 5KB)")
             return False
         
         # Ensure directory exists
@@ -77,6 +82,25 @@ def download_real_pdf(url, save_path, timeout=30):
     except Exception as e:
         logger.error(f"[DOWNLOAD ERROR] {str(e)} for {url}")
         return False
+
+
+def extract_pdf_text(pdf_path):
+    """Extract raw text from a PDF file using pdfplumber"""
+    try:
+        import pdfplumber
+        text = ""
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text += page_text + "\n"
+        return text
+    except ImportError:
+        print("Warning: pdfplumber not installed! Install with: pip install pdfplumber")
+        return None
+    except Exception as e:
+        logger.error(f"[PDF TEXT EXTRACTION ERROR] {str(e)} for {pdf_path}")
+        return None
 
 
 def get_pdf_metadata(pdf_path):
