@@ -1,0 +1,288 @@
+{
+    "agent_name": "Insight Agent",
+    "purpose": "Extract trends and actionable insights",
+    "focus_areas": [
+        "Exam patterns",
+        "Success factors",
+        "Preparation strategies"
+    ],
+    "data": {
+        "pyq_trends": {
+            "repeated_topic_frequency": {},
+            "important_subjects": [],
+            "year_wise_trends": {
+                "2024": [
+                    {
+                        "stage": "Prelims",
+                        "paper": 1,
+                        "title": "KPSC KAS Prelims 2024 Dec 29 GS (Paper 1) Question Paper and Answer Key"
+                    },
+                    {
+                        "stage": "Prelims",
+                        "paper": 2,
+                        "title": "KPSC KAS Prelims 2024 Dec 29 GS (Paper 2) Question Paper and Answer Key"
+                    }
+                ]
+            },
+            "paper_wise_trends": {
+                "Prelims_1": [
+                    2024
+                ],
+                "Prelims_2": [
+                    2024
+                ]
+            },
+            "high_frequency_topics": []
+        },
+        "subject_priority": [
+            {
+                "subject": "Polity",
+                "priority_score": 50,
+                "estimated_weightage": 25,
+                "difficulty": "Medium",
+                "preparation_complexity": "Medium",
+                "revision_frequency": "Twice a Week",
+                "recommended_revision_gap": "2-3 days",
+                "weak_area_focus": "Very High"
+            },
+            {
+                "subject": "History",
+                "priority_score": 40,
+                "estimated_weightage": 20,
+                "difficulty": "Medium",
+                "preparation_complexity": "Medium",
+                "revision_frequency": "Weekly",
+                "recommended_revision_gap": "3-5 days",
+                "weak_area_focus": "High"
+            },
+            {
+                "subject": "Environment & Ecology",
+                "priority_score": 40,
+                "estimated_weightage": 10,
+                "difficulty": "Easy",
+                "preparation_complexity": "Medium",
+                "revision_frequency": "Weekly",
+                "recommended_revision_gap": "4-5 days",
+                "weak_area_focus": "Medium"
+            },
+            {
+                "subject": "Geography",
+                "priority_score": 30,
+                "estimated_weightage": 10,
+                "difficulty": "Easy-Medium",
+                "preparation_complexity": "Medium",
+                "revision_frequency": "Weekly",
+                "recommended_revision_gap": "4-6 days",
+                "weak_area_focus": "Medium"
+            },
+            {
+                "subject": "Economics",
+                "priority_score": 30,
+                "estimated_weightage": 15,
+                "difficulty": "Medium",
+                "preparation_complexity": "High",
+                "revision_frequency": "Weekly",
+                "recommended_revision_gap": "3-4 days",
+                "weak_area_focus": "High"
+            },
+            {
+                "subject": "Current Affairs",
+                "priority_score": 30,
+                "estimated_weightage": 15,
+                "difficulty": "Medium",
+                "preparation_complexity": "High",
+                "revision_frequency": "Daily",
+                "recommended_revision_gap": "1-2 days",
+                "weak_area_focus": "Very High"
+            },
+            {
+                "subject": "Science & Technology",
+                "priority_score": 20,
+                "estimated_weightage": 10,
+                "difficulty": "Medium",
+                "preparation_complexity": "Medium",
+                "revision_frequency": "Weekly",
+                "recommended_revision_gap": "5-7 days",
+                "weak_area_focus": "Medium"
+            },
+            {
+                "subject": "Ethics",
+                "priority_score": 20,
+                "estimated_weightage": 10,
+                "difficulty": "Medium",
+                "preparation_complexity": "High",
+                "revision_frequency": "Weekly",
+                "recommended_revision_gap": "3-4 days",
+                "weak_area_focus": "High"
+            }
+        ],
+        "weightage": {
+            "exam": "KAS",
+            "stage": "Prelims & Mains",
+            "subjects": {
+                "History": {
+                    "prelims_weightage": 20,
+                    "mains_weightage": 150,
+                    "priority": "High",
+                    "difficulty": "Medium"
+                },
+                "Polity": {
+                    "prelims_weightage": 25,
+                    "mains_weightage": 200,
+                    "priority": "Very High",
+                    "difficulty": "Medium"
+                },
+                "Economics": {
+                    "prelims_weightage": 15,
+                    "mains_weightage": 100,
+                    "priority": "High",
+                    "difficulty": "Medium"
+                },
+                "Geography": {
+                    "prelims_weightage": 10,
+                    "mains_weightage": 75,
+                    "priority": "High",
+                    "difficulty": "Easy-Medium"
+                },
+                "Environment & Ecology": {
+                    "prelims_weightage": 10,
+                    "mains_weightage": 50,
+                    "priority": "High",
+                    "difficulty": "Easy"
+                },
+                "Science & Technology": {
+                    "prelims_weightage": 10,
+                    "mains_weightage": 50,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Current Affairs": {
+                    "prelims_weightage": 15,
+                    "mains_weightage": 100,
+                    "priority": "Very High",
+                    "difficulty": "Medium"
+                },
+                "Ethics": {
+                    "prelims_weightage": 0,
+                    "mains_weightage": 150,
+                    "priority": "High",
+                    "difficulty": "Medium"
+                }
+            },
+            "total_marks": {
+                "prelims": 400,
+                "mains": 1250,
+                "interview": 200
+            }
+        },
+        "metadata": {
+            "exam": "KAS",
+            "full_form": "Karnataka Administrative Service",
+            "conducted_by": "Karnataka Public Service Commission (KPSC)",
+            "stages": [
+                "Prelims",
+                "Mains",
+                "Interview"
+            ],
+            "qualification": "Bachelor's Degree from a recognized university",
+            "difficulty": "High",
+            "preparation_duration": "1-2 Years",
+            "exam_type": "State Civil Service",
+            "official_website": "https://kpsc.kar.nic.in",
+            "source_used": "https://www.citizennest.com/guide/kpsc-exam-guide",
+            "extracted_headings": [
+                "KPSC Exam Guide — Karnataka PSC Eligibility, Syllabus & Tips",
+                "Posts Under KPSC",
+                "Group A Posts",
+                "Group B Posts",
+                "Eligibility Criteria",
+                "Age Limit",
+                "Educational Qualification",
+                "Exam Pattern",
+                "Prelims",
+                "Mains",
+                "Interview",
+                "Syllabus Overview",
+                "Application Fees",
+                "1. Study Karnataka-Specific Content",
+                "7. Current Affairs — Karnataka Focus",
+                "Is Kannada mandatory for KPSC?",
+                "Is KPSC exam tougher than UPSC?",
+                "Can non-Karnataka candidates apply?",
+                "Is there negative marking in KPSC Prelims?",
+                "What is the KAS exam frequency?"
+            ],
+            "relevant_links": [
+                {
+                    "title": "kpsc.kar.nic.in",
+                    "url": "https://kpsc.kar.nic.in"
+                },
+                {
+                    "title": "cetonline.karnataka.gov.in",
+                    "url": "https://cetonline.karnataka.gov.in/kpsc"
+                },
+                {
+                    "title": "Posts Under KPSC",
+                    "url": "https://www.citizennest.com#posts-under-kpsc"
+                },
+                {
+                    "title": "Eligibility Criteria",
+                    "url": "https://www.citizennest.com#eligibility-criteria"
+                },
+                {
+                    "title": "Exam Pattern",
+                    "url": "https://www.citizennest.com#exam-pattern"
+                },
+                {
+                    "title": "Prelims",
+                    "url": "https://www.citizennest.com#prelims"
+                },
+                {
+                    "title": "Mains",
+                    "url": "https://www.citizennest.com#mains"
+                },
+                {
+                    "title": "Interview",
+                    "url": "https://www.citizennest.com#interview"
+                },
+                {
+                    "title": "Syllabus Overview",
+                    "url": "https://www.citizennest.com#syllabus-overview"
+                },
+                {
+                    "title": "1. Study Karnataka-Specific Content",
+                    "url": "https://www.citizennest.com#1-study-karnataka-specific-content"
+                },
+                {
+                    "title": "7. Current Affairs — Karnataka Focus",
+                    "url": "https://www.citizennest.com#7-current-affairs-karnataka-focus"
+                },
+                {
+                    "title": "Is Kannada mandatory for KPSC?",
+                    "url": "https://www.citizennest.com#is-kannada-mandatory-for-kpsc"
+                },
+                {
+                    "title": "Is KPSC exam tougher than UPSC?",
+                    "url": "https://www.citizennest.com#is-kpsc-exam-tougher-than-upsc"
+                },
+                {
+                    "title": "Can non-Karnataka candidates apply?",
+                    "url": "https://www.citizennest.com#can-non-karnataka-candidates-apply"
+                },
+                {
+                    "title": "Is there negative marking in KPSC Prelims?",
+                    "url": "https://www.citizennest.com#is-there-negative-marking-in-kpsc-prelims"
+                },
+                {
+                    "title": "What is the KAS exam frequency?",
+                    "url": "https://www.citizennest.com#what-is-the-kas-exam-frequency"
+                }
+            ]
+        }
+    },
+    "tasks": [
+        "Identify trends over the years",
+        "Recommend preparation strategies",
+        "Find patterns in PYQs"
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "research_agent": {
+        "focus_areas": [
+            "High priority subjects",
+            "High PYQ frequency topics"
+        ],
+        "data_needed": [
+            "syllabus",
+            "pyqs",
+            "weightage"
+        ]
+    },
+    "planning_agent": {
+        "focus_areas": [
+            "Subject prioritization",
+            "Time allocation"
+        ],
+        "data_needed": [
+            "subject_priority",
+            "prep_difficulty"
+        ]
+    },
+    "revision_agent": {
+        "focus_areas": [
+            "Revision scheduling",
+            "Weak areas"
+        ],
+        "data_needed": [
+            "revision_priority",
+            "topic_frequency"
+        ]
+    },
+    "insight_agent": {
+        "focus_areas": [
+            "Trend analysis",
+            "Pattern recognition"
+        ],
+        "data_needed": [
+            "topic_frequency",
+            "pyq_trends"
+        ]
+    },
+    "trend_analysis_agent": {
+        "focus_areas": [
+            "Year-wise trends",
+            "Paper-wise trends"
+        ],
+        "data_needed": [
+            "topic_frequency",
+            "pyq_trends"
+        ]
+    }
+}

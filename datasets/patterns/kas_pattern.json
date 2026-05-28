@@ -1,0 +1,88 @@
+{
+    "exam": "KAS",
+    "conducted_by": "KPSC",
+    "stages": [
+        {
+            "name": "Preliminary Exam",
+            "type": "Objective (MCQ)",
+            "qualifying": true,
+            "papers": [
+                {
+                    "number": 1,
+                    "subject": "General Studies",
+                    "marks": 200,
+                    "duration": "2 hours",
+                    "negative_marking": "0.25 marks",
+                    "medium": "English & Kannada"
+                },
+                {
+                    "number": 2,
+                    "subject": "General Studies & Mental Ability",
+                    "marks": 200,
+                    "duration": "2 hours",
+                    "negative_marking": "0.25 marks",
+                    "medium": "English & Kannada"
+                }
+            ]
+        },
+        {
+            "name": "Main Exam",
+            "type": "Descriptive",
+            "qualifying": false,
+            "papers": [
+                {
+                    "number": 1,
+                    "subject": "Kannada Language (Qualifying)",
+                    "marks": 150,
+                    "duration": "3 hours"
+                },
+                {
+                    "number": 2,
+                    "subject": "English Language (Qualifying)",
+                    "marks": 150,
+                    "duration": "3 hours"
+                },
+                {
+                    "number": 3,
+                    "subject": "General Studies I",
+                    "marks": 250,
+                    "duration": "3 hours"
+                },
+                {
+                    "number": 4,
+                    "subject": "General Studies II",
+                    "marks": 250,
+                    "duration": "3 hours"
+                },
+                {
+                    "number": 5,
+                    "subject": "General Studies III",
+                    "marks": 250,
+                    "duration": "3 hours"
+                },
+                {
+                    "number": 6,
+                    "subject": "General Studies IV (Ethics)",
+                    "marks": 250,
+                    "duration": "3 hours"
+                },
+                {
+                    "number": 7,
+                    "subject": "Optional Subject (Two Papers)",
+                    "marks": 500,
+                    "duration": "3 hours per paper"
+                }
+            ]
+        },
+        {
+            "name": "Interview/Personality Test",
+            "type": "Oral",
+            "marks": 200
+        }
+    ],
+    "total_marks_for_selection": {
+        "mains": 1250,
+        "interview": 200,
+        "grand_total": 1450
+    }
+}

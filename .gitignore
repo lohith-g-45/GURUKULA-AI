@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.venv
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PDFs (optional: uncomment if you don't want to commit PDFs)
+# datasets/pyqs/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db

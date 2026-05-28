@@ -1,0 +1,82 @@
+[
+    {
+        "subject": "Polity",
+        "priority_score": 50,
+        "estimated_weightage": 25,
+        "difficulty": "Medium",
+        "preparation_complexity": "Medium",
+        "revision_frequency": "Twice a Week",
+        "recommended_revision_gap": "2-3 days",
+        "weak_area_focus": "Very High"
+    },
+    {
+        "subject": "History",
+        "priority_score": 40,
+        "estimated_weightage": 20,
+        "difficulty": "Medium",
+        "preparation_complexity": "Medium",
+        "revision_frequency": "Weekly",
+        "recommended_revision_gap": "3-5 days",
+        "weak_area_focus": "High"
+    },
+    {
+        "subject": "Environment & Ecology",
+        "priority_score": 40,
+        "estimated_weightage": 10,
+        "difficulty": "Easy",
+        "preparation_complexity": "Medium",
+        "revision_frequency": "Weekly",
+        "recommended_revision_gap": "4-5 days",
+        "weak_area_focus": "Medium"
+    },
+    {
+        "subject": "Geography",
+        "priority_score": 30,
+        "estimated_weightage": 10,
+        "difficulty": "Easy-Medium",
+        "preparation_complexity": "Medium",
+        "revision_frequency": "Weekly",
+        "recommended_revision_gap": "4-6 days",
+        "weak_area_focus": "Medium"
+    },
+    {
+        "subject": "Economics",
+        "priority_score": 30,
+        "estimated_weightage": 15,
+        "difficulty": "Medium",
+        "preparation_complexity": "High",
+        "revision_frequency": "Weekly",
+        "recommended_revision_gap": "3-4 days",
+        "weak_area_focus": "High"
+    },
+    {
+        "subject": "Current Affairs",
+        "priority_score": 30,
+        "estimated_weightage": 15,
+        "difficulty": "Medium",
+        "preparation_complexity": "High",
+        "revision_frequency": "Daily",
+        "recommended_revision_gap": "1-2 days",
+        "weak_area_focus": "Very High"
+    },
+    {
+        "subject": "Science & Technology",
+        "priority_score": 20,
+        "estimated_weightage": 10,
+        "difficulty": "Medium",
+        "preparation_complexity": "Medium",
+        "revision_frequency": "Weekly",
+        "recommended_revision_gap": "5-7 days",
+        "weak_area_focus": "Medium"
+    },
+    {
+        "subject": "Ethics",
+        "priority_score": 20,
+        "estimated_weightage": 10,
+        "difficulty": "Medium",
+        "preparation_complexity": "High",
+        "revision_frequency": "Weekly",
+        "recommended_revision_gap": "3-4 days",
+        "weak_area_focus": "High"
+    }
+]
