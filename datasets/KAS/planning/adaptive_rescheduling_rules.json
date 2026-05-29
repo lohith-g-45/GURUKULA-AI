@@ -1,0 +1,41 @@
+{
+    "version": "1.0",
+    "exam": "KAS",
+    "performance_triggers": {
+        "consistency_drop": {
+            "threshold": 20,
+            "action": "reduce intensity, add recovery sessions"
+        },
+        "readiness_change": {
+            "threshold": 10,
+            "action": "restructure roadmap phases"
+        },
+        "subject_mastery_improvement": {
+            "threshold": 15,
+            "action": "reduce time allocation, shift to other subjects"
+        },
+        "burnout_increase": {
+            "threshold": "medium",
+            "action": "switch to light schedule"
+        },
+        "mock_score_change": {
+            "threshold": 10,
+            "action": "adjust mock frequency and difficulty"
+        }
+    },
+    "recovery_adjustment_rules": {
+        "low_consistency_recovery": {
+            "action": "set fixed daily schedule, add phone reminders",
+            "duration_days": 7
+        },
+        "burnout_recovery": {
+            "action": "reduce study hours by 30%, focus only on revision",
+            "duration_days": 3
+        },
+        "mock_failure_recovery": {
+            "action": "add post-mock analysis day, focus on weak areas",
+            "duration_days": 2
+        }
+    },
+    "last_updated": "2026-05-28"
+}

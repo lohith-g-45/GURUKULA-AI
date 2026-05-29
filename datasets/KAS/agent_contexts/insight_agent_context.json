@@ -10,217 +10,214 @@
     "data": {
         "pyq_trends": {
             "exam": "KAS",
-            "repeated_topics": [
-                {
-                    "name": "Ancient India",
-                    "importance": "High",
-                    "pyq_frequency": "Medium",
-                    "revision_priority": "High",
-                    "estimated_prep_time": "8-10 hours",
-                    "weak_topic_sensitivity": "Medium",
-                    "subtopics": [
-                        "Indus Valley Civilization",
-                        "Vedic Period",
-                        "Mauryan Empire",
-                        "Gupta Empire"
-                    ]
-                },
-                {
-                    "name": "Modern India",
-                    "importance": "Very High",
-                    "pyq_frequency": "Very High",
-                    "revision_priority": "Very High",
-                    "estimated_prep_time": "15-20 hours",
-                    "weak_topic_sensitivity": "Very High",
-                    "subtopics": [
-                        "British Expansion",
-                        "1857 Revolt",
-                        "Freedom Struggle",
-                        "Post-Independence India"
-                    ]
-                },
-                {
-                    "name": "Karnataka History",
-                    "importance": "High",
-                    "pyq_frequency": "High",
-                    "revision_priority": "High",
-                    "estimated_prep_time": "10-12 hours",
-                    "weak_topic_sensitivity": "High",
-                    "subtopics": [
-                        "Ancient Karnataka",
-                        "Wodeyar Dynasty",
-                        "Hyder Ali & Tipu Sultan",
-                        "Karnataka Integration"
-                    ]
-                }
-            ],
-            "important_subjects": [
-                "History",
-                "Polity",
-                "Geography",
-                "Economics",
-                "Current Affairs"
-            ],
-            "year_wise_availability": [
-                2024,
-                2023,
-                2022,
-                2021
-            ],
-            "paper_wise_trends": {
-                "exam": "KAS",
-                "prelims": {
-                    "papers": 2,
-                    "total_marks": 400,
-                    "duration": "2 Hours Each",
-                    "papers_details": [
-                        {
-                            "paper": "Paper 1",
-                            "subject": "General Studies",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "Paper 2",
-                            "subject": "CSAT (Aptitude)",
-                            "marks": 200
-                        }
-                    ]
-                },
-                "mains": {
-                    "papers": 9,
-                    "total_marks": 1250,
-                    "duration": "3 Hours Each",
-                    "papers_details": [
-                        {
-                            "paper": "Kannada Language",
-                            "qualifying": true,
-                            "marks": 150
-                        },
-                        {
-                            "paper": "English Language",
-                            "qualifying": true,
-                            "marks": 150
-                        },
-                        {
-                            "paper": "Essay",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "General Studies 1",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "General Studies 2",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "General Studies 3",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "General Studies 4",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "Optional Subject 1",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "Optional Subject 2",
-                            "marks": 200
-                        }
-                    ]
-                },
-                "interview": {
-                    "marks": 200
-                }
+            "topics": {
+                "General Studies": 828,
+                "International Relations": 315,
+                "Karnataka Geography": 134,
+                "Karnataka GK": 125,
+                "Polity": 81,
+                "Current Affairs": 56,
+                "Geography": 52,
+                "Constitution": 51,
+                "Science & Tech": 46,
+                "Freedom Struggle": 38,
+                "Governance": 37,
+                "Biodiversity": 34,
+                "Economy": 29,
+                "Environment": 24,
+                "Ethics": 22,
+                "History": 19,
+                "Mental Ability": 15,
+                "CSAT": 13
             }
         },
-        "subject_priority": [
-            {
-                "subject": "Polity",
-                "priority_score": 50,
-                "estimated_weightage": 25,
-                "difficulty": "Medium",
-                "preparation_complexity": "Medium",
-                "revision_frequency": "Twice a Week",
-                "recommended_revision_gap": "2-3 days",
-                "weak_area_focus": "Very High"
-            },
-            {
-                "subject": "History",
-                "priority_score": 40,
-                "estimated_weightage": 20,
-                "difficulty": "Medium",
-                "preparation_complexity": "Medium",
-                "revision_frequency": "Weekly",
-                "recommended_revision_gap": "3-5 days",
-                "weak_area_focus": "High"
-            },
-            {
-                "subject": "Geography",
-                "priority_score": 30,
-                "estimated_weightage": 10,
-                "difficulty": "Easy-Medium",
-                "preparation_complexity": "Medium",
-                "revision_frequency": "Weekly",
-                "recommended_revision_gap": "4-6 days",
-                "weak_area_focus": "Medium"
-            },
-            {
-                "subject": "Economics",
-                "priority_score": 30,
-                "estimated_weightage": 15,
-                "difficulty": "Medium",
-                "preparation_complexity": "High",
-                "revision_frequency": "Weekly",
-                "recommended_revision_gap": "3-4 days",
-                "weak_area_focus": "High"
-            },
-            {
-                "subject": "Current Affairs",
-                "priority_score": 30,
-                "estimated_weightage": 15,
-                "difficulty": "Medium",
-                "preparation_complexity": "High",
-                "revision_frequency": "Daily",
-                "recommended_revision_gap": "1-2 days",
-                "weak_area_focus": "Very High"
-            }
-        ],
+        "subject_priority": {
+            "subjects": [
+                {
+                    "name": "History",
+                    "priority": "Medium",
+                    "weightage": 7.4
+                },
+                {
+                    "name": "Polity",
+                    "priority": "Medium",
+                    "weightage": 5.4
+                },
+                {
+                    "name": "Geography",
+                    "priority": "Medium",
+                    "weightage": 3.2
+                },
+                {
+                    "name": "Economics",
+                    "priority": "Medium",
+                    "weightage": 2.8
+                },
+                {
+                    "name": "Environment",
+                    "priority": "Medium",
+                    "weightage": 1.1
+                },
+                {
+                    "name": "Science & Technology",
+                    "priority": "High",
+                    "weightage": 11.5
+                },
+                {
+                    "name": "Karnataka GK",
+                    "priority": "Medium",
+                    "weightage": 3.0
+                },
+                {
+                    "name": "Current Affairs",
+                    "priority": "Very High",
+                    "weightage": 18.6
+                },
+                {
+                    "name": "Ethics",
+                    "priority": "Medium",
+                    "weightage": 0.2
+                },
+                {
+                    "name": "Governance",
+                    "priority": "Medium",
+                    "weightage": 1.6
+                },
+                {
+                    "name": "Agriculture",
+                    "priority": "Medium",
+                    "weightage": 0.5
+                },
+                {
+                    "name": "Disaster Management",
+                    "priority": "Medium",
+                    "weightage": 0.7
+                },
+                {
+                    "name": "International Relations",
+                    "priority": "Medium",
+                    "weightage": 5.2
+                },
+                {
+                    "name": "Mental Ability",
+                    "priority": "Medium",
+                    "weightage": 1.4
+                },
+                {
+                    "name": "CSAT",
+                    "priority": "Very High",
+                    "weightage": 37.2
+                }
+            ]
+        },
         "weightage": {
             "exam": "KAS",
-            "stage": "Prelims & Mains",
             "subjects": {
                 "History": {
-                    "prelims_weightage": 20,
-                    "mains_weightage": 150,
-                    "priority": "High",
+                    "prelims_weightage": 7.4,
+                    "mains_weightage": 4.2,
+                    "frequency_score": 36,
+                    "priority": "Medium",
                     "difficulty": "Medium"
                 },
                 "Polity": {
-                    "prelims_weightage": 25,
-                    "mains_weightage": 200,
-                    "priority": "Very High",
-                    "difficulty": "Medium"
-                },
-                "Economics": {
-                    "prelims_weightage": 15,
-                    "mains_weightage": 100,
-                    "priority": "High",
+                    "prelims_weightage": 5.4,
+                    "mains_weightage": 9.8,
+                    "frequency_score": 101,
+                    "priority": "Medium",
                     "difficulty": "Medium"
                 },
                 "Geography": {
-                    "prelims_weightage": 10,
-                    "mains_weightage": 75,
+                    "prelims_weightage": 3.2,
+                    "mains_weightage": 7.2,
+                    "frequency_score": 63,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Economics": {
+                    "prelims_weightage": 2.8,
+                    "mains_weightage": 6.4,
+                    "frequency_score": 55,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Environment": {
+                    "prelims_weightage": 1.1,
+                    "mains_weightage": 3.8,
+                    "frequency_score": 25,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Science & Technology": {
+                    "prelims_weightage": 11.5,
+                    "mains_weightage": 8.6,
+                    "frequency_score": 182,
                     "priority": "High",
-                    "difficulty": "Easy-Medium"
+                    "difficulty": "Medium"
+                },
+                "Karnataka GK": {
+                    "prelims_weightage": 3.0,
+                    "mains_weightage": 5.3,
+                    "frequency_score": 55,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Current Affairs": {
+                    "prelims_weightage": 18.6,
+                    "mains_weightage": 34.1,
+                    "frequency_score": 624,
+                    "priority": "Very High",
+                    "difficulty": "Medium"
+                },
+                "Ethics": {
+                    "prelims_weightage": 0.2,
+                    "mains_weightage": 5.7,
+                    "frequency_score": 18,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Governance": {
+                    "prelims_weightage": 1.6,
+                    "mains_weightage": 4.2,
+                    "frequency_score": 34,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Agriculture": {
+                    "prelims_weightage": 0.5,
+                    "mains_weightage": 1.1,
+                    "frequency_score": 10,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Disaster Management": {
+                    "prelims_weightage": 0.7,
+                    "mains_weightage": 0.8,
+                    "frequency_score": 12,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "International Relations": {
+                    "prelims_weightage": 5.2,
+                    "mains_weightage": 6.8,
+                    "frequency_score": 90,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "Mental Ability": {
+                    "prelims_weightage": 1.4,
+                    "mains_weightage": 1.9,
+                    "frequency_score": 25,
+                    "priority": "Medium",
+                    "difficulty": "Medium"
+                },
+                "CSAT": {
+                    "prelims_weightage": 37.2,
+                    "mains_weightage": 0.0,
+                    "frequency_score": 2,
+                    "priority": "Very High",
+                    "difficulty": "Medium"
                 }
-            },
-            "total_marks": {
-                "prelims": 400,
-                "mains": 1250,
-                "interview": 200
             }
         },
         "metadata": {
@@ -240,61 +237,104 @@
             "source_used": "https://www.citizennest.com/guide/kpsc-exam-guide",
             "extracted_headings": [
                 "Exam Pattern",
-                "Posts Under KPSC",
-                "Is there negative marking in KPSC Prelims?",
-                "Interview",
-                "Syllabus Overview",
-                "What is the KAS exam frequency?",
-                "Application Fees",
-                "Eligibility Criteria",
-                "Educational Qualification",
-                "Mains",
-                "Group A Posts",
                 "KPSC Exam Guide — Karnataka PSC Eligibility, Syllabus & Tips",
+                "1. Study Karnataka-Specific Content",
                 "Group B Posts",
+                "Educational Qualification",
+                "Eligibility Criteria",
+                "7. Current Affairs — Karnataka Focus",
                 "Prelims",
-                "Age Limit"
+                "Posts Under KPSC",
+                "Syllabus Overview",
+                "Is KPSC exam tougher than UPSC?",
+                "What is the KAS exam frequency?",
+                "Group A Posts",
+                "Mains",
+                "Age Limit",
+                "Is there negative marking in KPSC Prelims?",
+                "Can non-Karnataka candidates apply?",
+                "Application Fees"
             ],
             "relevant_links": [
                 {
-                    "title": "Banking Exam Preparation Guide",
-                    "url": "https://www.citizennest.com/guide/banking-exam-preparation-guide"
+                    "title": "kpsc.kar.nic.in",
+                    "url": "https://kpsc.kar.nic.in"
                 },
                 {
-                    "title": "TNPSC Group 1 Exam Guide",
-                    "url": "https://www.citizennest.com/guide/tnpsc-group-1-exam-guide"
+                    "title": "kpsc.kar.nic.in",
+                    "url": "https://kpsc.kar.nic.in"
                 },
                 {
-                    "title": "MP SI 2026 — MPPEB Sub Inspector Notification, Salary ₹35,400, Eligibility & SyllabusMP Police SI 2026 by MPPEB/Vyapam: Salary ₹35,400–₹1,12,400. Graduation required. Apply at peb.mp.gov.in. Written exam (200 marks CBT) + Physical + Medical. MP domicile (Mool Niwas required).",
-                    "url": "https://www.citizennest.com/guide/mp-si-police-exam-guide"
+                    "title": "Posts Under KPSC",
+                    "url": "https://www.citizennest.com#posts-under-kpsc"
                 },
                 {
-                    "title": "RBI Careers 2026 — Grade B ₹55K, Assistant ₹36K, All Vacancies & Apply OnlineRBI recruitment 2026: Grade B Officer (salary ₹55,000–₹1,02,000), Grade A (DEPR/DSIM), Assistant (₹36,091), Office Attendant. Eligibility, exam dates, notification links & apply at opportunities.rbi.org.in. All posts in one place.",
-                    "url": "https://www.citizennest.com/guide/rbi-careers-recruitment-2026"
+                    "title": "Group A Posts",
+                    "url": "https://www.citizennest.com#group-a-posts"
                 },
                 {
-                    "title": "MAHATET 2026 (Maharashtra TET) — Notification, Teacher Salary ₹20,200+, Paper 1 & 2MAHATET 2026 by MAHA TET Board: Qualify → Maharashtra Govt Teacher salary ₹20,200+ (state scale). Paper 1 (Std 1–5) + Paper 2 (Std 6–8). Apply at mahatet.in. Marathi medium eligible.",
-                    "url": "https://www.citizennest.com/guide/maha-tet-exam-guide"
+                    "title": "Group B Posts",
+                    "url": "https://www.citizennest.com#group-b-posts"
                 },
                 {
-                    "title": "Rajasthan Police Constable Exam Guide — Eligibility, Syllabus & TipsComplete guide to Rajasthan Police Constable recruitment exam covering eligibility, syllabus, physical test, exam pattern, and preparation tips.",
-                    "url": "https://www.citizennest.com/guide/rajasthan-police-constable-exam-guide"
+                    "title": "Eligibility Criteria",
+                    "url": "https://www.citizennest.com#eligibility-criteria"
                 },
                 {
-                    "title": "JEE Main Exam Guide — Engineering Entrance ExamComplete JEE Main guide covering exam pattern, eligibility, syllabus, preparation strategy, NTA process and JoSAA counselling.",
-                    "url": "https://www.citizennest.com/guide/jee-main-exam-guide"
+                    "title": "Age Limit",
+                    "url": "https://www.citizennest.com#age-limit"
+                },
+                {
+                    "title": "Educational Qualification",
+                    "url": "https://www.citizennest.com#educational-qualification"
                 },
                 {
                     "title": "Exam Pattern",
                     "url": "https://www.citizennest.com#exam-pattern"
                 },
                 {
+                    "title": "Prelims",
+                    "url": "https://www.citizennest.com#prelims"
+                },
+                {
+                    "title": "Mains",
+                    "url": "https://www.citizennest.com#mains"
+                },
+                {
                     "title": "Syllabus Overview",
                     "url": "https://www.citizennest.com#syllabus-overview"
                 },
                 {
+                    "title": "Prelims",
+                    "url": "https://www.citizennest.com#prelims"
+                },
+                {
+                    "title": "Mains",
+                    "url": "https://www.citizennest.com#mains"
+                },
+                {
+                    "title": "Application Fees",
+                    "url": "https://www.citizennest.com#application-fees"
+                },
+                {
+                    "title": "1. Study Karnataka-Specific Content",
+                    "url": "https://www.citizennest.com#1-study-karnataka-specific-content"
+                },
+                {
+                    "title": "7. Current Affairs — Karnataka Focus",
+                    "url": "https://www.citizennest.com#7-current-affairs-karnataka-focus"
+                },
+                {
                     "title": "Is KPSC exam tougher than UPSC?",
                     "url": "https://www.citizennest.com#is-kpsc-exam-tougher-than-upsc"
+                },
+                {
+                    "title": "Can non-Karnataka candidates apply?",
+                    "url": "https://www.citizennest.com#can-non-karnataka-candidates-apply"
+                },
+                {
+                    "title": "Is there negative marking in KPSC Prelims?",
+                    "url": "https://www.citizennest.com#is-there-negative-marking-in-kpsc-prelims"
                 },
                 {
                     "title": "What is the KAS exam frequency?",

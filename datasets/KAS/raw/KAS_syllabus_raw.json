@@ -1,0 +1,60 @@
+{
+    "exam": "KAS",
+    "subjects": [
+        {
+            "name": "History",
+            "topics": [
+                {
+                    "name": "Ancient India"
+                },
+                {
+                    "name": "Modern India"
+                },
+                {
+                    "name": "Karnataka History"
+                }
+            ]
+        },
+        {
+            "name": "Polity",
+            "topics": [
+                {
+                    "name": "Constitution of India"
+                },
+                {
+                    "name": "Karnataka State Polity"
+                }
+            ]
+        },
+        {
+            "name": "Geography",
+            "topics": [
+                {
+                    "name": "Indian Geography"
+                },
+                {
+                    "name": "Karnataka Geography"
+                }
+            ]
+        },
+        {
+            "name": "Economics",
+            "topics": [
+                {
+                    "name": "Indian Economy"
+                },
+                {
+                    "name": "Karnataka Economy"
+                }
+            ]
+        },
+        {
+            "name": "Current Affairs",
+            "topics": [
+                {
+                    "name": "Karnataka Current Affairs"
+                }
+            ]
+        }
+    ]
+}

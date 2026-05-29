@@ -1,0 +1,77 @@
+{
+    "version": "1.0",
+    "exam": "KAS",
+    "mock_type_distribution": {
+        "beginner": [
+            "Sectional Mocks"
+        ],
+        "average": [
+            "Sectional Mocks",
+            "Full-Length Mocks"
+        ],
+        "strong": [
+            "Full-Length Mocks"
+        ],
+        "last_30_days": [
+            "Full-Length Mocks",
+            "Timed Mocks"
+        ]
+    },
+    "mock_frequency_rules": {
+        "exam_distance_factors": {
+            "<=30": "twice_weekly",
+            "31-90": "weekly",
+            "91-180": "biweekly",
+            ">180": "monthly"
+        },
+        "burnout_factors": {
+            "high": "halve_frequency",
+            "medium": "reduce_by_25_percent",
+            "low": "normal"
+        }
+    },
+    "post_mock_scheduling": {
+        "analysis_day_required": true,
+        "weak_area_focus_days": 1,
+        "recovery_buffer_hours": 4
+    },
+    "subject_mock_focus": {
+        "History": {
+            "prelims_mock_weight": 3.2,
+            "mains_mock_weight": 4.1
+        },
+        "Polity": {
+            "prelims_mock_weight": 6.9,
+            "mains_mock_weight": 7.2
+        },
+        "Geography": {
+            "prelims_mock_weight": 5.0,
+            "mains_mock_weight": 5.0
+        },
+        "Economics": {
+            "prelims_mock_weight": 7.2,
+            "mains_mock_weight": 4.1
+        },
+        "Environment": {
+            "prelims_mock_weight": 3.4,
+            "mains_mock_weight": 2.3
+        },
+        "Science & Technology": {
+            "prelims_mock_weight": 31.2,
+            "mains_mock_weight": 39.4
+        },
+        "Karnataka GK": {
+            "prelims_mock_weight": 11.4,
+            "mains_mock_weight": 10.9
+        },
+        "Current Affairs": {
+            "prelims_mock_weight": 18.2,
+            "mains_mock_weight": 12.7
+        },
+        "CSAT": {
+            "prelims_mock_weight": 13.6,
+            "mains_mock_weight": 14.5
+        }
+    },
+    "last_updated": "2026-05-28"
+}

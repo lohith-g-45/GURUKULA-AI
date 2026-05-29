@@ -1,0 +1,45 @@
+{
+    "version": "3.0",
+    "priority_scoring": {
+        "very_high_min": 80,
+        "very_high_max": 95,
+        "high_min": 65,
+        "high_max": 80,
+        "medium_min": 45,
+        "medium_max": 65,
+        "low_min": 20,
+        "low_max": 45
+    },
+    "urgency_levels": {
+        "Very High": {
+            "min_days": 0,
+            "max_days": 15
+        },
+        "High": {
+            "min_days": 16,
+            "max_days": 30
+        },
+        "Medium": {
+            "min_days": 31,
+            "max_days": 60
+        },
+        "Low": {
+            "min_days": 61,
+            "max_days": 365
+        }
+    },
+    "impact_levels": {
+        "Very High": {
+            "min_readiness_improvement": 20
+        },
+        "High": {
+            "min_readiness_improvement": 10
+        },
+        "Medium": {
+            "min_readiness_improvement": 5
+        },
+        "Low": {
+            "min_readiness_improvement": 0
+        }
+    }
+}

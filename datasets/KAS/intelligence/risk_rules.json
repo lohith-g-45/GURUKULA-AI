@@ -1,0 +1,66 @@
+{
+    "version": "1.0",
+    "risk_factors": {
+        "readiness_score": {
+            "weight": 30,
+            "levels": {
+                "<50": 30,
+                "50-65": 20,
+                "65-80": 10,
+                ">=80": 0
+            }
+        },
+        "consistency": {
+            "weight": 25,
+            "levels": {
+                "<40": 25,
+                "40-60": 15,
+                "60-80": 5,
+                ">=80": 0
+            }
+        },
+        "exam_proximity": {
+            "weight": 20,
+            "conditions": {
+                "<=7 days & readiness<70": 20,
+                "<=30 days & readiness<60": 15,
+                "default": 0
+            }
+        },
+        "weak_high_priority_subjects": {
+            "weight": 25,
+            "levels": {
+                ">=3": 25,
+                ">=2": 15,
+                ">=1": 5,
+                "0": 0
+            }
+        },
+        "burnout_indicator": {
+            "weight": 20,
+            "conditions": {
+                ">=10 hours & consistency<60": 20,
+                ">=8 hours & consistency<50": 15,
+                "default": 0
+            }
+        }
+    },
+    "risk_levels": {
+        "Low": {
+            "max_score": 10,
+            "description": "Very low risk - well prepared"
+        },
+        "Medium": {
+            "max_score": 30,
+            "description": "Moderate risk - some improvements needed"
+        },
+        "High": {
+            "max_score": 50,
+            "description": "High risk - significant improvements needed"
+        },
+        "Critical": {
+            "max_score": 100,
+            "description": "Critical risk - immediate action required"
+        }
+    }
+}

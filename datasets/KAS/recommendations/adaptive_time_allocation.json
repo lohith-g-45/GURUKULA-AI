@@ -1,0 +1,51 @@
+{
+    "version": "2.0",
+    "student_type_allocations": {
+        "weak_student": {
+            "Science & Technology": "2.0 hours",
+            "Current Affairs": "2.0 hours",
+            "CSAT": "2.0 hours",
+            "Karnataka GK": "1.0 hours"
+        },
+        "average_student": {
+            "Science & Technology": "1.5 hours",
+            "Current Affairs": "1.5 hours",
+            "CSAT": "1.5 hours",
+            "Karnataka GK": "1.5 hours",
+            "Polity": "1.0 hours",
+            "Economics": "1.0 hours"
+        },
+        "strong_student": {
+            "Science & Technology": "1.5 hours",
+            "Current Affairs": "1.5 hours",
+            "CSAT": "1.5 hours",
+            "Karnataka GK": "1.5 hours",
+            "Polity": "1.0 hours",
+            "Economics": "1.0 hours"
+        },
+        "burnout_risk_student": {
+            "Science & Technology": "1.5 hours",
+            "Current Affairs": "1.5 hours",
+            "CSAT": "1.5 hours",
+            "Karnataka GK": "1.5 hours"
+        },
+        "last_30_days_student": {
+            "Science & Technology": "1.5 hours",
+            "Current Affairs": "1.5 hours",
+            "CSAT": "1.5 hours",
+            "Karnataka GK": "1.5 hours",
+            "Polity": "1.0 hours",
+            "Geography": "1.0 hours"
+        },
+        "topper_student": {
+            "Science & Technology": "1.5 hours",
+            "Current Affairs": "1.5 hours",
+            "CSAT": "1.5 hours",
+            "Karnataka GK": "1.5 hours",
+            "Polity": "1.0 hours",
+            "Economics": "1.0 hours",
+            "Geography": "1.0 hours",
+            "History": "1.0 hours"
+        }
+    }
+}

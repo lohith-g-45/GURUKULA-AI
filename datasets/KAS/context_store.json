@@ -1,0 +1,5066 @@
+{
+  "context": {
+    "workflow_state": {
+      "started_at": "2026-05-29T16:07:31.501076",
+      "completed_at": "2026-05-29T16:07:31.619161",
+      "status": "completed",
+      "results": {
+        "workflow_id": "2026-05-29T16:07:31.619161",
+        "results": [
+          {
+            "stage": "research",
+            "start_time": "2026-05-29T16:07:31.513616",
+            "success": true,
+            "data": {
+              "status": "research_completed",
+              "data": {}
+            },
+            "end_time": "2026-05-29T16:07:31.526718"
+          },
+          {
+            "stage": "student_analysis",
+            "start_time": "2026-05-29T16:07:31.527727",
+            "success": true,
+            "data": {
+              "status": "analysis_completed",
+              "data": {}
+            },
+            "end_time": "2026-05-29T16:07:31.542532"
+          },
+          {
+            "stage": "planning",
+            "start_time": "2026-05-29T16:07:31.544040",
+            "success": true,
+            "data": {
+              "status": "planning_completed",
+              "data": {}
+            },
+            "end_time": "2026-05-29T16:07:31.557047"
+          },
+          {
+            "stage": "execution",
+            "start_time": "2026-05-29T16:07:31.557047",
+            "success": true,
+            "data": {
+              "status": "execution_tracked",
+              "tasks": []
+            },
+            "end_time": "2026-05-29T16:07:31.569714"
+          },
+          {
+            "stage": "revision",
+            "start_time": "2026-05-29T16:07:31.570718",
+            "success": true,
+            "data": {
+              "revision_tasks": [
+                {
+                  "subject": "History",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 7.3,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "History",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 7.3,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "History",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 7.3,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "History",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 7.3,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Polity",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 14.100000000000001,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Polity",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 14.100000000000001,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Polity",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 14.100000000000001,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Polity",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 14.100000000000001,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Geography",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 10.0,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Geography",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 10.0,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Geography",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 10.0,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Geography",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 10.0,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Economics",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 11.3,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Economics",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 11.3,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Economics",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 11.3,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Economics",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 11.3,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Environment",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 5.699999999999999,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Environment",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 5.699999999999999,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Environment",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 5.699999999999999,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Environment",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 5.699999999999999,
+                  "revision_frequency": "biweekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Science & Technology",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 70.6,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Science & Technology",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 70.6,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Science & Technology",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 70.6,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Science & Technology",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 70.6,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Karnataka GK",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 22.3,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Karnataka GK",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 22.3,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Karnataka GK",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 22.3,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Karnataka GK",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 22.3,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Current Affairs",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 30.9,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Current Affairs",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 30.9,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Current Affairs",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 30.9,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "Current Affairs",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 30.9,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "CSAT",
+                  "revision_date": "2026-05-30T16:07:31.570718",
+                  "interval_days": 1,
+                  "priority_score": 28.1,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "CSAT",
+                  "revision_date": "2026-06-01T16:07:31.570718",
+                  "interval_days": 3,
+                  "priority_score": 28.1,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "CSAT",
+                  "revision_date": "2026-06-05T16:07:31.570718",
+                  "interval_days": 7,
+                  "priority_score": 28.1,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                },
+                {
+                  "subject": "CSAT",
+                  "revision_date": "2026-06-12T16:07:31.570718",
+                  "interval_days": 14,
+                  "priority_score": 28.1,
+                  "revision_frequency": "weekly",
+                  "type": "spaced_repetition"
+                }
+              ],
+              "spaced_repetition_intervals": [
+                1,
+                3,
+                7,
+                14
+              ],
+              "subject_priorities": {
+                "History": {
+                  "priority_score": 7.3,
+                  "revision_frequency": "biweekly"
+                },
+                "Polity": {
+                  "priority_score": 14.100000000000001,
+                  "revision_frequency": "biweekly"
+                },
+                "Geography": {
+                  "priority_score": 10.0,
+                  "revision_frequency": "biweekly"
+                },
+                "Economics": {
+                  "priority_score": 11.3,
+                  "revision_frequency": "biweekly"
+                },
+                "Environment": {
+                  "priority_score": 5.699999999999999,
+                  "revision_frequency": "biweekly"
+                },
+                "Science & Technology": {
+                  "priority_score": 70.6,
+                  "revision_frequency": "weekly"
+                },
+                "Karnataka GK": {
+                  "priority_score": 22.3,
+                  "revision_frequency": "weekly"
+                },
+                "Current Affairs": {
+                  "priority_score": 30.9,
+                  "revision_frequency": "weekly"
+                },
+                "CSAT": {
+                  "priority_score": 28.1,
+                  "revision_frequency": "weekly"
+                }
+              },
+              "recovery_suggestions": {
+                "version": "3.0",
+                "consistency_triggers": {
+                  "low_consistency": {
+                    "min_streak_days": 0,
+                    "max_streak_days": 3,
+                    "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+                  },
+                  "medium_consistency": {
+                    "min_streak_days": 4,
+                    "max_streak_days": 7,
+                    "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+                  }
+                },
+                "missed_days_triggers": {
+                  "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+                  "3+_days_missed": "Review last week's progress and restart schedule"
+                },
+                "burnout_recovery": {
+                  "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+                  "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+                  "Low": "Maintain schedule, ensure adequate sleep"
+                }
+              },
+              "generated_at": "2026-05-29T16:07:31.570718"
+            },
+            "end_time": "2026-05-29T16:07:31.586219"
+          },
+          {
+            "stage": "replanning",
+            "start_time": "2026-05-29T16:07:31.586219",
+            "success": true,
+            "data": {
+              "adjustments": [],
+              "recovered_tasks": [],
+              "workload_balance": {},
+              "rescheduling_rules": {
+                "version": "1.0",
+                "exam": "KAS",
+                "performance_triggers": {
+                  "consistency_drop": {
+                    "threshold": 20,
+                    "action": "reduce intensity, add recovery sessions"
+                  },
+                  "readiness_change": {
+                    "threshold": 10,
+                    "action": "restructure roadmap phases"
+                  },
+                  "subject_mastery_improvement": {
+                    "threshold": 15,
+                    "action": "reduce time allocation, shift to other subjects"
+                  },
+                  "burnout_increase": {
+                    "threshold": "medium",
+                    "action": "switch to light schedule"
+                  },
+                  "mock_score_change": {
+                    "threshold": 10,
+                    "action": "adjust mock frequency and difficulty"
+                  }
+                },
+                "recovery_adjustment_rules": {
+                  "low_consistency_recovery": {
+                    "action": "set fixed daily schedule, add phone reminders",
+                    "duration_days": 7
+                  },
+                  "burnout_recovery": {
+                    "action": "reduce study hours by 30%, focus only on revision",
+                    "duration_days": 3
+                  },
+                  "mock_failure_recovery": {
+                    "action": "add post-mock analysis day, focus on weak areas",
+                    "duration_days": 2
+                  }
+                },
+                "last_updated": "2026-05-28"
+              },
+              "recovery_rules": {
+                "version": "3.0",
+                "consistency_triggers": {
+                  "low_consistency": {
+                    "min_streak_days": 0,
+                    "max_streak_days": 3,
+                    "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+                  },
+                  "medium_consistency": {
+                    "min_streak_days": 4,
+                    "max_streak_days": 7,
+                    "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+                  }
+                },
+                "missed_days_triggers": {
+                  "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+                  "3+_days_missed": "Review last week's progress and restart schedule"
+                },
+                "burnout_recovery": {
+                  "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+                  "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+                  "Low": "Maintain schedule, ensure adequate sleep"
+                }
+              },
+              "generated_at": "2026-05-29T16:07:31.587229"
+            },
+            "end_time": "2026-05-29T16:07:31.603640"
+          },
+          {
+            "stage": "insights",
+            "start_time": "2026-05-29T16:07:31.604713",
+            "success": true,
+            "data": {
+              "generated_at": "2026-05-29T16:07:31.604713",
+              "burnout_alerts": [],
+              "weak_subjects": [
+                {
+                  "subject": "Environment",
+                  "score": 50,
+                  "weightage": 1.1,
+                  "priority": "Medium",
+                  "recommendation": "Consider reviewing Environment fundamentals"
+                },
+                {
+                  "subject": "Ethics",
+                  "score": 50,
+                  "weightage": 0.2,
+                  "priority": "Medium",
+                  "recommendation": "Consider reviewing Ethics fundamentals"
+                },
+                {
+                  "subject": "Disaster Management",
+                  "score": 50,
+                  "weightage": 0.7,
+                  "priority": "Medium",
+                  "recommendation": "Consider reviewing Disaster Management fundamentals"
+                }
+              ],
+              "performance_summary": {
+                "total_tasks": 0,
+                "completed_tasks": 0,
+                "completion_rate": 0,
+                "current_readiness": 50,
+                "study_streak": 0,
+                "last_updated": "2026-05-29T16:07:31.604713"
+              },
+              "recommendations": [
+                {
+                  "type": "subject_focus",
+                  "priority": "medium",
+                  "action": "Consider reviewing Environment fundamentals"
+                },
+                {
+                  "type": "subject_focus",
+                  "priority": "medium",
+                  "action": "Consider reviewing Ethics fundamentals"
+                },
+                {
+                  "type": "subject_focus",
+                  "priority": "medium",
+                  "action": "Consider reviewing Disaster Management fundamentals"
+                },
+                {
+                  "type": "revision",
+                  "priority": "medium",
+                  "action": "Include daily revision of key concepts"
+                },
+                {
+                  "type": "practice",
+                  "priority": "medium",
+                  "action": "Solve at least 50 MCQs daily"
+                }
+              ],
+              "trends": {
+                "high_frequency_topics": [
+                  "General Studies",
+                  "International Relations",
+                  "Karnataka Geography",
+                  "Karnataka GK",
+                  "Polity",
+                  "Current Affairs",
+                  "Geography",
+                  "Constitution",
+                  "Science & Tech",
+                  "Freedom Struggle"
+                ],
+                "high_priority_subjects": [
+                  "Science & Technology",
+                  "Current Affairs",
+                  "CSAT"
+                ]
+              }
+            },
+            "end_time": "2026-05-29T16:07:31.619161"
+          }
+        ],
+        "completed": true
+      }
+    },
+    "test_key2": "value2",
+    "test_key3": 123,
+    "insights": {
+      "generated_at": "2026-05-29T16:13:30.749856",
+      "burnout_alerts": [],
+      "weak_subjects": [
+        {
+          "subject": "Environment",
+          "score": 50,
+          "weightage": 1.1,
+          "priority": "Medium",
+          "recommendation": "Consider reviewing Environment fundamentals"
+        },
+        {
+          "subject": "Ethics",
+          "score": 50,
+          "weightage": 0.2,
+          "priority": "Medium",
+          "recommendation": "Consider reviewing Ethics fundamentals"
+        },
+        {
+          "subject": "Disaster Management",
+          "score": 50,
+          "weightage": 0.7,
+          "priority": "Medium",
+          "recommendation": "Consider reviewing Disaster Management fundamentals"
+        }
+      ],
+      "performance_summary": {
+        "total_tasks": 0,
+        "completed_tasks": 0,
+        "completion_rate": 0,
+        "current_readiness": 50,
+        "study_streak": 0,
+        "last_updated": "2026-05-29T16:13:30.749856"
+      },
+      "recommendations": [
+        {
+          "type": "subject_focus",
+          "priority": "medium",
+          "action": "Consider reviewing Environment fundamentals"
+        },
+        {
+          "type": "subject_focus",
+          "priority": "medium",
+          "action": "Consider reviewing Ethics fundamentals"
+        },
+        {
+          "type": "subject_focus",
+          "priority": "medium",
+          "action": "Consider reviewing Disaster Management fundamentals"
+        },
+        {
+          "type": "revision",
+          "priority": "medium",
+          "action": "Include daily revision of key concepts"
+        },
+        {
+          "type": "practice",
+          "priority": "medium",
+          "action": "Solve at least 50 MCQs daily"
+        }
+      ],
+      "trends": {
+        "high_frequency_topics": [
+          "General Studies",
+          "International Relations",
+          "Karnataka Geography",
+          "Karnataka GK",
+          "Polity",
+          "Current Affairs",
+          "Geography",
+          "Constitution",
+          "Science & Tech",
+          "Freedom Struggle"
+        ],
+        "high_priority_subjects": [
+          "Science & Technology",
+          "Current Affairs",
+          "CSAT"
+        ]
+      }
+    },
+    "research_data": {},
+    "student_data": {},
+    "plan_data": {},
+    "tasks": [],
+    "revision_schedule": {
+      "revision_tasks": [
+        {
+          "subject": "History",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 7.3,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "History",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 7.3,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "History",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 7.3,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "History",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 7.3,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Polity",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 14.100000000000001,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Polity",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 14.100000000000001,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Polity",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 14.100000000000001,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Polity",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 14.100000000000001,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Geography",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 10.0,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Geography",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 10.0,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Geography",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 10.0,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Geography",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 10.0,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Economics",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 11.3,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Economics",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 11.3,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Economics",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 11.3,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Economics",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 11.3,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Environment",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 5.699999999999999,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Environment",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 5.699999999999999,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Environment",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 5.699999999999999,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Environment",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 5.699999999999999,
+          "revision_frequency": "biweekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Science & Technology",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 70.6,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Science & Technology",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 70.6,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Science & Technology",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 70.6,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Science & Technology",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 70.6,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Karnataka GK",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 22.3,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Karnataka GK",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 22.3,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Karnataka GK",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 22.3,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Karnataka GK",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 22.3,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Current Affairs",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 30.9,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Current Affairs",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 30.9,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Current Affairs",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 30.9,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "Current Affairs",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 30.9,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "CSAT",
+          "revision_date": "2026-05-30T16:07:31.570718",
+          "interval_days": 1,
+          "priority_score": 28.1,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "CSAT",
+          "revision_date": "2026-06-01T16:07:31.570718",
+          "interval_days": 3,
+          "priority_score": 28.1,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "CSAT",
+          "revision_date": "2026-06-05T16:07:31.570718",
+          "interval_days": 7,
+          "priority_score": 28.1,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        },
+        {
+          "subject": "CSAT",
+          "revision_date": "2026-06-12T16:07:31.570718",
+          "interval_days": 14,
+          "priority_score": 28.1,
+          "revision_frequency": "weekly",
+          "type": "spaced_repetition"
+        }
+      ],
+      "spaced_repetition_intervals": [
+        1,
+        3,
+        7,
+        14
+      ],
+      "subject_priorities": {
+        "History": {
+          "priority_score": 7.3,
+          "revision_frequency": "biweekly"
+        },
+        "Polity": {
+          "priority_score": 14.100000000000001,
+          "revision_frequency": "biweekly"
+        },
+        "Geography": {
+          "priority_score": 10.0,
+          "revision_frequency": "biweekly"
+        },
+        "Economics": {
+          "priority_score": 11.3,
+          "revision_frequency": "biweekly"
+        },
+        "Environment": {
+          "priority_score": 5.699999999999999,
+          "revision_frequency": "biweekly"
+        },
+        "Science & Technology": {
+          "priority_score": 70.6,
+          "revision_frequency": "weekly"
+        },
+        "Karnataka GK": {
+          "priority_score": 22.3,
+          "revision_frequency": "weekly"
+        },
+        "Current Affairs": {
+          "priority_score": 30.9,
+          "revision_frequency": "weekly"
+        },
+        "CSAT": {
+          "priority_score": 28.1,
+          "revision_frequency": "weekly"
+        }
+      },
+      "recovery_suggestions": {
+        "version": "3.0",
+        "consistency_triggers": {
+          "low_consistency": {
+            "min_streak_days": 0,
+            "max_streak_days": 3,
+            "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+          },
+          "medium_consistency": {
+            "min_streak_days": 4,
+            "max_streak_days": 7,
+            "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+          }
+        },
+        "missed_days_triggers": {
+          "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+          "3+_days_missed": "Review last week's progress and restart schedule"
+        },
+        "burnout_recovery": {
+          "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+          "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+          "Low": "Maintain schedule, ensure adequate sleep"
+        }
+      },
+      "generated_at": "2026-05-29T16:07:31.570718"
+    },
+    "replan": {
+      "adjustments": [],
+      "recovered_tasks": [],
+      "workload_balance": {},
+      "rescheduling_rules": {
+        "version": "1.0",
+        "exam": "KAS",
+        "performance_triggers": {
+          "consistency_drop": {
+            "threshold": 20,
+            "action": "reduce intensity, add recovery sessions"
+          },
+          "readiness_change": {
+            "threshold": 10,
+            "action": "restructure roadmap phases"
+          },
+          "subject_mastery_improvement": {
+            "threshold": 15,
+            "action": "reduce time allocation, shift to other subjects"
+          },
+          "burnout_increase": {
+            "threshold": "medium",
+            "action": "switch to light schedule"
+          },
+          "mock_score_change": {
+            "threshold": 10,
+            "action": "adjust mock frequency and difficulty"
+          }
+        },
+        "recovery_adjustment_rules": {
+          "low_consistency_recovery": {
+            "action": "set fixed daily schedule, add phone reminders",
+            "duration_days": 7
+          },
+          "burnout_recovery": {
+            "action": "reduce study hours by 30%, focus only on revision",
+            "duration_days": 3
+          },
+          "mock_failure_recovery": {
+            "action": "add post-mock analysis day, focus on weak areas",
+            "duration_days": 2
+          }
+        },
+        "last_updated": "2026-05-28"
+      },
+      "recovery_rules": {
+        "version": "3.0",
+        "consistency_triggers": {
+          "low_consistency": {
+            "min_streak_days": 0,
+            "max_streak_days": 3,
+            "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+          },
+          "medium_consistency": {
+            "min_streak_days": 4,
+            "max_streak_days": 7,
+            "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+          }
+        },
+        "missed_days_triggers": {
+          "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+          "3+_days_missed": "Review last week's progress and restart schedule"
+        },
+        "burnout_recovery": {
+          "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+          "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+          "Low": "Maintain schedule, ensure adequate sleep"
+        }
+      },
+      "generated_at": "2026-05-29T16:07:31.587229"
+    }
+  },
+  "logs": [
+    {
+      "timestamp": "2026-05-29T15:42:26.668757",
+      "action": "set",
+      "key": "workflow_state",
+      "value": {
+        "started_at": "2026-05-29T15:42:26.668757",
+        "status": "running"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:42:26.671842",
+      "action": "set",
+      "key": "workflow_state",
+      "value": {
+        "started_at": "2026-05-29T15:42:26.668757",
+        "completed_at": "2026-05-29T15:42:26.671842",
+        "status": "failed",
+        "results": {
+          "workflow_id": "2026-05-29T15:42:26.671842",
+          "results": [
+            {
+              "stage": "research",
+              "start_time": "2026-05-29T15:42:26.670838",
+              "success": false,
+              "error": "'NoneType' object has no attribute 'get'"
+            }
+          ],
+          "completed": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.832562",
+      "action": "set",
+      "key": "test_key",
+      "value": "test_value"
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.834964",
+      "action": "update",
+      "key": "test_key2",
+      "value": "value2"
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.834964",
+      "action": "update",
+      "key": "test_key3",
+      "value": 123
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.851640",
+      "action": "delete",
+      "key": "test_key",
+      "value": null
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.867239",
+      "action": "set",
+      "key": "insights",
+      "value": {
+        "generated_at": "2026-05-29T15:44:35.867239",
+        "burnout_alerts": [
+          {
+            "type": "excessive_hours",
+            "severity": "high",
+            "message": "Studying more than 10 hours daily may lead to burnout"
+          },
+          {
+            "type": "no_rest_days",
+            "severity": "medium",
+            "message": "No rest days in the last week. Consider taking a break."
+          }
+        ],
+        "weak_subjects": [
+          {
+            "subject": "Polity",
+            "score": 55,
+            "weightage": 5.4,
+            "priority": "Medium",
+            "recommendation": "Focus on improving Polity as it has 5.4% weightage"
+          },
+          {
+            "subject": "Geography",
+            "score": 45,
+            "weightage": 3.2,
+            "priority": "Medium",
+            "recommendation": "Focus on improving Geography as it has 3.2% weightage"
+          },
+          {
+            "subject": "Environment",
+            "score": 50,
+            "weightage": 1.1,
+            "priority": "Medium",
+            "recommendation": "Focus on improving Environment as it has 1.1% weightage"
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 0,
+          "completed_tasks": 0,
+          "completion_rate": 0,
+          "current_readiness": 65,
+          "study_streak": 10,
+          "last_updated": "2026-05-29T15:44:35.867239"
+        },
+        "recommendations": [
+          {
+            "type": "schedule_adjustment",
+            "priority": "high",
+            "action": "Reduce daily study hours to 8-9 hours and include short breaks"
+          },
+          {
+            "type": "rest_day",
+            "priority": "high",
+            "action": "Schedule a rest day to avoid burnout"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Focus on improving Polity as it has 5.4% weightage"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Focus on improving Geography as it has 3.2% weightage"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Focus on improving Environment as it has 1.1% weightage"
+          },
+          {
+            "type": "revision",
+            "priority": "medium",
+            "action": "Include daily revision of key concepts"
+          },
+          {
+            "type": "practice",
+            "priority": "medium",
+            "action": "Solve at least 50 MCQs daily"
+          }
+        ],
+        "trends": {
+          "high_frequency_topics": [
+            "General Studies",
+            "International Relations",
+            "Karnataka Geography",
+            "Karnataka GK",
+            "Polity",
+            "Current Affairs",
+            "Geography",
+            "Constitution",
+            "Science & Tech",
+            "Freedom Struggle"
+          ],
+          "high_priority_subjects": [
+            "Science & Technology",
+            "Current Affairs",
+            "CSAT"
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.882305",
+      "action": "set",
+      "key": "workflow_state",
+      "value": {
+        "started_at": "2026-05-29T15:44:35.882305",
+        "status": "running"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.900901",
+      "action": "set",
+      "key": "research_data",
+      "value": {}
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.920631",
+      "action": "set",
+      "key": "student_data",
+      "value": {
+        "readiness_score": 65,
+        "daily_study_hours": 11,
+        "consecutive_study_days": 10,
+        "subject_scores": {
+          "Polity": 55,
+          "History": 70,
+          "Geography": 45,
+          "Environment": 50
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.937172",
+      "action": "set",
+      "key": "plan_data",
+      "value": {}
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.953483",
+      "action": "set",
+      "key": "tasks",
+      "value": [
+        {
+          "id": "1",
+          "title": "Test Task 1",
+          "status": "completed"
+        },
+        {
+          "id": "2",
+          "title": "Test Task 2",
+          "status": "pending"
+        },
+        {
+          "id": "3",
+          "title": "Test Task 3",
+          "status": "missed"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.970701",
+      "action": "set",
+      "key": "revision_schedule",
+      "value": {
+        "revision_tasks": [
+          {
+            "subject": "History",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-05-30T15:44:35.970701",
+            "interval_days": 1,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-01T15:44:35.970701",
+            "interval_days": 3,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-05T15:44:35.970701",
+            "interval_days": 7,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-12T15:44:35.970701",
+            "interval_days": 14,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          }
+        ],
+        "spaced_repetition_intervals": [
+          1,
+          3,
+          7,
+          14
+        ],
+        "subject_priorities": {
+          "History": {
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly"
+          },
+          "Polity": {
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly"
+          },
+          "Geography": {
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly"
+          },
+          "Economics": {
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly"
+          },
+          "Environment": {
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly"
+          },
+          "Science & Technology": {
+            "priority_score": 70.6,
+            "revision_frequency": "weekly"
+          },
+          "Karnataka GK": {
+            "priority_score": 22.3,
+            "revision_frequency": "weekly"
+          },
+          "Current Affairs": {
+            "priority_score": 30.9,
+            "revision_frequency": "weekly"
+          },
+          "CSAT": {
+            "priority_score": 28.1,
+            "revision_frequency": "weekly"
+          }
+        },
+        "recovery_suggestions": {
+          "version": "3.0",
+          "consistency_triggers": {
+            "low_consistency": {
+              "min_streak_days": 0,
+              "max_streak_days": 3,
+              "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+            },
+            "medium_consistency": {
+              "min_streak_days": 4,
+              "max_streak_days": 7,
+              "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+            }
+          },
+          "missed_days_triggers": {
+            "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+            "3+_days_missed": "Review last week's progress and restart schedule"
+          },
+          "burnout_recovery": {
+            "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+            "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+            "Low": "Maintain schedule, ensure adequate sleep"
+          }
+        },
+        "generated_at": "2026-05-29T15:44:35.970701"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:44:35.989425",
+      "action": "set",
+      "key": "replan",
+      "value": {
+        "adjustments": [],
+        "recovered_tasks": [],
+        "workload_balance": {},
+        "rescheduling_rules": {
+          "version": "1.0",
+          "exam": "KAS",
+          "performance_triggers": {
+            "consistency_drop": {
+              "threshold": 20,
+              "action": "reduce intensity, add recovery sessions"
+            },
+            "readiness_change": {
+              "threshold": 10,
+              "action": "restructure roadmap phases"
+            },
+            "subject_mastery_improvement": {
+              "threshold": 15,
+              "action": "reduce time allocation, shift to other subjects"
+            },
+            "burnout_increase": {
+              "threshold": "medium",
+              "action": "switch to light schedule"
+            },
+            "mock_score_change": {
+              "threshold": 10,
+              "action": "adjust mock frequency and difficulty"
+            }
+          },
+          "recovery_adjustment_rules": {
+            "low_consistency_recovery": {
+              "action": "set fixed daily schedule, add phone reminders",
+              "duration_days": 7
+            },
+            "burnout_recovery": {
+              "action": "reduce study hours by 30%, focus only on revision",
+              "duration_days": 3
+            },
+            "mock_failure_recovery": {
+              "action": "add post-mock analysis day, focus on weak areas",
+              "duration_days": 2
+            }
+          },
+          "last_updated": "2026-05-28"
+        },
+        "recovery_rules": {
+          "version": "3.0",
+          "consistency_triggers": {
+            "low_consistency": {
+              "min_streak_days": 0,
+              "max_streak_days": 3,
+              "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+            },
+            "medium_consistency": {
+              "min_streak_days": 4,
+              "max_streak_days": 7,
+              "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+            }
+          },
+          "missed_days_triggers": {
+            "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+            "3+_days_missed": "Review last week's progress and restart schedule"
+          },
+          "burnout_recovery": {
+            "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+            "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+            "Low": "Maintain schedule, ensure adequate sleep"
+          }
+        },
+        "generated_at": "2026-05-29T15:44:35.989425"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:44:36.009224",
+      "action": "set",
+      "key": "insights",
+      "value": {
+        "generated_at": "2026-05-29T15:44:36.009224",
+        "burnout_alerts": [
+          {
+            "type": "excessive_hours",
+            "severity": "high",
+            "message": "Studying more than 10 hours daily may lead to burnout"
+          },
+          {
+            "type": "no_rest_days",
+            "severity": "medium",
+            "message": "No rest days in the last week. Consider taking a break."
+          }
+        ],
+        "weak_subjects": [
+          {
+            "subject": "Polity",
+            "score": 55,
+            "weightage": 5.4,
+            "priority": "Medium",
+            "recommendation": "Focus on improving Polity as it has 5.4% weightage"
+          },
+          {
+            "subject": "Geography",
+            "score": 45,
+            "weightage": 3.2,
+            "priority": "Medium",
+            "recommendation": "Focus on improving Geography as it has 3.2% weightage"
+          },
+          {
+            "subject": "Environment",
+            "score": 50,
+            "weightage": 1.1,
+            "priority": "Medium",
+            "recommendation": "Focus on improving Environment as it has 1.1% weightage"
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 3,
+          "completed_tasks": 1,
+          "completion_rate": 33.33,
+          "current_readiness": 65,
+          "study_streak": 10,
+          "last_updated": "2026-05-29T15:44:36.009224"
+        },
+        "recommendations": [
+          {
+            "type": "schedule_adjustment",
+            "priority": "high",
+            "action": "Reduce daily study hours to 8-9 hours and include short breaks"
+          },
+          {
+            "type": "rest_day",
+            "priority": "high",
+            "action": "Schedule a rest day to avoid burnout"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Focus on improving Polity as it has 5.4% weightage"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Focus on improving Geography as it has 3.2% weightage"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Focus on improving Environment as it has 1.1% weightage"
+          },
+          {
+            "type": "revision",
+            "priority": "medium",
+            "action": "Include daily revision of key concepts"
+          },
+          {
+            "type": "practice",
+            "priority": "medium",
+            "action": "Solve at least 50 MCQs daily"
+          }
+        ],
+        "trends": {
+          "high_frequency_topics": [
+            "General Studies",
+            "International Relations",
+            "Karnataka Geography",
+            "Karnataka GK",
+            "Polity",
+            "Current Affairs",
+            "Geography",
+            "Constitution",
+            "Science & Tech",
+            "Freedom Struggle"
+          ],
+          "high_priority_subjects": [
+            "Science & Technology",
+            "Current Affairs",
+            "CSAT"
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:44:36.032957",
+      "action": "set",
+      "key": "workflow_state",
+      "value": {
+        "started_at": "2026-05-29T15:44:35.882305",
+        "completed_at": "2026-05-29T15:44:36.032957",
+        "status": "completed",
+        "results": {
+          "workflow_id": "2026-05-29T15:44:36.032957",
+          "results": [
+            {
+              "stage": "research",
+              "start_time": "2026-05-29T15:44:35.900901",
+              "success": true,
+              "data": {
+                "status": "research_completed",
+                "data": {}
+              },
+              "end_time": "2026-05-29T15:44:35.919621"
+            },
+            {
+              "stage": "student_analysis",
+              "start_time": "2026-05-29T15:44:35.920631",
+              "success": true,
+              "data": {
+                "status": "analysis_completed",
+                "data": {
+                  "readiness_score": 65,
+                  "daily_study_hours": 11,
+                  "consecutive_study_days": 10,
+                  "subject_scores": {
+                    "Polity": 55,
+                    "History": 70,
+                    "Geography": 45,
+                    "Environment": 50
+                  }
+                }
+              },
+              "end_time": "2026-05-29T15:44:35.936172"
+            },
+            {
+              "stage": "planning",
+              "start_time": "2026-05-29T15:44:35.936172",
+              "success": true,
+              "data": {
+                "status": "planning_completed",
+                "data": {}
+              },
+              "end_time": "2026-05-29T15:44:35.953483"
+            },
+            {
+              "stage": "execution",
+              "start_time": "2026-05-29T15:44:35.953483",
+              "success": true,
+              "data": {
+                "status": "execution_tracked",
+                "tasks": [
+                  {
+                    "id": "1",
+                    "title": "Test Task 1",
+                    "status": "completed"
+                  },
+                  {
+                    "id": "2",
+                    "title": "Test Task 2",
+                    "status": "pending"
+                  },
+                  {
+                    "id": "3",
+                    "title": "Test Task 3",
+                    "status": "missed"
+                  }
+                ]
+              },
+              "end_time": "2026-05-29T15:44:35.970701"
+            },
+            {
+              "stage": "revision",
+              "start_time": "2026-05-29T15:44:35.970701",
+              "success": true,
+              "data": {
+                "revision_tasks": [
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-05-30T15:44:35.970701",
+                    "interval_days": 1,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-01T15:44:35.970701",
+                    "interval_days": 3,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-05T15:44:35.970701",
+                    "interval_days": 7,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-12T15:44:35.970701",
+                    "interval_days": 14,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  }
+                ],
+                "spaced_repetition_intervals": [
+                  1,
+                  3,
+                  7,
+                  14
+                ],
+                "subject_priorities": {
+                  "History": {
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Polity": {
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Geography": {
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Economics": {
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Environment": {
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Science & Technology": {
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly"
+                  },
+                  "Karnataka GK": {
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly"
+                  },
+                  "Current Affairs": {
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly"
+                  },
+                  "CSAT": {
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly"
+                  }
+                },
+                "recovery_suggestions": {
+                  "version": "3.0",
+                  "consistency_triggers": {
+                    "low_consistency": {
+                      "min_streak_days": 0,
+                      "max_streak_days": 3,
+                      "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+                    },
+                    "medium_consistency": {
+                      "min_streak_days": 4,
+                      "max_streak_days": 7,
+                      "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+                    }
+                  },
+                  "missed_days_triggers": {
+                    "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+                    "3+_days_missed": "Review last week's progress and restart schedule"
+                  },
+                  "burnout_recovery": {
+                    "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+                    "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+                    "Low": "Maintain schedule, ensure adequate sleep"
+                  }
+                },
+                "generated_at": "2026-05-29T15:44:35.970701"
+              },
+              "end_time": "2026-05-29T15:44:35.989425"
+            },
+            {
+              "stage": "replanning",
+              "start_time": "2026-05-29T15:44:35.989425",
+              "success": true,
+              "data": {
+                "adjustments": [],
+                "recovered_tasks": [],
+                "workload_balance": {},
+                "rescheduling_rules": {
+                  "version": "1.0",
+                  "exam": "KAS",
+                  "performance_triggers": {
+                    "consistency_drop": {
+                      "threshold": 20,
+                      "action": "reduce intensity, add recovery sessions"
+                    },
+                    "readiness_change": {
+                      "threshold": 10,
+                      "action": "restructure roadmap phases"
+                    },
+                    "subject_mastery_improvement": {
+                      "threshold": 15,
+                      "action": "reduce time allocation, shift to other subjects"
+                    },
+                    "burnout_increase": {
+                      "threshold": "medium",
+                      "action": "switch to light schedule"
+                    },
+                    "mock_score_change": {
+                      "threshold": 10,
+                      "action": "adjust mock frequency and difficulty"
+                    }
+                  },
+                  "recovery_adjustment_rules": {
+                    "low_consistency_recovery": {
+                      "action": "set fixed daily schedule, add phone reminders",
+                      "duration_days": 7
+                    },
+                    "burnout_recovery": {
+                      "action": "reduce study hours by 30%, focus only on revision",
+                      "duration_days": 3
+                    },
+                    "mock_failure_recovery": {
+                      "action": "add post-mock analysis day, focus on weak areas",
+                      "duration_days": 2
+                    }
+                  },
+                  "last_updated": "2026-05-28"
+                },
+                "recovery_rules": {
+                  "version": "3.0",
+                  "consistency_triggers": {
+                    "low_consistency": {
+                      "min_streak_days": 0,
+                      "max_streak_days": 3,
+                      "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+                    },
+                    "medium_consistency": {
+                      "min_streak_days": 4,
+                      "max_streak_days": 7,
+                      "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+                    }
+                  },
+                  "missed_days_triggers": {
+                    "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+                    "3+_days_missed": "Review last week's progress and restart schedule"
+                  },
+                  "burnout_recovery": {
+                    "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+                    "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+                    "Low": "Maintain schedule, ensure adequate sleep"
+                  }
+                },
+                "generated_at": "2026-05-29T15:44:35.989425"
+              },
+              "end_time": "2026-05-29T15:44:36.009224"
+            },
+            {
+              "stage": "insights",
+              "start_time": "2026-05-29T15:44:36.009224",
+              "success": true,
+              "data": {
+                "generated_at": "2026-05-29T15:44:36.009224",
+                "burnout_alerts": [
+                  {
+                    "type": "excessive_hours",
+                    "severity": "high",
+                    "message": "Studying more than 10 hours daily may lead to burnout"
+                  },
+                  {
+                    "type": "no_rest_days",
+                    "severity": "medium",
+                    "message": "No rest days in the last week. Consider taking a break."
+                  }
+                ],
+                "weak_subjects": [
+                  {
+                    "subject": "Polity",
+                    "score": 55,
+                    "weightage": 5.4,
+                    "priority": "Medium",
+                    "recommendation": "Focus on improving Polity as it has 5.4% weightage"
+                  },
+                  {
+                    "subject": "Geography",
+                    "score": 45,
+                    "weightage": 3.2,
+                    "priority": "Medium",
+                    "recommendation": "Focus on improving Geography as it has 3.2% weightage"
+                  },
+                  {
+                    "subject": "Environment",
+                    "score": 50,
+                    "weightage": 1.1,
+                    "priority": "Medium",
+                    "recommendation": "Focus on improving Environment as it has 1.1% weightage"
+                  }
+                ],
+                "performance_summary": {
+                  "total_tasks": 3,
+                  "completed_tasks": 1,
+                  "completion_rate": 33.33,
+                  "current_readiness": 65,
+                  "study_streak": 10,
+                  "last_updated": "2026-05-29T15:44:36.009224"
+                },
+                "recommendations": [
+                  {
+                    "type": "schedule_adjustment",
+                    "priority": "high",
+                    "action": "Reduce daily study hours to 8-9 hours and include short breaks"
+                  },
+                  {
+                    "type": "rest_day",
+                    "priority": "high",
+                    "action": "Schedule a rest day to avoid burnout"
+                  },
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Focus on improving Polity as it has 5.4% weightage"
+                  },
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Focus on improving Geography as it has 3.2% weightage"
+                  },
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Focus on improving Environment as it has 1.1% weightage"
+                  },
+                  {
+                    "type": "revision",
+                    "priority": "medium",
+                    "action": "Include daily revision of key concepts"
+                  },
+                  {
+                    "type": "practice",
+                    "priority": "medium",
+                    "action": "Solve at least 50 MCQs daily"
+                  }
+                ],
+                "trends": {
+                  "high_frequency_topics": [
+                    "General Studies",
+                    "International Relations",
+                    "Karnataka Geography",
+                    "Karnataka GK",
+                    "Polity",
+                    "Current Affairs",
+                    "Geography",
+                    "Constitution",
+                    "Science & Tech",
+                    "Freedom Struggle"
+                  ],
+                  "high_priority_subjects": [
+                    "Science & Technology",
+                    "Current Affairs",
+                    "CSAT"
+                  ]
+                }
+              },
+              "end_time": "2026-05-29T15:44:36.032957"
+            }
+          ],
+          "completed": true
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.200181",
+      "action": "set",
+      "key": "workflow_state",
+      "value": {
+        "started_at": "2026-05-29T15:46:58.200181",
+        "status": "running"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.210300",
+      "action": "set",
+      "key": "research_data",
+      "value": {}
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.221905",
+      "action": "set",
+      "key": "student_data",
+      "value": {}
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.231055",
+      "action": "set",
+      "key": "plan_data",
+      "value": {}
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.242175",
+      "action": "set",
+      "key": "tasks",
+      "value": []
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.252848",
+      "action": "set",
+      "key": "revision_schedule",
+      "value": {
+        "revision_tasks": [
+          {
+            "subject": "History",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-05-30T15:46:58.252848",
+            "interval_days": 1,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-01T15:46:58.252848",
+            "interval_days": 3,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-05T15:46:58.252848",
+            "interval_days": 7,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-12T15:46:58.252848",
+            "interval_days": 14,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          }
+        ],
+        "spaced_repetition_intervals": [
+          1,
+          3,
+          7,
+          14
+        ],
+        "subject_priorities": {
+          "History": {
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly"
+          },
+          "Polity": {
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly"
+          },
+          "Geography": {
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly"
+          },
+          "Economics": {
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly"
+          },
+          "Environment": {
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly"
+          },
+          "Science & Technology": {
+            "priority_score": 70.6,
+            "revision_frequency": "weekly"
+          },
+          "Karnataka GK": {
+            "priority_score": 22.3,
+            "revision_frequency": "weekly"
+          },
+          "Current Affairs": {
+            "priority_score": 30.9,
+            "revision_frequency": "weekly"
+          },
+          "CSAT": {
+            "priority_score": 28.1,
+            "revision_frequency": "weekly"
+          }
+        },
+        "recovery_suggestions": {
+          "version": "3.0",
+          "consistency_triggers": {
+            "low_consistency": {
+              "min_streak_days": 0,
+              "max_streak_days": 3,
+              "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+            },
+            "medium_consistency": {
+              "min_streak_days": 4,
+              "max_streak_days": 7,
+              "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+            }
+          },
+          "missed_days_triggers": {
+            "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+            "3+_days_missed": "Review last week's progress and restart schedule"
+          },
+          "burnout_recovery": {
+            "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+            "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+            "Low": "Maintain schedule, ensure adequate sleep"
+          }
+        },
+        "generated_at": "2026-05-29T15:46:58.252848"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.264342",
+      "action": "set",
+      "key": "replan",
+      "value": {
+        "adjustments": [],
+        "recovered_tasks": [],
+        "workload_balance": {},
+        "rescheduling_rules": {
+          "version": "1.0",
+          "exam": "KAS",
+          "performance_triggers": {
+            "consistency_drop": {
+              "threshold": 20,
+              "action": "reduce intensity, add recovery sessions"
+            },
+            "readiness_change": {
+              "threshold": 10,
+              "action": "restructure roadmap phases"
+            },
+            "subject_mastery_improvement": {
+              "threshold": 15,
+              "action": "reduce time allocation, shift to other subjects"
+            },
+            "burnout_increase": {
+              "threshold": "medium",
+              "action": "switch to light schedule"
+            },
+            "mock_score_change": {
+              "threshold": 10,
+              "action": "adjust mock frequency and difficulty"
+            }
+          },
+          "recovery_adjustment_rules": {
+            "low_consistency_recovery": {
+              "action": "set fixed daily schedule, add phone reminders",
+              "duration_days": 7
+            },
+            "burnout_recovery": {
+              "action": "reduce study hours by 30%, focus only on revision",
+              "duration_days": 3
+            },
+            "mock_failure_recovery": {
+              "action": "add post-mock analysis day, focus on weak areas",
+              "duration_days": 2
+            }
+          },
+          "last_updated": "2026-05-28"
+        },
+        "recovery_rules": {
+          "version": "3.0",
+          "consistency_triggers": {
+            "low_consistency": {
+              "min_streak_days": 0,
+              "max_streak_days": 3,
+              "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+            },
+            "medium_consistency": {
+              "min_streak_days": 4,
+              "max_streak_days": 7,
+              "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+            }
+          },
+          "missed_days_triggers": {
+            "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+            "3+_days_missed": "Review last week's progress and restart schedule"
+          },
+          "burnout_recovery": {
+            "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+            "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+            "Low": "Maintain schedule, ensure adequate sleep"
+          }
+        },
+        "generated_at": "2026-05-29T15:46:58.264342"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.275611",
+      "action": "set",
+      "key": "insights",
+      "value": {
+        "generated_at": "2026-05-29T15:46:58.275611",
+        "burnout_alerts": [],
+        "weak_subjects": [
+          {
+            "subject": "Environment",
+            "score": 50,
+            "weightage": 1.1,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "subject": "Ethics",
+            "score": 50,
+            "weightage": 0.2,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "subject": "Disaster Management",
+            "score": 50,
+            "weightage": 0.7,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Disaster Management fundamentals"
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 0,
+          "completed_tasks": 0,
+          "completion_rate": 0,
+          "current_readiness": 50,
+          "study_streak": 0,
+          "last_updated": "2026-05-29T15:46:58.275611"
+        },
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Disaster Management fundamentals"
+          },
+          {
+            "type": "revision",
+            "priority": "medium",
+            "action": "Include daily revision of key concepts"
+          },
+          {
+            "type": "practice",
+            "priority": "medium",
+            "action": "Solve at least 50 MCQs daily"
+          }
+        ],
+        "trends": {
+          "high_frequency_topics": [
+            "General Studies",
+            "International Relations",
+            "Karnataka Geography",
+            "Karnataka GK",
+            "Polity",
+            "Current Affairs",
+            "Geography",
+            "Constitution",
+            "Science & Tech",
+            "Freedom Struggle"
+          ],
+          "high_priority_subjects": [
+            "Science & Technology",
+            "Current Affairs",
+            "CSAT"
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:46:58.287271",
+      "action": "set",
+      "key": "workflow_state",
+      "value": {
+        "started_at": "2026-05-29T15:46:58.200181",
+        "completed_at": "2026-05-29T15:46:58.287271",
+        "status": "completed",
+        "results": {
+          "workflow_id": "2026-05-29T15:46:58.287271",
+          "results": [
+            {
+              "stage": "research",
+              "start_time": "2026-05-29T15:46:58.210300",
+              "success": true,
+              "data": {
+                "status": "research_completed",
+                "data": {}
+              },
+              "end_time": "2026-05-29T15:46:58.220905"
+            },
+            {
+              "stage": "student_analysis",
+              "start_time": "2026-05-29T15:46:58.220905",
+              "success": true,
+              "data": {
+                "status": "analysis_completed",
+                "data": {}
+              },
+              "end_time": "2026-05-29T15:46:58.231055"
+            },
+            {
+              "stage": "planning",
+              "start_time": "2026-05-29T15:46:58.231055",
+              "success": true,
+              "data": {
+                "status": "planning_completed",
+                "data": {}
+              },
+              "end_time": "2026-05-29T15:46:58.242175"
+            },
+            {
+              "stage": "execution",
+              "start_time": "2026-05-29T15:46:58.242175",
+              "success": true,
+              "data": {
+                "status": "execution_tracked",
+                "tasks": []
+              },
+              "end_time": "2026-05-29T15:46:58.251837"
+            },
+            {
+              "stage": "revision",
+              "start_time": "2026-05-29T15:46:58.252848",
+              "success": true,
+              "data": {
+                "revision_tasks": [
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-05-30T15:46:58.252848",
+                    "interval_days": 1,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-01T15:46:58.252848",
+                    "interval_days": 3,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-05T15:46:58.252848",
+                    "interval_days": 7,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-12T15:46:58.252848",
+                    "interval_days": 14,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  }
+                ],
+                "spaced_repetition_intervals": [
+                  1,
+                  3,
+                  7,
+                  14
+                ],
+                "subject_priorities": {
+                  "History": {
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Polity": {
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Geography": {
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Economics": {
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Environment": {
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Science & Technology": {
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly"
+                  },
+                  "Karnataka GK": {
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly"
+                  },
+                  "Current Affairs": {
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly"
+                  },
+                  "CSAT": {
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly"
+                  }
+                },
+                "recovery_suggestions": {
+                  "version": "3.0",
+                  "consistency_triggers": {
+                    "low_consistency": {
+                      "min_streak_days": 0,
+                      "max_streak_days": 3,
+                      "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+                    },
+                    "medium_consistency": {
+                      "min_streak_days": 4,
+                      "max_streak_days": 7,
+                      "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+                    }
+                  },
+                  "missed_days_triggers": {
+                    "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+                    "3+_days_missed": "Review last week's progress and restart schedule"
+                  },
+                  "burnout_recovery": {
+                    "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+                    "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+                    "Low": "Maintain schedule, ensure adequate sleep"
+                  }
+                },
+                "generated_at": "2026-05-29T15:46:58.252848"
+              },
+              "end_time": "2026-05-29T15:46:58.264342"
+            },
+            {
+              "stage": "replanning",
+              "start_time": "2026-05-29T15:46:58.264342",
+              "success": true,
+              "data": {
+                "adjustments": [],
+                "recovered_tasks": [],
+                "workload_balance": {},
+                "rescheduling_rules": {
+                  "version": "1.0",
+                  "exam": "KAS",
+                  "performance_triggers": {
+                    "consistency_drop": {
+                      "threshold": 20,
+                      "action": "reduce intensity, add recovery sessions"
+                    },
+                    "readiness_change": {
+                      "threshold": 10,
+                      "action": "restructure roadmap phases"
+                    },
+                    "subject_mastery_improvement": {
+                      "threshold": 15,
+                      "action": "reduce time allocation, shift to other subjects"
+                    },
+                    "burnout_increase": {
+                      "threshold": "medium",
+                      "action": "switch to light schedule"
+                    },
+                    "mock_score_change": {
+                      "threshold": 10,
+                      "action": "adjust mock frequency and difficulty"
+                    }
+                  },
+                  "recovery_adjustment_rules": {
+                    "low_consistency_recovery": {
+                      "action": "set fixed daily schedule, add phone reminders",
+                      "duration_days": 7
+                    },
+                    "burnout_recovery": {
+                      "action": "reduce study hours by 30%, focus only on revision",
+                      "duration_days": 3
+                    },
+                    "mock_failure_recovery": {
+                      "action": "add post-mock analysis day, focus on weak areas",
+                      "duration_days": 2
+                    }
+                  },
+                  "last_updated": "2026-05-28"
+                },
+                "recovery_rules": {
+                  "version": "3.0",
+                  "consistency_triggers": {
+                    "low_consistency": {
+                      "min_streak_days": 0,
+                      "max_streak_days": 3,
+                      "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+                    },
+                    "medium_consistency": {
+                      "min_streak_days": 4,
+                      "max_streak_days": 7,
+                      "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+                    }
+                  },
+                  "missed_days_triggers": {
+                    "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+                    "3+_days_missed": "Review last week's progress and restart schedule"
+                  },
+                  "burnout_recovery": {
+                    "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+                    "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+                    "Low": "Maintain schedule, ensure adequate sleep"
+                  }
+                },
+                "generated_at": "2026-05-29T15:46:58.264342"
+              },
+              "end_time": "2026-05-29T15:46:58.274612"
+            },
+            {
+              "stage": "insights",
+              "start_time": "2026-05-29T15:46:58.274612",
+              "success": true,
+              "data": {
+                "generated_at": "2026-05-29T15:46:58.275611",
+                "burnout_alerts": [],
+                "weak_subjects": [
+                  {
+                    "subject": "Environment",
+                    "score": 50,
+                    "weightage": 1.1,
+                    "priority": "Medium",
+                    "recommendation": "Consider reviewing Environment fundamentals"
+                  },
+                  {
+                    "subject": "Ethics",
+                    "score": 50,
+                    "weightage": 0.2,
+                    "priority": "Medium",
+                    "recommendation": "Consider reviewing Ethics fundamentals"
+                  },
+                  {
+                    "subject": "Disaster Management",
+                    "score": 50,
+                    "weightage": 0.7,
+                    "priority": "Medium",
+                    "recommendation": "Consider reviewing Disaster Management fundamentals"
+                  }
+                ],
+                "performance_summary": {
+                  "total_tasks": 0,
+                  "completed_tasks": 0,
+                  "completion_rate": 0,
+                  "current_readiness": 50,
+                  "study_streak": 0,
+                  "last_updated": "2026-05-29T15:46:58.275611"
+                },
+                "recommendations": [
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Consider reviewing Environment fundamentals"
+                  },
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Consider reviewing Ethics fundamentals"
+                  },
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Consider reviewing Disaster Management fundamentals"
+                  },
+                  {
+                    "type": "revision",
+                    "priority": "medium",
+                    "action": "Include daily revision of key concepts"
+                  },
+                  {
+                    "type": "practice",
+                    "priority": "medium",
+                    "action": "Solve at least 50 MCQs daily"
+                  }
+                ],
+                "trends": {
+                  "high_frequency_topics": [
+                    "General Studies",
+                    "International Relations",
+                    "Karnataka Geography",
+                    "Karnataka GK",
+                    "Polity",
+                    "Current Affairs",
+                    "Geography",
+                    "Constitution",
+                    "Science & Tech",
+                    "Freedom Struggle"
+                  ],
+                  "high_priority_subjects": [
+                    "Science & Technology",
+                    "Current Affairs",
+                    "CSAT"
+                  ]
+                }
+              },
+              "end_time": "2026-05-29T15:46:58.286267"
+            }
+          ],
+          "completed": true
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T15:52:07.609925",
+      "action": "set",
+      "key": "insights",
+      "value": {
+        "generated_at": "2026-05-29T15:52:07.609925",
+        "burnout_alerts": [],
+        "weak_subjects": [
+          {
+            "subject": "Environment",
+            "score": 50,
+            "weightage": 1.1,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "subject": "Ethics",
+            "score": 50,
+            "weightage": 0.2,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "subject": "Disaster Management",
+            "score": 50,
+            "weightage": 0.7,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Disaster Management fundamentals"
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 0,
+          "completed_tasks": 0,
+          "completion_rate": 0,
+          "current_readiness": 50,
+          "study_streak": 0,
+          "last_updated": "2026-05-29T15:52:07.609925"
+        },
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Disaster Management fundamentals"
+          },
+          {
+            "type": "revision",
+            "priority": "medium",
+            "action": "Include daily revision of key concepts"
+          },
+          {
+            "type": "practice",
+            "priority": "medium",
+            "action": "Solve at least 50 MCQs daily"
+          }
+        ],
+        "trends": {
+          "high_frequency_topics": [
+            "General Studies",
+            "International Relations",
+            "Karnataka Geography",
+            "Karnataka GK",
+            "Polity",
+            "Current Affairs",
+            "Geography",
+            "Constitution",
+            "Science & Tech",
+            "Freedom Struggle"
+          ],
+          "high_priority_subjects": [
+            "Science & Technology",
+            "Current Affairs",
+            "CSAT"
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.501076",
+      "action": "set",
+      "key": "workflow_state",
+      "value": {
+        "started_at": "2026-05-29T16:07:31.501076",
+        "status": "running"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.513616",
+      "action": "set",
+      "key": "research_data",
+      "value": {}
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.527727",
+      "action": "set",
+      "key": "student_data",
+      "value": {}
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.544578",
+      "action": "set",
+      "key": "plan_data",
+      "value": {}
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.558057",
+      "action": "set",
+      "key": "tasks",
+      "value": []
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.570718",
+      "action": "set",
+      "key": "revision_schedule",
+      "value": {
+        "revision_tasks": [
+          {
+            "subject": "History",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "History",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Polity",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Geography",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Economics",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Environment",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Science & Technology",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 70.6,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Karnataka GK",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 22.3,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "Current Affairs",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 30.9,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-05-30T16:07:31.570718",
+            "interval_days": 1,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-01T16:07:31.570718",
+            "interval_days": 3,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-05T16:07:31.570718",
+            "interval_days": 7,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          },
+          {
+            "subject": "CSAT",
+            "revision_date": "2026-06-12T16:07:31.570718",
+            "interval_days": 14,
+            "priority_score": 28.1,
+            "revision_frequency": "weekly",
+            "type": "spaced_repetition"
+          }
+        ],
+        "spaced_repetition_intervals": [
+          1,
+          3,
+          7,
+          14
+        ],
+        "subject_priorities": {
+          "History": {
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly"
+          },
+          "Polity": {
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly"
+          },
+          "Geography": {
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly"
+          },
+          "Economics": {
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly"
+          },
+          "Environment": {
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly"
+          },
+          "Science & Technology": {
+            "priority_score": 70.6,
+            "revision_frequency": "weekly"
+          },
+          "Karnataka GK": {
+            "priority_score": 22.3,
+            "revision_frequency": "weekly"
+          },
+          "Current Affairs": {
+            "priority_score": 30.9,
+            "revision_frequency": "weekly"
+          },
+          "CSAT": {
+            "priority_score": 28.1,
+            "revision_frequency": "weekly"
+          }
+        },
+        "recovery_suggestions": {
+          "version": "3.0",
+          "consistency_triggers": {
+            "low_consistency": {
+              "min_streak_days": 0,
+              "max_streak_days": 3,
+              "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+            },
+            "medium_consistency": {
+              "min_streak_days": 4,
+              "max_streak_days": 7,
+              "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+            }
+          },
+          "missed_days_triggers": {
+            "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+            "3+_days_missed": "Review last week's progress and restart schedule"
+          },
+          "burnout_recovery": {
+            "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+            "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+            "Low": "Maintain schedule, ensure adequate sleep"
+          }
+        },
+        "generated_at": "2026-05-29T16:07:31.570718"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.587229",
+      "action": "set",
+      "key": "replan",
+      "value": {
+        "adjustments": [],
+        "recovered_tasks": [],
+        "workload_balance": {},
+        "rescheduling_rules": {
+          "version": "1.0",
+          "exam": "KAS",
+          "performance_triggers": {
+            "consistency_drop": {
+              "threshold": 20,
+              "action": "reduce intensity, add recovery sessions"
+            },
+            "readiness_change": {
+              "threshold": 10,
+              "action": "restructure roadmap phases"
+            },
+            "subject_mastery_improvement": {
+              "threshold": 15,
+              "action": "reduce time allocation, shift to other subjects"
+            },
+            "burnout_increase": {
+              "threshold": "medium",
+              "action": "switch to light schedule"
+            },
+            "mock_score_change": {
+              "threshold": 10,
+              "action": "adjust mock frequency and difficulty"
+            }
+          },
+          "recovery_adjustment_rules": {
+            "low_consistency_recovery": {
+              "action": "set fixed daily schedule, add phone reminders",
+              "duration_days": 7
+            },
+            "burnout_recovery": {
+              "action": "reduce study hours by 30%, focus only on revision",
+              "duration_days": 3
+            },
+            "mock_failure_recovery": {
+              "action": "add post-mock analysis day, focus on weak areas",
+              "duration_days": 2
+            }
+          },
+          "last_updated": "2026-05-28"
+        },
+        "recovery_rules": {
+          "version": "3.0",
+          "consistency_triggers": {
+            "low_consistency": {
+              "min_streak_days": 0,
+              "max_streak_days": 3,
+              "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+            },
+            "medium_consistency": {
+              "min_streak_days": 4,
+              "max_streak_days": 7,
+              "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+            }
+          },
+          "missed_days_triggers": {
+            "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+            "3+_days_missed": "Review last week's progress and restart schedule"
+          },
+          "burnout_recovery": {
+            "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+            "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+            "Low": "Maintain schedule, ensure adequate sleep"
+          }
+        },
+        "generated_at": "2026-05-29T16:07:31.587229"
+      }
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.604713",
+      "action": "set",
+      "key": "insights",
+      "value": {
+        "generated_at": "2026-05-29T16:07:31.604713",
+        "burnout_alerts": [],
+        "weak_subjects": [
+          {
+            "subject": "Environment",
+            "score": 50,
+            "weightage": 1.1,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "subject": "Ethics",
+            "score": 50,
+            "weightage": 0.2,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "subject": "Disaster Management",
+            "score": 50,
+            "weightage": 0.7,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Disaster Management fundamentals"
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 0,
+          "completed_tasks": 0,
+          "completion_rate": 0,
+          "current_readiness": 50,
+          "study_streak": 0,
+          "last_updated": "2026-05-29T16:07:31.604713"
+        },
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Disaster Management fundamentals"
+          },
+          {
+            "type": "revision",
+            "priority": "medium",
+            "action": "Include daily revision of key concepts"
+          },
+          {
+            "type": "practice",
+            "priority": "medium",
+            "action": "Solve at least 50 MCQs daily"
+          }
+        ],
+        "trends": {
+          "high_frequency_topics": [
+            "General Studies",
+            "International Relations",
+            "Karnataka Geography",
+            "Karnataka GK",
+            "Polity",
+            "Current Affairs",
+            "Geography",
+            "Constitution",
+            "Science & Tech",
+            "Freedom Struggle"
+          ],
+          "high_priority_subjects": [
+            "Science & Technology",
+            "Current Affairs",
+            "CSAT"
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T16:07:31.619161",
+      "action": "set",
+      "key": "workflow_state",
+      "value": {
+        "started_at": "2026-05-29T16:07:31.501076",
+        "completed_at": "2026-05-29T16:07:31.619161",
+        "status": "completed",
+        "results": {
+          "workflow_id": "2026-05-29T16:07:31.619161",
+          "results": [
+            {
+              "stage": "research",
+              "start_time": "2026-05-29T16:07:31.513616",
+              "success": true,
+              "data": {
+                "status": "research_completed",
+                "data": {}
+              },
+              "end_time": "2026-05-29T16:07:31.526718"
+            },
+            {
+              "stage": "student_analysis",
+              "start_time": "2026-05-29T16:07:31.527727",
+              "success": true,
+              "data": {
+                "status": "analysis_completed",
+                "data": {}
+              },
+              "end_time": "2026-05-29T16:07:31.542532"
+            },
+            {
+              "stage": "planning",
+              "start_time": "2026-05-29T16:07:31.544040",
+              "success": true,
+              "data": {
+                "status": "planning_completed",
+                "data": {}
+              },
+              "end_time": "2026-05-29T16:07:31.557047"
+            },
+            {
+              "stage": "execution",
+              "start_time": "2026-05-29T16:07:31.557047",
+              "success": true,
+              "data": {
+                "status": "execution_tracked",
+                "tasks": []
+              },
+              "end_time": "2026-05-29T16:07:31.569714"
+            },
+            {
+              "stage": "revision",
+              "start_time": "2026-05-29T16:07:31.570718",
+              "success": true,
+              "data": {
+                "revision_tasks": [
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "History",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Polity",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Geography",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Economics",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Environment",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Science & Technology",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Karnataka GK",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "Current Affairs",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-05-30T16:07:31.570718",
+                    "interval_days": 1,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-01T16:07:31.570718",
+                    "interval_days": 3,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-05T16:07:31.570718",
+                    "interval_days": 7,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  },
+                  {
+                    "subject": "CSAT",
+                    "revision_date": "2026-06-12T16:07:31.570718",
+                    "interval_days": 14,
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly",
+                    "type": "spaced_repetition"
+                  }
+                ],
+                "spaced_repetition_intervals": [
+                  1,
+                  3,
+                  7,
+                  14
+                ],
+                "subject_priorities": {
+                  "History": {
+                    "priority_score": 7.3,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Polity": {
+                    "priority_score": 14.100000000000001,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Geography": {
+                    "priority_score": 10.0,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Economics": {
+                    "priority_score": 11.3,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Environment": {
+                    "priority_score": 5.699999999999999,
+                    "revision_frequency": "biweekly"
+                  },
+                  "Science & Technology": {
+                    "priority_score": 70.6,
+                    "revision_frequency": "weekly"
+                  },
+                  "Karnataka GK": {
+                    "priority_score": 22.3,
+                    "revision_frequency": "weekly"
+                  },
+                  "Current Affairs": {
+                    "priority_score": 30.9,
+                    "revision_frequency": "weekly"
+                  },
+                  "CSAT": {
+                    "priority_score": 28.1,
+                    "revision_frequency": "weekly"
+                  }
+                },
+                "recovery_suggestions": {
+                  "version": "3.0",
+                  "consistency_triggers": {
+                    "low_consistency": {
+                      "min_streak_days": 0,
+                      "max_streak_days": 3,
+                      "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+                    },
+                    "medium_consistency": {
+                      "min_streak_days": 4,
+                      "max_streak_days": 7,
+                      "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+                    }
+                  },
+                  "missed_days_triggers": {
+                    "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+                    "3+_days_missed": "Review last week's progress and restart schedule"
+                  },
+                  "burnout_recovery": {
+                    "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+                    "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+                    "Low": "Maintain schedule, ensure adequate sleep"
+                  }
+                },
+                "generated_at": "2026-05-29T16:07:31.570718"
+              },
+              "end_time": "2026-05-29T16:07:31.586219"
+            },
+            {
+              "stage": "replanning",
+              "start_time": "2026-05-29T16:07:31.586219",
+              "success": true,
+              "data": {
+                "adjustments": [],
+                "recovered_tasks": [],
+                "workload_balance": {},
+                "rescheduling_rules": {
+                  "version": "1.0",
+                  "exam": "KAS",
+                  "performance_triggers": {
+                    "consistency_drop": {
+                      "threshold": 20,
+                      "action": "reduce intensity, add recovery sessions"
+                    },
+                    "readiness_change": {
+                      "threshold": 10,
+                      "action": "restructure roadmap phases"
+                    },
+                    "subject_mastery_improvement": {
+                      "threshold": 15,
+                      "action": "reduce time allocation, shift to other subjects"
+                    },
+                    "burnout_increase": {
+                      "threshold": "medium",
+                      "action": "switch to light schedule"
+                    },
+                    "mock_score_change": {
+                      "threshold": 10,
+                      "action": "adjust mock frequency and difficulty"
+                    }
+                  },
+                  "recovery_adjustment_rules": {
+                    "low_consistency_recovery": {
+                      "action": "set fixed daily schedule, add phone reminders",
+                      "duration_days": 7
+                    },
+                    "burnout_recovery": {
+                      "action": "reduce study hours by 30%, focus only on revision",
+                      "duration_days": 3
+                    },
+                    "mock_failure_recovery": {
+                      "action": "add post-mock analysis day, focus on weak areas",
+                      "duration_days": 2
+                    }
+                  },
+                  "last_updated": "2026-05-28"
+                },
+                "recovery_rules": {
+                  "version": "3.0",
+                  "consistency_triggers": {
+                    "low_consistency": {
+                      "min_streak_days": 0,
+                      "max_streak_days": 3,
+                      "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+                    },
+                    "medium_consistency": {
+                      "min_streak_days": 4,
+                      "max_streak_days": 7,
+                      "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+                    }
+                  },
+                  "missed_days_triggers": {
+                    "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+                    "3+_days_missed": "Review last week's progress and restart schedule"
+                  },
+                  "burnout_recovery": {
+                    "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+                    "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+                    "Low": "Maintain schedule, ensure adequate sleep"
+                  }
+                },
+                "generated_at": "2026-05-29T16:07:31.587229"
+              },
+              "end_time": "2026-05-29T16:07:31.603640"
+            },
+            {
+              "stage": "insights",
+              "start_time": "2026-05-29T16:07:31.604713",
+              "success": true,
+              "data": {
+                "generated_at": "2026-05-29T16:07:31.604713",
+                "burnout_alerts": [],
+                "weak_subjects": [
+                  {
+                    "subject": "Environment",
+                    "score": 50,
+                    "weightage": 1.1,
+                    "priority": "Medium",
+                    "recommendation": "Consider reviewing Environment fundamentals"
+                  },
+                  {
+                    "subject": "Ethics",
+                    "score": 50,
+                    "weightage": 0.2,
+                    "priority": "Medium",
+                    "recommendation": "Consider reviewing Ethics fundamentals"
+                  },
+                  {
+                    "subject": "Disaster Management",
+                    "score": 50,
+                    "weightage": 0.7,
+                    "priority": "Medium",
+                    "recommendation": "Consider reviewing Disaster Management fundamentals"
+                  }
+                ],
+                "performance_summary": {
+                  "total_tasks": 0,
+                  "completed_tasks": 0,
+                  "completion_rate": 0,
+                  "current_readiness": 50,
+                  "study_streak": 0,
+                  "last_updated": "2026-05-29T16:07:31.604713"
+                },
+                "recommendations": [
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Consider reviewing Environment fundamentals"
+                  },
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Consider reviewing Ethics fundamentals"
+                  },
+                  {
+                    "type": "subject_focus",
+                    "priority": "medium",
+                    "action": "Consider reviewing Disaster Management fundamentals"
+                  },
+                  {
+                    "type": "revision",
+                    "priority": "medium",
+                    "action": "Include daily revision of key concepts"
+                  },
+                  {
+                    "type": "practice",
+                    "priority": "medium",
+                    "action": "Solve at least 50 MCQs daily"
+                  }
+                ],
+                "trends": {
+                  "high_frequency_topics": [
+                    "General Studies",
+                    "International Relations",
+                    "Karnataka Geography",
+                    "Karnataka GK",
+                    "Polity",
+                    "Current Affairs",
+                    "Geography",
+                    "Constitution",
+                    "Science & Tech",
+                    "Freedom Struggle"
+                  ],
+                  "high_priority_subjects": [
+                    "Science & Technology",
+                    "Current Affairs",
+                    "CSAT"
+                  ]
+                }
+              },
+              "end_time": "2026-05-29T16:07:31.619161"
+            }
+          ],
+          "completed": true
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T16:08:46.997478",
+      "action": "set",
+      "key": "insights",
+      "value": {
+        "generated_at": "2026-05-29T16:08:46.997478",
+        "burnout_alerts": [],
+        "weak_subjects": [
+          {
+            "subject": "Environment",
+            "score": 50,
+            "weightage": 1.1,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "subject": "Ethics",
+            "score": 50,
+            "weightage": 0.2,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "subject": "Disaster Management",
+            "score": 50,
+            "weightage": 0.7,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Disaster Management fundamentals"
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 0,
+          "completed_tasks": 0,
+          "completion_rate": 0,
+          "current_readiness": 50,
+          "study_streak": 0,
+          "last_updated": "2026-05-29T16:08:46.995932"
+        },
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Disaster Management fundamentals"
+          },
+          {
+            "type": "revision",
+            "priority": "medium",
+            "action": "Include daily revision of key concepts"
+          },
+          {
+            "type": "practice",
+            "priority": "medium",
+            "action": "Solve at least 50 MCQs daily"
+          }
+        ],
+        "trends": {
+          "high_frequency_topics": [
+            "General Studies",
+            "International Relations",
+            "Karnataka Geography",
+            "Karnataka GK",
+            "Polity",
+            "Current Affairs",
+            "Geography",
+            "Constitution",
+            "Science & Tech",
+            "Freedom Struggle"
+          ],
+          "high_priority_subjects": [
+            "Science & Technology",
+            "Current Affairs",
+            "CSAT"
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-29T16:13:30.749856",
+      "action": "set",
+      "key": "insights",
+      "value": {
+        "generated_at": "2026-05-29T16:13:30.749856",
+        "burnout_alerts": [],
+        "weak_subjects": [
+          {
+            "subject": "Environment",
+            "score": 50,
+            "weightage": 1.1,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "subject": "Ethics",
+            "score": 50,
+            "weightage": 0.2,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "subject": "Disaster Management",
+            "score": 50,
+            "weightage": 0.7,
+            "priority": "Medium",
+            "recommendation": "Consider reviewing Disaster Management fundamentals"
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 0,
+          "completed_tasks": 0,
+          "completion_rate": 0,
+          "current_readiness": 50,
+          "study_streak": 0,
+          "last_updated": "2026-05-29T16:13:30.749856"
+        },
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Environment fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Ethics fundamentals"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Consider reviewing Disaster Management fundamentals"
+          },
+          {
+            "type": "revision",
+            "priority": "medium",
+            "action": "Include daily revision of key concepts"
+          },
+          {
+            "type": "practice",
+            "priority": "medium",
+            "action": "Solve at least 50 MCQs daily"
+          }
+        ],
+        "trends": {
+          "high_frequency_topics": [
+            "General Studies",
+            "International Relations",
+            "Karnataka Geography",
+            "Karnataka GK",
+            "Polity",
+            "Current Affairs",
+            "Geography",
+            "Constitution",
+            "Science & Tech",
+            "Freedom Struggle"
+          ],
+          "high_priority_subjects": [
+            "Science & Technology",
+            "Current Affairs",
+            "CSAT"
+          ]
+        }
+      }
+    }
+  ],
+  "last_updated": "2026-05-29T16:13:30.750858"
+}

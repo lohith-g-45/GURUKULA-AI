@@ -1,0 +1,33 @@
+{
+    "version": "1.0",
+    "exam": "KAS",
+    "fatigue_prevention_rules": {
+        "max_difficult_subjects_consecutive": 2,
+        "light_revision_frequency": "every_2_hours",
+        "post_mock_intensity_reduction": 0.5,
+        "burnout_risk_adjustments": {
+            "high": {
+                "intensity": 0.6,
+                "recovery_buffers": 2
+            },
+            "medium": {
+                "intensity": 0.8,
+                "recovery_buffers": 1
+            },
+            "low": {
+                "intensity": 1.0,
+                "recovery_buffers": 0
+            }
+        }
+    },
+    "recovery_buffer_rules": {
+        "duration_minutes": 30,
+        "frequency": "every_4_hours",
+        "activities": [
+            "short_walk",
+            "stretching",
+            "hydration_break"
+        ]
+    },
+    "last_updated": "2026-05-28"
+}

@@ -8,286 +8,50 @@
         "Revision scheduling"
     ],
     "data": {
-        "revision_priority": [
-            {
-                "subject": "History",
-                "topic": "Modern India",
-                "importance": "Very High",
-                "pyq_frequency": "Very High",
-                "revision_priority": "Very High",
-                "estimated_prep_time": "15-20 hours",
-                "weak_topic_sensitivity": "Very High"
-            },
-            {
-                "subject": "Polity",
-                "topic": "Constitution of India",
-                "importance": "Very High",
-                "pyq_frequency": "Very High",
-                "revision_priority": "Very High",
-                "estimated_prep_time": "20-25 hours",
-                "weak_topic_sensitivity": "Very High"
-            },
-            {
-                "subject": "Geography",
-                "topic": "Karnataka Geography",
-                "importance": "Very High",
-                "pyq_frequency": "Very High",
-                "revision_priority": "Very High",
-                "estimated_prep_time": "8-10 hours",
-                "weak_topic_sensitivity": "High"
-            },
-            {
-                "subject": "Current Affairs",
-                "topic": "Karnataka Current Affairs",
-                "importance": "Very High",
-                "pyq_frequency": "Very High",
-                "revision_priority": "Very High",
-                "estimated_prep_time": "Ongoing",
-                "weak_topic_sensitivity": "Very High"
-            },
-            {
-                "subject": "Geography",
-                "topic": "Indian Geography",
-                "importance": "Very High",
-                "pyq_frequency": "High",
-                "revision_priority": "Very High",
-                "estimated_prep_time": "12-15 hours",
-                "weak_topic_sensitivity": "High"
-            },
-            {
-                "subject": "Economics",
-                "topic": "Indian Economy",
-                "importance": "Very High",
-                "pyq_frequency": "High",
-                "revision_priority": "High",
-                "estimated_prep_time": "12-15 hours",
-                "weak_topic_sensitivity": "High"
-            },
-            {
-                "subject": "Economics",
-                "topic": "Karnataka Economy",
-                "importance": "Very High",
-                "pyq_frequency": "High",
-                "revision_priority": "High",
-                "estimated_prep_time": "8-10 hours",
-                "weak_topic_sensitivity": "High"
-            },
-            {
-                "subject": "History",
-                "topic": "Karnataka History",
-                "importance": "High",
-                "pyq_frequency": "High",
-                "revision_priority": "High",
-                "estimated_prep_time": "10-12 hours",
-                "weak_topic_sensitivity": "High"
-            },
-            {
-                "subject": "Polity",
-                "topic": "Karnataka State Polity",
-                "importance": "High",
-                "pyq_frequency": "High",
-                "revision_priority": "High",
-                "estimated_prep_time": "8-10 hours",
-                "weak_topic_sensitivity": "High"
-            },
-            {
-                "subject": "History",
-                "topic": "Ancient India",
-                "importance": "High",
-                "pyq_frequency": "Medium",
-                "revision_priority": "High",
-                "estimated_prep_time": "8-10 hours",
-                "weak_topic_sensitivity": "Medium"
+        "topic_frequency": {
+            "exam": "KAS",
+            "topics": {
+                "General Studies": 828,
+                "International Relations": 315,
+                "Karnataka Geography": 134,
+                "Karnataka GK": 125,
+                "Polity": 81,
+                "Current Affairs": 56,
+                "Geography": 52,
+                "Constitution": 51,
+                "Science & Tech": 46,
+                "Freedom Struggle": 38,
+                "Governance": 37,
+                "Biodiversity": 34,
+                "Economy": 29,
+                "Environment": 24,
+                "Ethics": 22,
+                "History": 19,
+                "Mental Ability": 15,
+                "CSAT": 13
             }
-        ],
-        "topic_frequency": [
-            {
-                "subject": "History",
-                "topic": "Modern India",
-                "frequency_score": 10,
-                "importance": "Very High"
-            },
-            {
-                "subject": "Polity",
-                "topic": "Constitution of India",
-                "frequency_score": 10,
-                "importance": "Very High"
-            },
-            {
-                "subject": "Geography",
-                "topic": "Karnataka Geography",
-                "frequency_score": 10,
-                "importance": "Very High"
-            },
-            {
-                "subject": "Current Affairs",
-                "topic": "Karnataka Current Affairs",
-                "frequency_score": 10,
-                "importance": "Very High"
-            },
-            {
-                "subject": "History",
-                "topic": "Karnataka History",
-                "frequency_score": 7,
-                "importance": "High"
-            },
-            {
-                "subject": "Polity",
-                "topic": "Karnataka State Polity",
-                "frequency_score": 7,
-                "importance": "High"
-            },
-            {
-                "subject": "Geography",
-                "topic": "Indian Geography",
-                "frequency_score": 7,
-                "importance": "Very High"
-            },
-            {
-                "subject": "Economics",
-                "topic": "Indian Economy",
-                "frequency_score": 7,
-                "importance": "Very High"
-            },
-            {
-                "subject": "Economics",
-                "topic": "Karnataka Economy",
-                "frequency_score": 7,
-                "importance": "Very High"
-            },
-            {
-                "subject": "History",
-                "topic": "Ancient India",
-                "frequency_score": 4,
-                "importance": "High"
-            }
-        ],
+        },
         "pyq_trends": {
             "exam": "KAS",
-            "repeated_topics": [
-                {
-                    "name": "Ancient India",
-                    "importance": "High",
-                    "pyq_frequency": "Medium",
-                    "revision_priority": "High",
-                    "estimated_prep_time": "8-10 hours",
-                    "weak_topic_sensitivity": "Medium",
-                    "subtopics": [
-                        "Indus Valley Civilization",
-                        "Vedic Period",
-                        "Mauryan Empire",
-                        "Gupta Empire"
-                    ]
-                },
-                {
-                    "name": "Modern India",
-                    "importance": "Very High",
-                    "pyq_frequency": "Very High",
-                    "revision_priority": "Very High",
-                    "estimated_prep_time": "15-20 hours",
-                    "weak_topic_sensitivity": "Very High",
-                    "subtopics": [
-                        "British Expansion",
-                        "1857 Revolt",
-                        "Freedom Struggle",
-                        "Post-Independence India"
-                    ]
-                },
-                {
-                    "name": "Karnataka History",
-                    "importance": "High",
-                    "pyq_frequency": "High",
-                    "revision_priority": "High",
-                    "estimated_prep_time": "10-12 hours",
-                    "weak_topic_sensitivity": "High",
-                    "subtopics": [
-                        "Ancient Karnataka",
-                        "Wodeyar Dynasty",
-                        "Hyder Ali & Tipu Sultan",
-                        "Karnataka Integration"
-                    ]
-                }
-            ],
-            "important_subjects": [
-                "History",
-                "Polity",
-                "Geography",
-                "Economics",
-                "Current Affairs"
-            ],
-            "year_wise_availability": [
-                2024,
-                2023,
-                2022,
-                2021
-            ],
-            "paper_wise_trends": {
-                "exam": "KAS",
-                "prelims": {
-                    "papers": 2,
-                    "total_marks": 400,
-                    "duration": "2 Hours Each",
-                    "papers_details": [
-                        {
-                            "paper": "Paper 1",
-                            "subject": "General Studies",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "Paper 2",
-                            "subject": "CSAT (Aptitude)",
-                            "marks": 200
-                        }
-                    ]
-                },
-                "mains": {
-                    "papers": 9,
-                    "total_marks": 1250,
-                    "duration": "3 Hours Each",
-                    "papers_details": [
-                        {
-                            "paper": "Kannada Language",
-                            "qualifying": true,
-                            "marks": 150
-                        },
-                        {
-                            "paper": "English Language",
-                            "qualifying": true,
-                            "marks": 150
-                        },
-                        {
-                            "paper": "Essay",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "General Studies 1",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "General Studies 2",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "General Studies 3",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "General Studies 4",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "Optional Subject 1",
-                            "marks": 200
-                        },
-                        {
-                            "paper": "Optional Subject 2",
-                            "marks": 200
-                        }
-                    ]
-                },
-                "interview": {
-                    "marks": 200
-                }
+            "topics": {
+                "General Studies": 828,
+                "International Relations": 315,
+                "Karnataka Geography": 134,
+                "Karnataka GK": 125,
+                "Polity": 81,
+                "Current Affairs": 56,
+                "Geography": 52,
+                "Constitution": 51,
+                "Science & Tech": 46,
+                "Freedom Struggle": 38,
+                "Governance": 37,
+                "Biodiversity": 34,
+                "Economy": 29,
+                "Environment": 24,
+                "Ethics": 22,
+                "History": 19,
+                "Mental Ability": 15,
+                "CSAT": 13
             }
         },
         "syllabus": {
@@ -295,13 +59,6 @@
             "subjects": [
                 {
                     "name": "History",
-                    "difficulty": "Medium",
-                    "priority": "High",
-                    "estimated_weightage": 20,
-                    "preparation_complexity": "Medium",
-                    "revision_frequency": "Weekly",
-                    "recommended_revision_gap": "3-5 days",
-                    "weak_area_focus": "High",
                     "topics": [
                         {
                             "name": "Ancient India",
@@ -309,188 +66,141 @@
                             "pyq_frequency": "Medium",
                             "revision_priority": "High",
                             "estimated_prep_time": "8-10 hours",
-                            "weak_topic_sensitivity": "Medium",
-                            "subtopics": [
-                                "Indus Valley Civilization",
-                                "Vedic Period",
-                                "Mauryan Empire",
-                                "Gupta Empire"
-                            ]
+                            "weak_topic_sensitivity": "High"
                         },
                         {
                             "name": "Modern India",
-                            "importance": "Very High",
-                            "pyq_frequency": "Very High",
-                            "revision_priority": "Very High",
-                            "estimated_prep_time": "15-20 hours",
-                            "weak_topic_sensitivity": "Very High",
-                            "subtopics": [
-                                "British Expansion",
-                                "1857 Revolt",
-                                "Freedom Struggle",
-                                "Post-Independence India"
-                            ]
+                            "importance": "High",
+                            "pyq_frequency": "Medium",
+                            "revision_priority": "High",
+                            "estimated_prep_time": "8-10 hours",
+                            "weak_topic_sensitivity": "High"
                         },
                         {
                             "name": "Karnataka History",
                             "importance": "High",
-                            "pyq_frequency": "High",
+                            "pyq_frequency": "Medium",
                             "revision_priority": "High",
-                            "estimated_prep_time": "10-12 hours",
-                            "weak_topic_sensitivity": "High",
-                            "subtopics": [
-                                "Ancient Karnataka",
-                                "Wodeyar Dynasty",
-                                "Hyder Ali & Tipu Sultan",
-                                "Karnataka Integration"
-                            ]
+                            "estimated_prep_time": "8-10 hours",
+                            "weak_topic_sensitivity": "High"
                         }
-                    ]
+                    ],
+                    "difficulty": "Medium",
+                    "priority": "High",
+                    "estimated_weightage": 15,
+                    "preparation_complexity": "Medium",
+                    "revision_frequency": "Weekly",
+                    "recommended_revision_gap": "3-5 days",
+                    "weak_area_focus": "High"
                 },
                 {
                     "name": "Polity",
-                    "difficulty": "Medium",
-                    "priority": "Very High",
-                    "estimated_weightage": 25,
-                    "preparation_complexity": "Medium",
-                    "revision_frequency": "Twice a Week",
-                    "recommended_revision_gap": "2-3 days",
-                    "weak_area_focus": "Very High",
                     "topics": [
                         {
                             "name": "Constitution of India",
-                            "importance": "Very High",
-                            "pyq_frequency": "Very High",
-                            "revision_priority": "Very High",
-                            "estimated_prep_time": "20-25 hours",
-                            "weak_topic_sensitivity": "Very High",
-                            "subtopics": [
-                                "Making of Constitution",
-                                "Parts & Schedules",
-                                "Fundamental Rights",
-                                "Directive Principles"
-                            ]
+                            "importance": "High",
+                            "pyq_frequency": "Medium",
+                            "revision_priority": "High",
+                            "estimated_prep_time": "8-10 hours",
+                            "weak_topic_sensitivity": "High"
                         },
                         {
                             "name": "Karnataka State Polity",
                             "importance": "High",
-                            "pyq_frequency": "High",
+                            "pyq_frequency": "Medium",
                             "revision_priority": "High",
                             "estimated_prep_time": "8-10 hours",
-                            "weak_topic_sensitivity": "High",
-                            "subtopics": [
-                                "Karnataka Government",
-                                "Local Governance",
-                                "Panchayati Raj"
-                            ]
+                            "weak_topic_sensitivity": "High"
                         }
-                    ]
+                    ],
+                    "difficulty": "Medium",
+                    "priority": "High",
+                    "estimated_weightage": 15,
+                    "preparation_complexity": "Medium",
+                    "revision_frequency": "Weekly",
+                    "recommended_revision_gap": "3-5 days",
+                    "weak_area_focus": "High"
                 },
                 {
                     "name": "Geography",
-                    "difficulty": "Easy-Medium",
-                    "priority": "High",
-                    "estimated_weightage": 10,
-                    "preparation_complexity": "Medium",
-                    "revision_frequency": "Weekly",
-                    "recommended_revision_gap": "4-6 days",
-                    "weak_area_focus": "Medium",
                     "topics": [
                         {
                             "name": "Indian Geography",
-                            "importance": "Very High",
-                            "pyq_frequency": "High",
-                            "revision_priority": "Very High",
-                            "estimated_prep_time": "12-15 hours",
-                            "weak_topic_sensitivity": "High",
-                            "subtopics": [
-                                "Physiography",
-                                "Natural Resources",
-                                "Agriculture",
-                                "Industry"
-                            ]
+                            "importance": "High",
+                            "pyq_frequency": "Medium",
+                            "revision_priority": "High",
+                            "estimated_prep_time": "8-10 hours",
+                            "weak_topic_sensitivity": "High"
                         },
                         {
                             "name": "Karnataka Geography",
-                            "importance": "Very High",
-                            "pyq_frequency": "Very High",
-                            "revision_priority": "Very High",
+                            "importance": "High",
+                            "pyq_frequency": "Medium",
+                            "revision_priority": "High",
                             "estimated_prep_time": "8-10 hours",
-                            "weak_topic_sensitivity": "High",
-                            "subtopics": [
-                                "Karnataka Physiography",
-                                "Rivers of Karnataka",
-                                "Karnataka Climate",
-                                "Natural Resources"
-                            ]
+                            "weak_topic_sensitivity": "High"
                         }
-                    ]
-                },
-                {
-                    "name": "Economics",
+                    ],
                     "difficulty": "Medium",
                     "priority": "High",
                     "estimated_weightage": 15,
-                    "preparation_complexity": "High",
+                    "preparation_complexity": "Medium",
                     "revision_frequency": "Weekly",
-                    "recommended_revision_gap": "3-4 days",
-                    "weak_area_focus": "High",
+                    "recommended_revision_gap": "3-5 days",
+                    "weak_area_focus": "High"
+                },
+                {
+                    "name": "Economics",
                     "topics": [
                         {
                             "name": "Indian Economy",
-                            "importance": "Very High",
-                            "pyq_frequency": "High",
+                            "importance": "High",
+                            "pyq_frequency": "Medium",
                             "revision_priority": "High",
-                            "estimated_prep_time": "12-15 hours",
-                            "weak_topic_sensitivity": "High",
-                            "subtopics": [
-                                "Economic Planning",
-                                "Budget",
-                                "Banking & Finance"
-                            ]
+                            "estimated_prep_time": "8-10 hours",
+                            "weak_topic_sensitivity": "High"
                         },
                         {
                             "name": "Karnataka Economy",
-                            "importance": "Very High",
-                            "pyq_frequency": "High",
+                            "importance": "High",
+                            "pyq_frequency": "Medium",
                             "revision_priority": "High",
                             "estimated_prep_time": "8-10 hours",
-                            "weak_topic_sensitivity": "High",
-                            "subtopics": [
-                                "Karnataka Budget",
-                                "State Schemes",
-                                "Agriculture & Industry"
-                            ]
+                            "weak_topic_sensitivity": "High"
                         }
-                    ]
+                    ],
+                    "difficulty": "Medium",
+                    "priority": "High",
+                    "estimated_weightage": 15,
+                    "preparation_complexity": "Medium",
+                    "revision_frequency": "Weekly",
+                    "recommended_revision_gap": "3-5 days",
+                    "weak_area_focus": "High"
                 },
                 {
                     "name": "Current Affairs",
-                    "difficulty": "Medium",
-                    "priority": "Very High",
-                    "estimated_weightage": 15,
-                    "preparation_complexity": "High",
-                    "revision_frequency": "Daily",
-                    "recommended_revision_gap": "1-2 days",
-                    "weak_area_focus": "Very High",
                     "topics": [
                         {
                             "name": "Karnataka Current Affairs",
-                            "importance": "Very High",
-                            "pyq_frequency": "Very High",
-                            "revision_priority": "Very High",
-                            "estimated_prep_time": "Ongoing",
-                            "weak_topic_sensitivity": "Very High",
-                            "subtopics": [
-                                "Karnataka Government",
-                                "State Schemes",
-                                "Karnataka Economy"
-                            ]
+                            "importance": "High",
+                            "pyq_frequency": "Medium",
+                            "revision_priority": "High",
+                            "estimated_prep_time": "8-10 hours",
+                            "weak_topic_sensitivity": "High"
                         }
-                    ]
+                    ],
+                    "difficulty": "Medium",
+                    "priority": "High",
+                    "estimated_weightage": 15,
+                    "preparation_complexity": "Medium",
+                    "revision_frequency": "Weekly",
+                    "recommended_revision_gap": "3-5 days",
+                    "weak_area_focus": "High"
                 }
             ],
-            "source_used": "https://edurev.in/studytube/KPSC-KAS--Karnataka--Exam-Syllabus-2024/075e770a-e9d4-47e5-a08e-db22d028c7cb_t"
+            "source_used": [
+                "https://edurev.in/studytube/KPSC-KAS--Karnataka--Exam-Syllabus-2024/075e770a-e9d4-47e5-a08e-db22d028c7cb_t"
+            ]
         }
     },
     "tasks": [

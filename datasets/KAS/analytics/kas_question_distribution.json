@@ -1,0 +1,36 @@
+{
+    "exam": "KAS",
+    "distribution": {
+        "total_papers": 13,
+        "total_questions": 1021,
+        "papers_by_type": {
+            "Mains GS4": 3,
+            "Prelims Paper 1": 3,
+            "Mains GS1": 2,
+            "Mains GS2": 1,
+            "Mains GS3": 2,
+            "Prelims Paper 2": 2
+        },
+        "questions_by_year": {
+            "2018": 113,
+            "2019": 130,
+            "2015": 56,
+            "2016": 21,
+            "2014": 237,
+            "2013": 239,
+            "2017": 225
+        },
+        "questions_by_subject": {
+            "General Studies": 175,
+            "CSAT": 117,
+            "Current Affairs": 142,
+            "Science & Technology": 282,
+            "Karnataka GK": 95,
+            "Polity": 59,
+            "Geography": 42,
+            "Economics": 54,
+            "Environment": 26,
+            "History": 29
+        }
+    }
+}

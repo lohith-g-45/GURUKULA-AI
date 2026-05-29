@@ -1,0 +1,24 @@
+{
+    "version": "3.0",
+    "consistency_triggers": {
+        "low_consistency": {
+            "min_streak_days": 0,
+            "max_streak_days": 3,
+            "recovery_plan": "Start with 1.5 hours daily, set phone reminders"
+        },
+        "medium_consistency": {
+            "min_streak_days": 4,
+            "max_streak_days": 7,
+            "recovery_plan": "Maintain current schedule, add 30-minute daily revision"
+        }
+    },
+    "missed_days_triggers": {
+        "1-2_days_missed": "Spend 45 minutes on revision before new topics",
+        "3+_days_missed": "Review last week's progress and restart schedule"
+    },
+    "burnout_recovery": {
+        "High": "Reduce study hours by 30% for 2 days, focus on revision only",
+        "Medium": "Add 15-minute breaks every hour, reduce difficult subjects",
+        "Low": "Maintain schedule, ensure adequate sleep"
+    }
+}

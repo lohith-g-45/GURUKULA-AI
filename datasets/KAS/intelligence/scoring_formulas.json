@@ -1,0 +1,28 @@
+{
+    "version": "2.0",
+    "formulas": {
+        "diminishing_returns": "max_value * (1 - exp(-value / (max_value / 2)))",
+        "readiness_score": "max(0, min(100, (prelims_readiness + mains_readiness) / 2))",
+        "prelims_readiness": "diminishing_returns(base + study_bonus + consistency_bonus + strong_prelims_bonus - weak_prelims_penalty, 100)",
+        "mains_readiness": "diminishing_returns(base + study_bonus + consistency_bonus + strong_mains_bonus - weak_mains_penalty, 100)",
+        "study_efficiency": "(consistency_level / 100) * (daily_study_hours / 8)",
+        "subject_priority_weight": "(total_weight / 20) * priority_multiplier"
+    },
+    "parameters": {
+        "daily_study_hours": "float - Average daily study time in hours",
+        "weak_subjects": "List[str] - Subjects student finds difficult",
+        "strong_subjects": "List[str] - Subjects student is confident in",
+        "preparation_level": "float (0-100) - Self-assessed preparation level",
+        "exam_date_proximity": "int - Days remaining until exam",
+        "consistency_level": "float (0-100) - How consistent student is with studies"
+    },
+    "outputs": {
+        "readiness": "float (0-100) - Overall readiness score",
+        "prelims_readiness": "float (0-100) - Prelims-specific readiness",
+        "mains_readiness": "float (0-100) - Mains-specific readiness",
+        "risk": "str - Low/Medium/High/Critical risk level",
+        "risk_score": "float - Numeric risk score for detailed analysis",
+        "consistency": "float (0-100) - Consistency score",
+        "study_efficiency": "float (0-100) - Study efficiency score"
+    }
+}

@@ -1,0 +1,929 @@
+{
+    "version": "3.0",
+    "exam": "KAS",
+    "subject_weightage": {
+        "History": {
+            "prelims_weightage": 3.2,
+            "mains_weightage": 4.1,
+            "frequency_score": 29,
+            "priority": "Medium",
+            "difficulty": "Medium"
+        },
+        "Polity": {
+            "prelims_weightage": 6.9,
+            "mains_weightage": 7.2,
+            "frequency_score": 59,
+            "priority": "Medium",
+            "difficulty": "Medium"
+        },
+        "Geography": {
+            "prelims_weightage": 5.0,
+            "mains_weightage": 5.0,
+            "frequency_score": 42,
+            "priority": "Medium",
+            "difficulty": "Medium"
+        },
+        "Economics": {
+            "prelims_weightage": 7.2,
+            "mains_weightage": 4.1,
+            "frequency_score": 54,
+            "priority": "Medium",
+            "difficulty": "Medium"
+        },
+        "Environment": {
+            "prelims_weightage": 3.4,
+            "mains_weightage": 2.3,
+            "frequency_score": 26,
+            "priority": "Medium",
+            "difficulty": "Medium"
+        },
+        "Science & Technology": {
+            "prelims_weightage": 31.2,
+            "mains_weightage": 39.4,
+            "frequency_score": 282,
+            "priority": "Very High",
+            "difficulty": "Medium"
+        },
+        "Karnataka GK": {
+            "prelims_weightage": 11.4,
+            "mains_weightage": 10.9,
+            "frequency_score": 95,
+            "priority": "High",
+            "difficulty": "Medium"
+        },
+        "Current Affairs": {
+            "prelims_weightage": 18.2,
+            "mains_weightage": 12.7,
+            "frequency_score": 142,
+            "priority": "High",
+            "difficulty": "Medium"
+        },
+        "CSAT": {
+            "prelims_weightage": 13.6,
+            "mains_weightage": 14.5,
+            "frequency_score": 117,
+            "priority": "High",
+            "difficulty": "Medium"
+        }
+    },
+    "student_recommendations": {
+        "weak_student": {
+            "student_name": "Weak Student",
+            "subject_priorities": [
+                {
+                    "subject": "Science & Technology",
+                    "total_weight": 70.6,
+                    "readiness": 45,
+                    "priority_score": 72,
+                    "priority_label": "High"
+                },
+                {
+                    "subject": "Current Affairs",
+                    "total_weight": 30.9,
+                    "readiness": 48,
+                    "priority_score": 41,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "CSAT",
+                    "total_weight": 28.1,
+                    "readiness": 44,
+                    "priority_score": 41,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Karnataka GK",
+                    "total_weight": 22.3,
+                    "readiness": 40,
+                    "priority_score": 38,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Polity",
+                    "total_weight": 14.100000000000001,
+                    "readiness": 40,
+                    "priority_score": 32,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Economics",
+                    "total_weight": 11.3,
+                    "readiness": 42,
+                    "priority_score": 30,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Geography",
+                    "total_weight": 10.0,
+                    "readiness": 38,
+                    "priority_score": 30,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Environment",
+                    "total_weight": 5.699999999999999,
+                    "readiness": 30,
+                    "priority_score": 30,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "History",
+                    "total_weight": 7.3,
+                    "readiness": 35,
+                    "priority_score": 28,
+                    "priority_label": "Low"
+                }
+            ],
+            "weak_subjects": [
+                "Science & Technology",
+                "Current Affairs",
+                "CSAT",
+                "Karnataka GK",
+                "Polity",
+                "Economics",
+                "Geography",
+                "Environment",
+                "History"
+            ],
+            "recommendations": [
+                {
+                    "recommendation": "Strengthen Science & Technology fundamentals with targeted practice",
+                    "priority_score": 72,
+                    "urgency": "Low",
+                    "impact": "Very High",
+                    "confidence": 95
+                },
+                {
+                    "recommendation": "Strengthen Current Affairs fundamentals with targeted practice",
+                    "priority_score": 41,
+                    "urgency": "Low",
+                    "impact": "Very High",
+                    "confidence": 89.27
+                },
+                {
+                    "recommendation": "Strengthen CSAT fundamentals with targeted practice",
+                    "priority_score": 41,
+                    "urgency": "Low",
+                    "impact": "Very High",
+                    "confidence": 88.43
+                },
+                {
+                    "recommendation": "Consolidate Science & Technology key concepts with regular revision",
+                    "priority_score": 72,
+                    "urgency": "Low",
+                    "impact": "Very High",
+                    "confidence": 95
+                },
+                {
+                    "recommendation": "Consolidate Current Affairs key concepts with regular revision",
+                    "priority_score": 41,
+                    "urgency": "Low",
+                    "impact": "Very High",
+                    "confidence": 89.27
+                },
+                {
+                    "recommendation": "Consolidate CSAT key concepts with regular revision",
+                    "priority_score": 41,
+                    "urgency": "Low",
+                    "impact": "Very High",
+                    "confidence": 88.43
+                },
+                {
+                    "recommendation": "Build a 7-day study streak with consistent daily sessions",
+                    "priority_score": 72,
+                    "urgency": "Low",
+                    "impact": "Very High",
+                    "confidence": 95
+                }
+            ],
+            "daily_plan": {
+                "Science & Technology": "2.0 hours",
+                "Current Affairs": "2.0 hours",
+                "CSAT": "2.0 hours",
+                "Karnataka GK": "1.0 hours"
+            },
+            "recommendation_sequence": [
+                "Complete Science & Technology fundamental revision",
+                "Practice 30 easy MCQs daily",
+                "Gradually move to moderate difficulty questions"
+            ],
+            "prelims_focus": [
+                "Strengthen Current Affairs basics",
+                "Daily CSAT practice - 50 questions",
+                "NCERT-based factual revision",
+                "Sectional mock tests for weak areas",
+                "Build study consistency"
+            ],
+            "mains_focus": [
+                "Learn answer writing basics",
+                "Practice single-point answers",
+                "Read model answers regularly",
+                "Focus on GS2 and GS3 topics",
+                "Build writing consistency"
+            ],
+            "mock_strategy": {
+                "type": "Sectional Mock Tests",
+                "frequency": "Once Weekly",
+                "focus": "Weak subject improvement"
+            },
+            "recovery_strategy": [
+                {
+                    "type": "Low Consistency Recovery",
+                    "action": "Set a fixed daily study time, use phone reminders, start with 2 hours"
+                },
+                {
+                    "type": "Missed Days Recovery",
+                    "action": "Review last week's progress, restart schedule gradually"
+                }
+            ]
+        },
+        "average_student": {
+            "student_name": "Average Student",
+            "subject_priorities": [
+                {
+                    "subject": "Science & Technology",
+                    "total_weight": 70.6,
+                    "readiness": 62,
+                    "priority_score": 78,
+                    "priority_label": "High"
+                },
+                {
+                    "subject": "Current Affairs",
+                    "total_weight": 30.9,
+                    "readiness": 65,
+                    "priority_score": 43,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "CSAT",
+                    "total_weight": 28.1,
+                    "readiness": 63,
+                    "priority_score": 41,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Karnataka GK",
+                    "total_weight": 22.3,
+                    "readiness": 57,
+                    "priority_score": 40,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Polity",
+                    "total_weight": 14.100000000000001,
+                    "readiness": 58,
+                    "priority_score": 32,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Economics",
+                    "total_weight": 11.3,
+                    "readiness": 60,
+                    "priority_score": 28,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Geography",
+                    "total_weight": 10.0,
+                    "readiness": 56,
+                    "priority_score": 28,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "History",
+                    "total_weight": 7.3,
+                    "readiness": 55,
+                    "priority_score": 27,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Environment",
+                    "total_weight": 5.699999999999999,
+                    "readiness": 52,
+                    "priority_score": 27,
+                    "priority_label": "Low"
+                }
+            ],
+            "weak_subjects": [],
+            "recommendations": [
+                {
+                    "recommendation": "Consolidate Science & Technology key concepts with regular revision",
+                    "priority_score": 78,
+                    "urgency": "Medium",
+                    "impact": "Very High",
+                    "confidence": 95
+                },
+                {
+                    "recommendation": "Consolidate Current Affairs key concepts with regular revision",
+                    "priority_score": 43,
+                    "urgency": "Medium",
+                    "impact": "Very High",
+                    "confidence": 89.27
+                },
+                {
+                    "recommendation": "Consolidate CSAT key concepts with regular revision",
+                    "priority_score": 41,
+                    "urgency": "Medium",
+                    "impact": "Very High",
+                    "confidence": 88.43
+                }
+            ],
+            "daily_plan": {
+                "Science & Technology": "1.5 hours",
+                "Current Affairs": "1.5 hours",
+                "CSAT": "1.5 hours",
+                "Karnataka GK": "1.5 hours",
+                "Polity": "1.0 hours",
+                "Economics": "1.0 hours"
+            },
+            "recommendation_sequence": [
+                "Study 2 new topics daily",
+                "Solve 50 MCQs daily"
+            ],
+            "prelims_focus": [
+                "Daily Current Affairs revision",
+                "CSAT speed and accuracy practice",
+                "Solve 50+ MCQs daily from all subjects",
+                "Weekly full prelims mock tests",
+                "Focus on tricky and high-yield topics"
+            ],
+            "mains_focus": [
+                "Write 1-2 GS answers daily",
+                "Weekly essay practice",
+                "Ethics case study analysis",
+                "Governance and polity answer enrichment",
+                "Time management for answer writing"
+            ],
+            "mock_strategy": {
+                "type": "Sectional Mocks",
+                "frequency": "Every 10 Days",
+                "focus": "Balanced Preparation"
+            },
+            "recovery_strategy": [
+                {
+                    "type": "Burnout Prevention",
+                    "action": "Add 15-minute breaks every hour, reduce difficult subjects"
+                },
+                {
+                    "type": "Missed Days Recovery",
+                    "action": "Spend 1 hour on revision before new topics"
+                }
+            ]
+        },
+        "strong_student": {
+            "student_name": "Strong Student",
+            "subject_priorities": [
+                {
+                    "subject": "Science & Technology",
+                    "total_weight": 70.6,
+                    "readiness": 88,
+                    "priority_score": 73,
+                    "priority_label": "High"
+                },
+                {
+                    "subject": "Current Affairs",
+                    "total_weight": 30.9,
+                    "readiness": 90,
+                    "priority_score": 36,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "CSAT",
+                    "total_weight": 28.1,
+                    "readiness": 87,
+                    "priority_score": 35,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Karnataka GK",
+                    "total_weight": 22.3,
+                    "readiness": 83,
+                    "priority_score": 32,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Polity",
+                    "total_weight": 14.100000000000001,
+                    "readiness": 82,
+                    "priority_score": 24,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Economics",
+                    "total_weight": 11.3,
+                    "readiness": 85,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Geography",
+                    "total_weight": 10.0,
+                    "readiness": 80,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "History",
+                    "total_weight": 7.3,
+                    "readiness": 78,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Environment",
+                    "total_weight": 5.699999999999999,
+                    "readiness": 75,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                }
+            ],
+            "weak_subjects": [],
+            "recommendations": [
+                {
+                    "recommendation": "Advanced Science & Technology preparation - focus on complex topics",
+                    "priority_score": 73,
+                    "urgency": "High",
+                    "impact": "High",
+                    "confidence": 91.17999999999999
+                },
+                {
+                    "recommendation": "Advanced Current Affairs preparation - focus on complex topics",
+                    "priority_score": 36,
+                    "urgency": "High",
+                    "impact": "Medium",
+                    "confidence": 79.27
+                },
+                {
+                    "recommendation": "Advanced CSAT preparation - focus on complex topics",
+                    "priority_score": 35,
+                    "urgency": "High",
+                    "impact": "High",
+                    "confidence": 78.43
+                },
+                {
+                    "recommendation": "Solve 50+ PYQs daily for quick revision",
+                    "priority_score": 73,
+                    "urgency": "High",
+                    "impact": "High",
+                    "confidence": 91.17999999999999
+                }
+            ],
+            "daily_plan": {
+                "Science & Technology": "1.5 hours",
+                "Current Affairs": "1.5 hours",
+                "CSAT": "1.5 hours",
+                "Karnataka GK": "1.5 hours",
+                "Polity": "1.0 hours",
+                "Economics": "1.0 hours"
+            },
+            "recommendation_sequence": [
+                "Quick revision of all subjects - high-yield topics only",
+                "Solve 100+ PYQs daily",
+                "Attempt timed mock tests twice weekly"
+            ],
+            "prelims_focus": [
+                "Daily Current Affairs revision",
+                "CSAT speed and accuracy practice",
+                "Solve 50+ MCQs daily from all subjects",
+                "Weekly full prelims mock tests",
+                "Focus on tricky and high-yield topics"
+            ],
+            "mains_focus": [
+                "Write 1-2 GS answers daily",
+                "Weekly essay practice",
+                "Ethics case study analysis",
+                "Governance and polity answer enrichment",
+                "Time management for answer writing"
+            ],
+            "mock_strategy": {
+                "type": "Full-Length Mocks",
+                "frequency": "Twice Weekly",
+                "focus": "Comprehensive Revision"
+            },
+            "recovery_strategy": [
+                {
+                    "type": "Burnout Prevention",
+                    "action": "Add 15-minute breaks every hour, reduce difficult subjects"
+                }
+            ]
+        },
+        "burnout_risk_student": {
+            "student_name": "Burnout-Risk Student",
+            "subject_priorities": [
+                {
+                    "subject": "Science & Technology",
+                    "total_weight": 70.6,
+                    "readiness": 70,
+                    "priority_score": 76,
+                    "priority_label": "High"
+                },
+                {
+                    "subject": "Current Affairs",
+                    "total_weight": 30.9,
+                    "readiness": 72,
+                    "priority_score": 41,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "CSAT",
+                    "total_weight": 28.1,
+                    "readiness": 69,
+                    "priority_score": 40,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Karnataka GK",
+                    "total_weight": 22.3,
+                    "readiness": 63,
+                    "priority_score": 36,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Polity",
+                    "total_weight": 14.100000000000001,
+                    "readiness": 65,
+                    "priority_score": 28,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Geography",
+                    "total_weight": 10.0,
+                    "readiness": 62,
+                    "priority_score": 27,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Economics",
+                    "total_weight": 11.3,
+                    "readiness": 68,
+                    "priority_score": 25,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "History",
+                    "total_weight": 7.3,
+                    "readiness": 60,
+                    "priority_score": 25,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Environment",
+                    "total_weight": 5.699999999999999,
+                    "readiness": 58,
+                    "priority_score": 25,
+                    "priority_label": "Low"
+                }
+            ],
+            "weak_subjects": [],
+            "recommendations": [
+                {
+                    "recommendation": "Advanced Science & Technology preparation - focus on complex topics",
+                    "priority_score": 76,
+                    "urgency": "Medium",
+                    "impact": "Very High",
+                    "confidence": 91.17999999999999
+                },
+                {
+                    "recommendation": "Advanced Current Affairs preparation - focus on complex topics",
+                    "priority_score": 41,
+                    "urgency": "Medium",
+                    "impact": "Very High",
+                    "confidence": 79.27
+                },
+                {
+                    "recommendation": "Advanced CSAT preparation - focus on complex topics",
+                    "priority_score": 40,
+                    "urgency": "Medium",
+                    "impact": "Very High",
+                    "confidence": 88.43
+                }
+            ],
+            "daily_plan": {
+                "Science & Technology": "1.5 hours",
+                "Current Affairs": "1.5 hours",
+                "CSAT": "1.5 hours",
+                "Karnataka GK": "1.5 hours"
+            },
+            "recommendation_sequence": [
+                "Study advanced topics in high-weightage subjects",
+                "Attempt full-length mock tests weekly",
+                "Focus on answer writing practice"
+            ],
+            "prelims_focus": [
+                "Daily Current Affairs revision",
+                "CSAT speed and accuracy practice",
+                "Solve 50+ MCQs daily from all subjects",
+                "Weekly full prelims mock tests",
+                "Focus on tricky and high-yield topics"
+            ],
+            "mains_focus": [
+                "Write 1-2 GS answers daily",
+                "Weekly essay practice",
+                "Ethics case study analysis",
+                "Governance and polity answer enrichment",
+                "Time management for answer writing"
+            ],
+            "mock_strategy": {
+                "type": "Full-Length + Sectional Mocks",
+                "frequency": "Weekly",
+                "focus": "Advanced Preparation"
+            },
+            "recovery_strategy": [
+                {
+                    "type": "Burnout Recovery",
+                    "action": "Reduce study hours by 30% for 2 days, focus only on revision"
+                }
+            ]
+        },
+        "last_30_days_student": {
+            "student_name": "Last 30 Days Student",
+            "subject_priorities": [
+                {
+                    "subject": "Science & Technology",
+                    "total_weight": 70.6,
+                    "readiness": 60,
+                    "priority_score": 86,
+                    "priority_label": "Very High"
+                },
+                {
+                    "subject": "Current Affairs",
+                    "total_weight": 30.9,
+                    "readiness": 62,
+                    "priority_score": 48,
+                    "priority_label": "Medium"
+                },
+                {
+                    "subject": "CSAT",
+                    "total_weight": 28.1,
+                    "readiness": 57,
+                    "priority_score": 48,
+                    "priority_label": "Medium"
+                },
+                {
+                    "subject": "Karnataka GK",
+                    "total_weight": 22.3,
+                    "readiness": 54,
+                    "priority_score": 44,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Polity",
+                    "total_weight": 14.100000000000001,
+                    "readiness": 55,
+                    "priority_score": 36,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Geography",
+                    "total_weight": 10.0,
+                    "readiness": 52,
+                    "priority_score": 33,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Economics",
+                    "total_weight": 11.3,
+                    "readiness": 58,
+                    "priority_score": 32,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "History",
+                    "total_weight": 7.3,
+                    "readiness": 50,
+                    "priority_score": 32,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Environment",
+                    "total_weight": 5.699999999999999,
+                    "readiness": 48,
+                    "priority_score": 32,
+                    "priority_label": "Low"
+                }
+            ],
+            "weak_subjects": [
+                "Environment"
+            ],
+            "recommendations": [
+                {
+                    "recommendation": "Rapid revision of Environment - focus on high-yield topics only",
+                    "priority_score": 32,
+                    "urgency": "High",
+                    "impact": "High",
+                    "confidence": 81.71000000000001
+                },
+                {
+                    "recommendation": "Consolidate Science & Technology key concepts with regular revision",
+                    "priority_score": 86,
+                    "urgency": "High",
+                    "impact": "Very High",
+                    "confidence": 95
+                },
+                {
+                    "recommendation": "Consolidate Current Affairs key concepts with regular revision",
+                    "priority_score": 48,
+                    "urgency": "High",
+                    "impact": "Very High",
+                    "confidence": 89.27
+                },
+                {
+                    "recommendation": "Consolidate CSAT key concepts with regular revision",
+                    "priority_score": 48,
+                    "urgency": "High",
+                    "impact": "Very High",
+                    "confidence": 88.43
+                },
+                {
+                    "recommendation": "Solve 50+ PYQs daily for quick revision",
+                    "priority_score": 86,
+                    "urgency": "High",
+                    "impact": "Very High",
+                    "confidence": 95
+                }
+            ],
+            "daily_plan": {
+                "Science & Technology": "1.5 hours",
+                "Current Affairs": "1.5 hours",
+                "CSAT": "1.5 hours",
+                "Karnataka GK": "1.5 hours",
+                "Polity": "1.0 hours",
+                "Geography": "1.0 hours"
+            },
+            "recommendation_sequence": [
+                "Quick revision of all subjects - high-yield topics only",
+                "Solve 100+ PYQs daily",
+                "Attempt timed mock tests twice weekly"
+            ],
+            "prelims_focus": [
+                "Daily Current Affairs revision",
+                "CSAT speed and accuracy practice",
+                "Solve 50+ MCQs daily from all subjects",
+                "Weekly full prelims mock tests",
+                "Focus on tricky and high-yield topics"
+            ],
+            "mains_focus": [
+                "Write 1-2 GS answers daily",
+                "Weekly essay practice",
+                "Ethics case study analysis",
+                "Governance and polity answer enrichment",
+                "Time management for answer writing"
+            ],
+            "mock_strategy": {
+                "type": "Full-Length Mocks",
+                "frequency": "Twice Weekly",
+                "focus": "Comprehensive Revision"
+            },
+            "recovery_strategy": [
+                {
+                    "type": "Burnout Prevention",
+                    "action": "Add 15-minute breaks every hour, reduce difficult subjects"
+                },
+                {
+                    "type": "Missed Days Recovery",
+                    "action": "Spend 1 hour on revision before new topics"
+                }
+            ]
+        },
+        "topper_student": {
+            "student_name": "Topper-Level Student",
+            "subject_priorities": [
+                {
+                    "subject": "Science & Technology",
+                    "total_weight": 70.6,
+                    "readiness": 96,
+                    "priority_score": 76,
+                    "priority_label": "High"
+                },
+                {
+                    "subject": "Current Affairs",
+                    "total_weight": 30.9,
+                    "readiness": 98,
+                    "priority_score": 35,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "CSAT",
+                    "total_weight": 28.1,
+                    "readiness": 95,
+                    "priority_score": 33,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Karnataka GK",
+                    "total_weight": 22.3,
+                    "readiness": 91,
+                    "priority_score": 30,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Polity",
+                    "total_weight": 14.100000000000001,
+                    "readiness": 92,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Economics",
+                    "total_weight": 11.3,
+                    "readiness": 94,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Geography",
+                    "total_weight": 10.0,
+                    "readiness": 90,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "History",
+                    "total_weight": 7.3,
+                    "readiness": 88,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                },
+                {
+                    "subject": "Environment",
+                    "total_weight": 5.699999999999999,
+                    "readiness": 86,
+                    "priority_score": 20,
+                    "priority_label": "Low"
+                }
+            ],
+            "weak_subjects": [],
+            "recommendations": [
+                {
+                    "recommendation": "Intensive Science & Technology practice - solve 100+ MCQs daily",
+                    "priority_score": 76,
+                    "urgency": "Very High",
+                    "impact": "Low",
+                    "confidence": 91.17999999999999
+                },
+                {
+                    "recommendation": "Intensive Current Affairs practice - solve 100+ MCQs daily",
+                    "priority_score": 35,
+                    "urgency": "Very High",
+                    "impact": "Low",
+                    "confidence": 79.27
+                },
+                {
+                    "recommendation": "Intensive CSAT practice - solve 100+ MCQs daily",
+                    "priority_score": 33,
+                    "urgency": "Very High",
+                    "impact": "Low",
+                    "confidence": 78.43
+                },
+                {
+                    "recommendation": "Solve 50+ PYQs daily for quick revision",
+                    "priority_score": 76,
+                    "urgency": "Very High",
+                    "impact": "Low",
+                    "confidence": 91.17999999999999
+                }
+            ],
+            "daily_plan": {
+                "Science & Technology": "1.5 hours",
+                "Current Affairs": "1.5 hours",
+                "CSAT": "1.5 hours",
+                "Karnataka GK": "1.5 hours",
+                "Polity": "1.0 hours",
+                "Economics": "1.0 hours",
+                "Geography": "1.0 hours",
+                "History": "1.0 hours"
+            },
+            "recommendation_sequence": [
+                "Quick revision of all subjects - high-yield topics only",
+                "Solve 100+ PYQs daily",
+                "Attempt timed mock tests twice weekly"
+            ],
+            "prelims_focus": [
+                "Solve 100+ Current Affairs MCQs daily",
+                "Practice CSAT aptitude and reasoning",
+                "Timed prelims mock tests every 3 days",
+                "Quick factual revision of all subjects",
+                "Focus on speed and accuracy"
+            ],
+            "mains_focus": [
+                "Write 2 GS answers daily",
+                "Practice 1 ethics case study daily",
+                "Essay outline practice",
+                "Answer structuring and formatting",
+                "Time-bound answer writing"
+            ],
+            "mock_strategy": {
+                "type": "Timed Full-Length Mocks",
+                "frequency": "Every 3 Days",
+                "focus": "Speed and Accuracy Optimization"
+            },
+            "recovery_strategy": [
+                {
+                    "type": "No Recovery Needed",
+                    "action": "Maintain current study schedule"
+                }
+            ]
+        }
+    },
+    "last_updated": "2026-05-28"
+}

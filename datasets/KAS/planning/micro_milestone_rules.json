@@ -1,0 +1,141 @@
+{
+    "version": "1.0",
+    "exam": "KAS",
+    "milestone_types": {
+        "daily": {
+            "examples": [
+                "Complete daily study hours",
+                "Solve target MCQs",
+                "Finish scheduled topics"
+            ],
+            "rewards": "+2 readiness points",
+            "motivation_triggers": [
+                "Daily streak maintained",
+                "Target achieved"
+            ]
+        },
+        "weekly": {
+            "examples": [
+                "Complete weekly subject coverage",
+                "Solve 150+ MCQs",
+                "Weekly mock test"
+            ],
+            "rewards": "+5 readiness points",
+            "motivation_triggers": [
+                "Weekly goal met",
+                "Consistent performance"
+            ]
+        },
+        "subject": {
+            "examples": [
+                "Complete subject syllabus",
+                "Solve 80% of PYQs",
+                "Subject mastery score >= 70"
+            ],
+            "rewards": "+20 readiness points",
+            "motivation_triggers": [
+                "Subject completed",
+                "Mastery achieved"
+            ]
+        },
+        "revision": {
+            "examples": [
+                "Complete first revision cycle",
+                "High-weightage topics revised",
+                "Spaced repetition done"
+            ],
+            "rewards": "+10 readiness points",
+            "motivation_triggers": [
+                "Revision cycle complete",
+                "Recall improved"
+            ]
+        },
+        "mock_performance": {
+            "examples": [
+                "Score 60%+ in mock",
+                "Improve by 5% from last mock",
+                "Complete mock in time"
+            ],
+            "rewards": "+15 readiness points",
+            "motivation_triggers": [
+                "Mock score improved",
+                "Time management improved"
+            ]
+        }
+    },
+    "subject_milestones": {
+        "History": {
+            "completion_milestones": [
+                "Complete History NCERTs",
+                "Finish History core concepts",
+                "Solve History PYQs"
+            ],
+            "mastery_threshold": 70
+        },
+        "Polity": {
+            "completion_milestones": [
+                "Complete Polity NCERTs",
+                "Finish Polity core concepts",
+                "Solve Polity PYQs"
+            ],
+            "mastery_threshold": 70
+        },
+        "Geography": {
+            "completion_milestones": [
+                "Complete Geography NCERTs",
+                "Finish Geography core concepts",
+                "Solve Geography PYQs"
+            ],
+            "mastery_threshold": 70
+        },
+        "Economics": {
+            "completion_milestones": [
+                "Complete Economics NCERTs",
+                "Finish Economics core concepts",
+                "Solve Economics PYQs"
+            ],
+            "mastery_threshold": 70
+        },
+        "Environment": {
+            "completion_milestones": [
+                "Complete Environment NCERTs",
+                "Finish Environment core concepts",
+                "Solve Environment PYQs"
+            ],
+            "mastery_threshold": 70
+        },
+        "Science & Technology": {
+            "completion_milestones": [
+                "Complete Science & Technology NCERTs",
+                "Finish Science & Technology core concepts",
+                "Solve Science & Technology PYQs"
+            ],
+            "mastery_threshold": 70
+        },
+        "Karnataka GK": {
+            "completion_milestones": [
+                "Complete Karnataka GK NCERTs",
+                "Finish Karnataka GK core concepts",
+                "Solve Karnataka GK PYQs"
+            ],
+            "mastery_threshold": 70
+        },
+        "Current Affairs": {
+            "completion_milestones": [
+                "Complete Current Affairs NCERTs",
+                "Finish Current Affairs core concepts",
+                "Solve Current Affairs PYQs"
+            ],
+            "mastery_threshold": 70
+        },
+        "CSAT": {
+            "completion_milestones": [
+                "Complete CSAT NCERTs",
+                "Finish CSAT core concepts",
+                "Solve CSAT PYQs"
+            ],
+            "mastery_threshold": 70
+        }
+    },
+    "last_updated": "2026-05-28"
+}

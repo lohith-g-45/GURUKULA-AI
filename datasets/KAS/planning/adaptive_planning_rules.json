@@ -1,0 +1,261 @@
+{
+    "version": "2.0",
+    "exam": "KAS",
+    "adaptive_study_allocation_rules": {
+        "weak_subject_boost_factor": 1.5,
+        "high_weightage_priority_factor": 1.3,
+        "low_readiness_reduction_factor": 0.7,
+        "high_readiness_aggressive_factor": 1.2,
+        "readiness_thresholds": {
+            "very_low": 40,
+            "low": 55,
+            "medium": 70,
+            "high": 85
+        },
+        "subject_allocation_logic": {
+            "very_low_readiness": {
+                "description": "Light schedule, focus on fundamentals",
+                "weak_subject_multiplier": 1.2,
+                "new_topics_limit": 2,
+                "practice_questions_limit": 30
+            },
+            "low_readiness": {
+                "description": "Balanced schedule, mix of fundamentals and practice",
+                "weak_subject_multiplier": 1.4,
+                "new_topics_limit": 3,
+                "practice_questions_limit": 50
+            },
+            "medium_readiness": {
+                "description": "Normal schedule, full subject coverage",
+                "weak_subject_multiplier": 1.5,
+                "new_topics_limit": 4,
+                "practice_questions_limit": 70
+            },
+            "high_readiness": {
+                "description": "Aggressive schedule, advanced topics and mock tests",
+                "weak_subject_multiplier": 1.3,
+                "new_topics_limit": 5,
+                "practice_questions_limit": 100
+            }
+        }
+    },
+    "readiness_based_adjustments": {
+        "History": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        },
+        "Polity": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        },
+        "Geography": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        },
+        "Economics": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        },
+        "Environment": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        },
+        "Science & Technology": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        },
+        "Karnataka GK": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        },
+        "Current Affairs": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        },
+        "CSAT": {
+            "readiness_impact": {
+                "<=40": {
+                    "time_allocation": 0.8,
+                    "difficulty": "easy"
+                },
+                "41-55": {
+                    "time_allocation": 0.9,
+                    "difficulty": "easy-medium"
+                },
+                "56-70": {
+                    "time_allocation": 1.0,
+                    "difficulty": "medium"
+                },
+                "71-85": {
+                    "time_allocation": 1.1,
+                    "difficulty": "medium-hard"
+                },
+                ">85": {
+                    "time_allocation": 1.2,
+                    "difficulty": "hard"
+                }
+            }
+        }
+    },
+    "last_updated": "2026-05-28"
+}

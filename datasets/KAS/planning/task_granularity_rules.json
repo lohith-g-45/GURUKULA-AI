@@ -1,0 +1,215 @@
+{
+    "version": "1.0",
+    "exam": "KAS",
+    "task_types": [
+        "revision",
+        "mcq_practice",
+        "pyq_analysis",
+        "mains_answer",
+        "map_practice",
+        "aptitude_practice",
+        "reasoning_practice",
+        "comprehension_practice",
+        "timed_practice",
+        "notes_update",
+        "current_affairs_link"
+    ],
+    "subject_task_templates": {
+        "History": [
+            {
+                "task_type": "revision",
+                "objective": "Revise Ancient History",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "mcq_practice",
+                "objective": "Solve 25 MCQs on Medieval History",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "pyq_analysis",
+                "objective": "Analyze 5 PYQs on Modern India",
+                "difficulty": "hard"
+            },
+            {
+                "task_type": "mains_answer",
+                "objective": "Practice 2 mains answers",
+                "difficulty": "hard"
+            }
+        ],
+        "Polity": [
+            {
+                "task_type": "revision",
+                "objective": "Revise Fundamental Rights",
+                "difficulty": "easy"
+            },
+            {
+                "task_type": "mcq_practice",
+                "objective": "Solve 30 MCQs on Constitution",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "pyq_analysis",
+                "objective": "Analyze PYQs on Governance",
+                "difficulty": "hard"
+            },
+            {
+                "task_type": "mains_answer",
+                "objective": "Write 2 answers on Polity",
+                "difficulty": "hard"
+            }
+        ],
+        "Geography": [
+            {
+                "task_type": "revision",
+                "objective": "Revise Physical Geography",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "mcq_practice",
+                "objective": "Solve 25 MCQs on Indian Geography",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "map_practice",
+                "objective": "Practice map-based questions",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "mains_answer",
+                "objective": "Write 1 answer on Geography",
+                "difficulty": "hard"
+            }
+        ],
+        "Economics": [
+            {
+                "task_type": "revision",
+                "objective": "Revise Budget and Economic Survey",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "mcq_practice",
+                "objective": "Solve 20 MCQs on Economy",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "pyq_analysis",
+                "objective": "Analyze PYQs on Economics",
+                "difficulty": "hard"
+            }
+        ],
+        "Environment": [
+            {
+                "task_type": "revision",
+                "objective": "Revise Biodiversity and Conservation",
+                "difficulty": "easy"
+            },
+            {
+                "task_type": "mcq_practice",
+                "objective": "Solve 25 MCQs on Environment",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "current_affairs_link",
+                "objective": "Link Environment with Current Affairs",
+                "difficulty": "medium"
+            }
+        ],
+        "Science & Technology": [
+            {
+                "task_type": "revision",
+                "objective": "Revise Space Technology",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "mcq_practice",
+                "objective": "Solve 30 MCQs on S&T",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "pyq_analysis",
+                "objective": "Analyze S&T PYQs",
+                "difficulty": "hard"
+            },
+            {
+                "task_type": "current_affairs_link",
+                "objective": "Link S&T with Current Affairs",
+                "difficulty": "hard"
+            }
+        ],
+        "Karnataka GK": [
+            {
+                "task_type": "revision",
+                "objective": "Revise Karnataka History",
+                "difficulty": "easy"
+            },
+            {
+                "task_type": "mcq_practice",
+                "objective": "Solve 20 MCQs on Karnataka GK",
+                "difficulty": "easy"
+            },
+            {
+                "task_type": "map_practice",
+                "objective": "Practice Karnataka districts",
+                "difficulty": "medium"
+            }
+        ],
+        "Current Affairs": [
+            {
+                "task_type": "daily_revision",
+                "objective": "Revise last 7 days CA",
+                "difficulty": "easy"
+            },
+            {
+                "task_type": "mcq_practice",
+                "objective": "Solve 30 CA MCQs",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "notes_update",
+                "objective": "Update CA notes",
+                "difficulty": "medium"
+            }
+        ],
+        "CSAT": [
+            {
+                "task_type": "aptitude_practice",
+                "objective": "Solve 20 aptitude questions",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "reasoning_practice",
+                "objective": "Solve 20 reasoning questions",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "comprehension_practice",
+                "objective": "Practice 5 comprehension passages",
+                "difficulty": "medium"
+            },
+            {
+                "task_type": "timed_practice",
+                "objective": "Timed CSAT practice session",
+                "difficulty": "hard"
+            }
+        ]
+    },
+    "task_attributes": {
+        "duration_minutes": [
+            30,
+            45,
+            60
+        ],
+        "difficulty_levels": [
+            "easy",
+            "medium",
+            "hard"
+        ],
+        "revision_priority": [
+            "low",
+            "medium",
+            "high"
+        ]
+    },
+    "last_updated": "2026-05-28"
+}

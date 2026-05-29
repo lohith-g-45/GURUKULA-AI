@@ -1,0 +1,16 @@
+{
+    "version": "3.0",
+    "subject_allocation": {
+        "very_high_priority": "35% of study time",
+        "high_priority": "30% of study time",
+        "medium_priority": "25% of study time",
+        "low_priority": "10% of study time"
+    },
+    "study_balance": {
+        "new_topics": "60%",
+        "revision": "40%"
+    },
+    "weak_subject_focus": "30% extra time on weak subjects",
+    "max_daily_hours": 10,
+    "workload_balancing": "Distribute difficult subjects evenly"
+}

@@ -1,0 +1,48 @@
+{
+    "exam": "KAS",
+    "prelims": [
+        {
+            "name": "Paper 1",
+            "marks": 200
+        },
+        {
+            "name": "Paper 2 (CSAT)",
+            "marks": 200
+        }
+    ],
+    "mains": [
+        {
+            "name": "GS1",
+            "marks": 250
+        },
+        {
+            "name": "GS2",
+            "marks": 250
+        },
+        {
+            "name": "GS3",
+            "marks": 250
+        },
+        {
+            "name": "GS4",
+            "marks": 250
+        },
+        {
+            "name": "Kannada",
+            "marks": 150,
+            "qualifying": true
+        },
+        {
+            "name": "English",
+            "marks": 150,
+            "qualifying": true
+        },
+        {
+            "name": "Essay",
+            "marks": 250
+        }
+    ],
+    "interview": {
+        "marks": 200
+    }
+}

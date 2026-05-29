@@ -1,0 +1,218 @@
+{
+    "version": "1.0",
+    "exam": "KAS",
+    "spaced_repetition_intervals": [
+        1,
+        3,
+        7,
+        14
+    ],
+    "revision_priority_rules": {
+        "weak_topic_multiplier": 2.0,
+        "high_weightage_topic_multiplier": 1.5,
+        "recent_topic_window_hours": 48
+    },
+    "subject_revision_priority": {
+        "History": {
+            "priority_score": 7.3,
+            "revision_frequency": "biweekly"
+        },
+        "Polity": {
+            "priority_score": 14.100000000000001,
+            "revision_frequency": "biweekly"
+        },
+        "Geography": {
+            "priority_score": 10.0,
+            "revision_frequency": "biweekly"
+        },
+        "Economics": {
+            "priority_score": 11.3,
+            "revision_frequency": "biweekly"
+        },
+        "Environment": {
+            "priority_score": 5.699999999999999,
+            "revision_frequency": "biweekly"
+        },
+        "Science & Technology": {
+            "priority_score": 70.6,
+            "revision_frequency": "weekly"
+        },
+        "Karnataka GK": {
+            "priority_score": 22.3,
+            "revision_frequency": "weekly"
+        },
+        "Current Affairs": {
+            "priority_score": 30.9,
+            "revision_frequency": "weekly"
+        },
+        "CSAT": {
+            "priority_score": 28.1,
+            "revision_frequency": "weekly"
+        }
+    },
+    "topic_revision_map": {
+        "General Studies": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "high"
+        },
+        "International Relations": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Karnataka Geography": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Karnataka GK": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Polity": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Current Affairs": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "high"
+        },
+        "Geography": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Constitution": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Science & Tech": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Freedom Struggle": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Governance": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "high"
+        },
+        "Biodiversity": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Economy": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Environment": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Ethics": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "History": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "high"
+        },
+        "CSAT": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        },
+        "Mental Ability": {
+            "revision_days": [
+                1,
+                3,
+                7,
+                14
+            ],
+            "priority": "medium"
+        }
+    },
+    "last_updated": "2026-05-28"
+}

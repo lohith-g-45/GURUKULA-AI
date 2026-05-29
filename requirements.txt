@@ -2,3 +2,11 @@ requests==2.32.3
 beautifulsoup4==4.12.3
 pdfplumber==0.11.4
 lxml==5.2.2
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+pydantic-settings==2.6.0
+python-dotenv==1.0.1
+python-multipart==0.0.12
+groq==1.4.0
+tenacity==9.0.0

@@ -1,6 +1,147 @@
 {
     "exam": "KAS",
-    "papers": [],
-    "total_years": 0,
-    "available_papers": 0
+    "papers": [
+        {
+            "filename": "154 - PPA CC EC.pdf",
+            "title": "154 - PPA CC EC",
+            "local_path": "datasets\\KAS\\pyqs\\154 - PPA CC EC.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "291 General Knowledge I set A.pdf",
+            "title": "291 General Knowledge I set A",
+            "local_path": "datasets\\KAS\\pyqs\\291 General Knowledge I set A.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "303 Specific Paper II Liberian set A.pdf",
+            "title": "303 Specific Paper II Liberian set A",
+            "local_path": "datasets\\KAS\\pyqs\\303 Specific Paper II Liberian set A.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "309.pdf",
+            "title": "309",
+            "local_path": "datasets\\KAS\\pyqs\\309.pdf",
+            "downloaded": true,
+            "text_extracted": false
+        },
+        {
+            "filename": "41.pdf",
+            "title": "41",
+            "local_path": "datasets\\KAS\\pyqs\\41.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "61.pdf",
+            "title": "61",
+            "local_path": "datasets\\KAS\\pyqs\\61.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "611.pdf",
+            "title": "611",
+            "local_path": "datasets\\KAS\\pyqs\\611.pdf",
+            "downloaded": true,
+            "text_extracted": false
+        },
+        {
+            "filename": "651.pdf",
+            "title": "651",
+            "local_path": "datasets\\KAS\\pyqs\\651.pdf",
+            "downloaded": true,
+            "text_extracted": false
+        },
+        {
+            "filename": "653.pdf",
+            "title": "653",
+            "local_path": "datasets\\KAS\\pyqs\\653.pdf",
+            "downloaded": true,
+            "text_extracted": false
+        },
+        {
+            "filename": "83.pdf",
+            "title": "83",
+            "local_path": "datasets\\KAS\\pyqs\\83.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "KPSC KAS (Prelims) Official Paper-I (Held On_ 27 Aug, 2024).pdf",
+            "title": "KPSC KAS (Prelims) Official Paper-I (Held On_ 27 Aug, 2024)",
+            "local_path": "datasets\\KAS\\pyqs\\KPSC KAS (Prelims) Official Paper-I (Held On_ 27 Aug, 2024).pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "kpsc_gp2015-civil-engineering-i-1b6acaa5.pdf",
+            "title": "kpsc_gp2015-civil-engineering-i-1b6acaa5",
+            "local_path": "datasets\\KAS\\pyqs\\kpsc_gp2015-civil-engineering-i-1b6acaa5.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "kpsc_gp2015-history-i-a5242557.pdf",
+            "title": "kpsc_gp2015-history-i-a5242557",
+            "local_path": "datasets\\KAS\\pyqs\\kpsc_gp2015-history-i-a5242557.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "kpsc_gp2015-mathematics-i-122e3884.pdf",
+            "title": "kpsc_gp2015-mathematics-i-122e3884",
+            "local_path": "datasets\\KAS\\pyqs\\kpsc_gp2015-mathematics-i-122e3884.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "kpsc_gp2015-physics-i-a171ed1f.pdf",
+            "title": "kpsc_gp2015-physics-i-a171ed1f",
+            "local_path": "datasets\\KAS\\pyqs\\kpsc_gp2015-physics-i-a171ed1f.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "kpsc_gp2015-zoology-i-680128d4.pdf",
+            "title": "kpsc_gp2015-zoology-i-680128d4",
+            "local_path": "datasets\\KAS\\pyqs\\kpsc_gp2015-zoology-i-680128d4.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "kpsc_gp2015_essay-88fee38c.pdf",
+            "title": "kpsc_gp2015_essay-88fee38c",
+            "local_path": "datasets\\KAS\\pyqs\\kpsc_gp2015_essay-88fee38c.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "Pr-2 (Comm.  & Mngt )-575.pdf",
+            "title": "Pr-2 (Comm.  & Mngt )-575",
+            "local_path": "datasets\\KAS\\pyqs\\Pr-2 (Comm.  & Mngt )-575.pdf",
+            "downloaded": true,
+            "text_extracted": false
+        },
+        {
+            "filename": "QP359.pdf",
+            "title": "QP359",
+            "local_path": "datasets\\KAS\\pyqs\\QP359.pdf",
+            "downloaded": true,
+            "text_extracted": true
+        },
+        {
+            "filename": "Specific Paper (516).pdf",
+            "title": "Specific Paper (516)",
+            "local_path": "datasets\\KAS\\pyqs\\Specific Paper (516).pdf",
+            "downloaded": true,
+            "text_extracted": false
+        }
+    ],
+    "total_years": 20,
+    "available_papers": 20
 }

@@ -1,0 +1,179 @@
+{
+    "version": "2.0",
+    "exam": "KAS",
+    "prelims_mains_separation": {
+        "prelims_focus": [
+            "MCQ Practice",
+            "Speed Practice",
+            "Factual Revision",
+            "Current Affairs"
+        ],
+        "mains_focus": [
+            "Answer Writing",
+            "Essays",
+            "Ethics",
+            "Analytical Preparation"
+        ],
+        "subject_prelims_weight": {
+            "History": 3.2,
+            "Polity": 6.9,
+            "Geography": 5.0,
+            "Economics": 7.2,
+            "Environment": 3.4,
+            "Science & Technology": 31.2,
+            "Karnataka GK": 11.4,
+            "Current Affairs": 18.2,
+            "CSAT": 13.6
+        },
+        "subject_mains_weight": {
+            "History": 4.1,
+            "Polity": 7.2,
+            "Geography": 5.0,
+            "Economics": 4.1,
+            "Environment": 2.3,
+            "Science & Technology": 39.4,
+            "Karnataka GK": 10.9,
+            "Current Affairs": 12.7,
+            "CSAT": 14.5
+        }
+    },
+    "daily_study_distribution_rules": {
+        "max_subjects_per_day": 3,
+        "min_study_blocks_per_day": 2,
+        "max_study_blocks_per_day": 4,
+        "block_duration_hours": 2,
+        "break_between_blocks_minutes": 15,
+        "daily_review_time_minutes": 30,
+        "csat_daily_minimum_hours": 1,
+        "current_affairs_daily_minimum_hours": 0.5,
+        "subject_priority_order": [
+            "Science & Technology",
+            "Karnataka GK",
+            "Current Affairs",
+            "CSAT",
+            "History",
+            "Polity",
+            "Geography",
+            "Economics",
+            "Environment"
+        ]
+    },
+    "daily_plan_templates": {
+        "light_day": {
+            "total_hours": 4,
+            "subjects": 2,
+            "schedule": [
+                {
+                    "subject": "Priority 1",
+                    "duration": 2
+                },
+                {
+                    "subject": "Priority 2",
+                    "duration": 1.5
+                },
+                {
+                    "review": 0.5
+                }
+            ]
+        },
+        "normal_day": {
+            "total_hours": 6,
+            "subjects": 3,
+            "schedule": [
+                {
+                    "subject": "Priority 1",
+                    "duration": 2.5
+                },
+                {
+                    "subject": "Priority 2",
+                    "duration": 2
+                },
+                {
+                    "subject": "Priority 3",
+                    "duration": 1
+                },
+                {
+                    "review": 0.5
+                }
+            ]
+        },
+        "intensive_day": {
+            "total_hours": 8,
+            "subjects": 3,
+            "schedule": [
+                {
+                    "subject": "Priority 1",
+                    "duration": 3
+                },
+                {
+                    "subject": "Priority 2",
+                    "duration": 2.5
+                },
+                {
+                    "subject": "Priority 3",
+                    "duration": 2
+                },
+                {
+                    "review": 0.5
+                }
+            ]
+        }
+    },
+    "subject_weight_based_allocation": {
+        "History": {
+            "prelims_weight": 3.2,
+            "mains_weight": 4.1,
+            "priority": "Medium",
+            "recommended_weekly_hours": 1.46
+        },
+        "Polity": {
+            "prelims_weight": 6.9,
+            "mains_weight": 7.2,
+            "priority": "Medium",
+            "recommended_weekly_hours": 2.8200000000000003
+        },
+        "Geography": {
+            "prelims_weight": 5.0,
+            "mains_weight": 5.0,
+            "priority": "Medium",
+            "recommended_weekly_hours": 2.0
+        },
+        "Economics": {
+            "prelims_weight": 7.2,
+            "mains_weight": 4.1,
+            "priority": "Medium",
+            "recommended_weekly_hours": 2.2600000000000002
+        },
+        "Environment": {
+            "prelims_weight": 3.4,
+            "mains_weight": 2.3,
+            "priority": "Medium",
+            "recommended_weekly_hours": 1.14
+        },
+        "Science & Technology": {
+            "prelims_weight": 31.2,
+            "mains_weight": 39.4,
+            "priority": "Very High",
+            "recommended_weekly_hours": 12
+        },
+        "Karnataka GK": {
+            "prelims_weight": 11.4,
+            "mains_weight": 10.9,
+            "priority": "High",
+            "recommended_weekly_hours": 5.575
+        },
+        "Current Affairs": {
+            "prelims_weight": 18.2,
+            "mains_weight": 12.7,
+            "priority": "High",
+            "recommended_weekly_hours": 7.725
+        },
+        "CSAT": {
+            "prelims_weight": 13.6,
+            "mains_weight": 14.5,
+            "priority": "High",
+            "recommended_weekly_hours": 7.025
+        }
+    },
+    "last_updated": "2026-05-28"
+}

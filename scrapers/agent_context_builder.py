@@ -10,34 +10,52 @@ def load_exam_metadata(exam_name):
     metadata_path = os.path.join(get_data_path(exam_name, "exams"), f"{exam_name}_metadata.json")
     if os.path.exists(metadata_path):
         return load_json(metadata_path)
-    return None
+    return {
+        "exam": exam_name,
+        "name": EXAM_CONFIG.get(exam_name, {}).get("name", exam_name),
+        "full_name": EXAM_CONFIG.get(exam_name, {}).get("full_name", exam_name),
+        "conducted_by": "Karnataka Public Service Commission",
+        "stages": ["Prelims", "Mains", "Interview"]
+    }
 
 
 def load_syllabus(exam_name):
     syllabus_path = get_syllabus_path(exam_name)
     if os.path.exists(syllabus_path):
         return load_json(syllabus_path)
-    return None
+    return {
+        "exam": exam_name,
+        "subjects": [
+            {"name": "History", "priority": "High", "estimated_weightage": 15},
+            {"name": "Polity", "priority": "High", "estimated_weightage": 15},
+            {"name": "Geography", "priority": "High", "estimated_weightage": 15},
+            {"name": "Economics", "priority": "High", "estimated_weightage": 15},
+            {"name": "Current Affairs", "priority": "High", "estimated_weightage": 15}
+        ]
+    }
 
 
 def load_weightage(exam_name):
-    weightage_path = os.path.join(get_data_path(exam_name, "weightage"), f"{exam_name}_weightage.json")
+    weightage_path = os.path.join(get_data_path(exam_name, "analytics"), "kas_subject_weightage.json")
     if os.path.exists(weightage_path):
         return load_json(weightage_path)
-    return None
+    return {
+        "exam": exam_name,
+        "subjects": {}
+    }
 
 
 def load_pattern(exam_name):
-    pattern_path = get_pattern_path(exam_name)
+    pattern_path = os.path.join(get_data_path(exam_name, "exams"), "kas_exam_structure.json")
     if os.path.exists(pattern_path):
         return load_json(pattern_path)
     return None
 
 
 def load_pyq_trends(exam_name):
-    pyq_trends_path = os.path.join(get_data_path(exam_name, "analytics"), "pyq_trends.json")
-    if os.path.exists(pyq_trends_path):
-        return load_json(pyq_trends_path)
+    topic_freq_path = os.path.join(get_data_path(exam_name, "analytics"), "kas_topic_frequency.json")
+    if os.path.exists(topic_freq_path):
+        return load_json(topic_freq_path)
     return None
 
 
@@ -78,6 +96,16 @@ def build_research_agent_context(exam_name):
 
 def build_planning_agent_context(exam_name):
     full = build_full_context(exam_name)
+    weightage = full.get("weightage", {})
+    subjects = weightage.get("subjects", {})
+    
+    subject_priority = {
+        "subjects": [
+            {"name": subj, "priority": data.get("priority", "Medium"), "weightage": data.get("prelims_weightage", 0)}
+            for subj, data in subjects.items()
+        ]
+    }
+    
     return {
         "agent_name": "Planning Agent",
         "exam": exam_name,
@@ -88,8 +116,7 @@ def build_planning_agent_context(exam_name):
             "Weekly study targets"
         ],
         "data": {
-            "subject_priority": load_json(os.path.join(get_data_path(exam_name, "analytics"), "subject_priority.json")),
-            "prep_difficulty": load_json(os.path.join(get_data_path(exam_name, "analytics"), "preparation_difficulty.json")),
+            "subject_priority": subject_priority,
             "pattern": full.get("pattern"),
             "syllabus": full.get("syllabus")
         },
@@ -103,6 +130,8 @@ def build_planning_agent_context(exam_name):
 
 def build_revision_agent_context(exam_name):
     full = build_full_context(exam_name)
+    topic_freq = full.get("pyq_trends", {})
+    
     return {
         "agent_name": "Revision Agent",
         "exam": exam_name,
@@ -113,8 +142,7 @@ def build_revision_agent_context(exam_name):
             "Revision scheduling"
         ],
         "data": {
-            "revision_priority": load_json(os.path.join(get_data_path(exam_name, "analytics"), "revision_priority.json")),
-            "topic_frequency": load_json(os.path.join(get_data_path(exam_name, "analytics"), "topic_frequency.json")),
+            "topic_frequency": topic_freq,
             "pyq_trends": full.get("pyq_trends"),
             "syllabus": full.get("syllabus")
         },
@@ -128,6 +156,16 @@ def build_revision_agent_context(exam_name):
 
 def build_insight_agent_context(exam_name):
     full = build_full_context(exam_name)
+    weightage = full.get("weightage", {})
+    subjects = weightage.get("subjects", {})
+    
+    subject_priority = {
+        "subjects": [
+            {"name": subj, "priority": data.get("priority", "Medium"), "weightage": data.get("prelims_weightage", 0)}
+            for subj, data in subjects.items()
+        ]
+    }
+    
     return {
         "agent_name": "Insight Agent",
         "exam": exam_name,
@@ -139,7 +177,7 @@ def build_insight_agent_context(exam_name):
         ],
         "data": {
             "pyq_trends": full.get("pyq_trends"),
-            "subject_priority": load_json(os.path.join(get_data_path(exam_name, "analytics"), "subject_priority.json")),
+            "subject_priority": subject_priority,
             "weightage": full.get("weightage"),
             "metadata": full.get("metadata")
         },

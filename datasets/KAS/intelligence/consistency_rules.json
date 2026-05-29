@@ -1,0 +1,54 @@
+{
+    "version": "2.0",
+    "rules": {
+        "daily_streak": {
+            "30+ days": {
+                "score": 100,
+                "description": "Excellent consistency"
+            },
+            "15-29 days": {
+                "score": 85,
+                "description": "Very good consistency"
+            },
+            "7-14 days": {
+                "score": 70,
+                "description": "Good consistency"
+            },
+            "3-6 days": {
+                "score": 50,
+                "description": "Average consistency"
+            },
+            "1-2 days": {
+                "score": 30,
+                "description": "Low consistency"
+            },
+            "0 days": {
+                "score": 0,
+                "description": "No consistency"
+            }
+        },
+        "weekly_study_days": {
+            "7 days": {
+                "bonus": 10,
+                "description": "Studies every day"
+            },
+            "5-6 days": {
+                "bonus": 5,
+                "description": "Studies most days"
+            },
+            "3-4 days": {
+                "bonus": 0,
+                "description": "Studies some days"
+            },
+            "1-2 days": {
+                "bonus": -5,
+                "description": "Studies rarely"
+            },
+            "0 days": {
+                "bonus": -10,
+                "description": "No study"
+            }
+        }
+    },
+    "calculation": "consistency_score = (streak_score + weekly_bonus) * 0.5"
+}

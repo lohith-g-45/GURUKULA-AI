@@ -1,0 +1,50 @@
+{
+    "version": "1.0",
+    "exam": "KAS",
+    "subject_categories": {
+        "History": "heavy_theory",
+        "Polity": "medium_theory",
+        "Geography": "medium_theory",
+        "Economics": "medium_theory",
+        "Environment": "light_theory",
+        "Science & Technology": "medium_theory",
+        "Karnataka GK": "light_theory",
+        "Current Affairs": "light_theory",
+        "CSAT": "aptitude"
+    },
+    "interleaving_rules": {
+        "avoid_consecutive_heavy": true,
+        "alternate_difficult_subjects": true,
+        "mix_theory_and_aptitude": true,
+        "mix_prelims_and_mains": true,
+        "mix_revision_and_practice": true
+    },
+    "allowed_sequences": [
+        [
+            "heavy_theory",
+            "aptitude",
+            "light_theory"
+        ],
+        [
+            "medium_theory",
+            "light_theory",
+            "aptitude"
+        ],
+        [
+            "aptitude",
+            "heavy_theory",
+            "light_theory"
+        ],
+        [
+            "light_theory",
+            "medium_theory",
+            "aptitude"
+        ]
+    ],
+    "active_recall_cycles": {
+        "frequency": "daily",
+        "duration_minutes": 30,
+        "topics_per_session": 5
+    },
+    "last_updated": "2026-05-28"
+}
