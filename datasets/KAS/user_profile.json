@@ -1,0 +1,10 @@
+{
+  "name": "Student",
+  "email": "student@example.com",
+  "exam": "KAS",
+  "readiness_score": 20.0,
+  "available_hours_per_day": 6.0,
+  "weak_subjects": [],
+  "study_goals": [],
+  "last_updated": "2026-05-30T14:09:49.115380"
+}

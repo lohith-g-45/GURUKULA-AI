@@ -60,11 +60,14 @@ class RevisionRequest(BaseModel):
     subject: Optional[str] = None
     recent_tasks: Optional[List[str]] = []
     current_readiness: Optional[float] = 70.0
+    refresh: bool = False
 
 
 class RevisionResponse(BaseModel):
     success: bool
     data: Dict[str, Any]
+    usage: Dict[str, int] = {}
+    cached: bool = False
 
 
 class ReplanningRequest(BaseModel):
@@ -72,11 +75,14 @@ class ReplanningRequest(BaseModel):
     missed_tasks: Optional[List[str]] = []
     new_availability: Optional[float] = None
     readiness_change: Optional[float] = None
+    refresh: bool = False
 
 
 class ReplanningResponse(BaseModel):
     success: bool
     data: Dict[str, Any]
+    usage: Dict[str, int] = {}
+    cached: bool = False
 
 
 class InsightRequest(BaseModel):

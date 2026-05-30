@@ -1,0 +1,2270 @@
+{
+  "last_updated": "2026-05-30T14:24:34.639333",
+  "cache": {
+    "research:f114c98d052e6095983dfe72eca9b02a": {
+      "data": {
+        "research_summary": {
+          "exam_overview": "The KAS exam consists of three stages: Prelims, Mains, and Interview. The Prelims stage has a weightage of various subjects, while the Mains stage tests the candidate's in-depth knowledge of the subjects. The exam has a high difficulty level and requires a thorough understanding of the syllabus.",
+          "high_priority_subjects": [
+            "Science & Technology",
+            "Current Affairs",
+            "Karnataka GK",
+            "CSAT"
+          ],
+          "frequent_topics": [
+            {
+              "topic": "General Studies",
+              "frequency": 457
+            },
+            {
+              "topic": "International Relations",
+              "frequency": 325
+            },
+            {
+              "topic": "Karnataka Geography",
+              "frequency": 135
+            },
+            {
+              "topic": "Karnataka GK",
+              "frequency": 123
+            },
+            {
+              "topic": "Polity",
+              "frequency": 83
+            }
+          ]
+        },
+        "metadata": {
+          "conducted_by": "KPSC",
+          "stages": [
+            "Prelims",
+            "Mains",
+            "Interview"
+          ],
+          "qualification": "Bachelor's Degree",
+          "difficulty": "High"
+        },
+        "actionable_insights": [
+          "Focus on high-priority subjects like Science & Technology, Current Affairs, Karnataka GK, and CSAT.",
+          "Emphasize on topics like General Studies, International Relations, Karnataka Geography, and Polity.",
+          "Develop a strong understanding of the syllabus and previous year question trends.",
+          "Practice and improve time management skills to tackle the exam effectively."
+        ]
+      },
+      "created_at": "2026-05-30T10:17:34.515080",
+      "expires_at": "2026-05-31T10:17:34.515080"
+    },
+    "student_analysis:93adc1cb5ad6a2ff23ee7ba23344e4c2": {
+      "data": {
+        "readiness_score": 16,
+        "strengths": [
+          {
+            "subject": "CSAT",
+            "score": 0,
+            "weightage": 13.6,
+            "priority": "High",
+            "recommendation": "No recommendation available"
+          },
+          {
+            "subject": "Current Affairs",
+            "score": 0,
+            "weightage": 18.2,
+            "priority": "High",
+            "recommendation": "No recommendation available"
+          },
+          {
+            "subject": "Karnataka GK",
+            "score": 0,
+            "weightage": 11.4,
+            "priority": "High",
+            "recommendation": "No recommendation available"
+          },
+          {
+            "subject": "Science & Technology",
+            "score": 0,
+            "weightage": 31.2,
+            "priority": "Very High",
+            "recommendation": "No recommendation available"
+          }
+        ],
+        "weaknesses": [
+          {
+            "subject": "Economy",
+            "score": 0,
+            "weightage": 7.2,
+            "priority": "Medium",
+            "recommendation": "Focus on Economy concepts"
+          },
+          {
+            "subject": "Polity",
+            "score": 0,
+            "weightage": 6.9,
+            "priority": "Medium",
+            "recommendation": "Focus on Polity concepts"
+          }
+        ],
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "high",
+            "action": "Allocate 2 hours daily to Economy and Polity"
+          }
+        ],
+        "risk_indicators": [
+          {
+            "type": "low_completion_rate",
+            "severity": "medium",
+            "message": "Low completion rate in the last week. Consider revising study plan."
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 0,
+          "completed_tasks": 0,
+          "completion_rate": 0,
+          "current_readiness": 16,
+          "last_updated": "2026-05-30T09:58:34.435997"
+        }
+      },
+      "created_at": "2026-05-30T12:32:16.194829",
+      "expires_at": "2026-05-31T12:32:16.194844"
+    },
+    "replan:c04eeadcaeab2ac4a4c85886b5af1ecf": {
+      "data": {
+        "trend_analysis": {
+          "yearly_trends": [
+            {
+              "year": "2022",
+              "top_topics": [
+                "Karnataka History",
+                "Indian Polity"
+              ],
+              "weightage_shifts": [
+                "Increase in Science & Technology",
+                "Decrease in Environment"
+              ]
+            },
+            {
+              "year": "2021",
+              "top_topics": [
+                "Geography of Karnataka",
+                "Economics"
+              ],
+              "weightage_shifts": [
+                "Increase in Current Affairs",
+                "Decrease in CSAT"
+              ]
+            }
+          ],
+          "subject_trends": [
+            {
+              "subject": "Science & Technology",
+              "weightage_change": "10%",
+              "priority": "High"
+            },
+            {
+              "subject": "Karnataka GK",
+              "weightage_change": "5%",
+              "priority": "Medium"
+            }
+          ]
+        },
+        "actionable_insights": [
+          {
+            "insight": "Focus on Science & Technology and Karnataka GK",
+            "recommendation": "Allocate more time to these subjects",
+            "impact": "High"
+          },
+          {
+            "insight": "Practice previous year questions",
+            "recommendation": "Solve at least 50 PYQs per week",
+            "impact": "Medium"
+          }
+        ],
+        "preparation_strategy": {
+          "key_focus_areas": [
+            "Science & Technology",
+            "Karnataka GK",
+            "Current Affairs"
+          ],
+          "time_allocation_tips": [
+            "Allocate 3 hours daily to Science & Technology",
+            "Dedicate 2 hours daily to Karnataka GK"
+          ],
+          "karnataka_specific_emphasis": [
+            "Karnataka History",
+            "Geography of Karnataka"
+          ]
+        }
+      },
+      "created_at": "2026-05-30T11:10:37.066905",
+      "expires_at": "2026-05-31T11:10:37.066905"
+    },
+    "planning:498ad6e8eff9dc4d6010be51a3d2d35e": {
+      "data": {
+        "preparation_roadmap": {
+          "duration_months": 6,
+          "stages": [
+            {
+              "stage_name": "Foundation",
+              "duration_weeks": 4,
+              "focus_subjects": [
+                "Science & Technology",
+                "Karnataka GK",
+                "Current Affairs"
+              ],
+              "weekly_hours": 36
+            },
+            {
+              "stage_name": "Core Concepts",
+              "duration_weeks": 8,
+              "focus_subjects": [
+                "CSAT",
+                "History",
+                "Geography"
+              ],
+              "weekly_hours": 30
+            },
+            {
+              "stage_name": "Advanced & Practice",
+              "duration_weeks": 6,
+              "focus_subjects": [
+                "Economics",
+                "Environment"
+              ],
+              "weekly_hours": 25
+            },
+            {
+              "stage_name": "Revision & Mock Tests",
+              "duration_weeks": 4,
+              "focus_subjects": [
+                "Science & Technology",
+                "Karnataka GK",
+                "Current Affairs"
+              ],
+              "weekly_hours": 22
+            }
+          ]
+        },
+        "subject_plan": [
+          {
+            "subject": "Science & Technology",
+            "priority": "Very High",
+            "allocated_hours": 160,
+            "topics": [
+              {
+                "name": "Topic 1",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 3",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 4",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 5",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 6",
+                "hours": 20,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 7",
+                "hours": 20,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 8",
+                "hours": 20,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Karnataka GK",
+            "priority": "High",
+            "allocated_hours": 120,
+            "topics": [
+              {
+                "name": "Topic 1",
+                "hours": 15,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2",
+                "hours": 15,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 3",
+                "hours": 15,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 4",
+                "hours": 15,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 5",
+                "hours": 15,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 6",
+                "hours": 15,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Current Affairs",
+            "priority": "High",
+            "allocated_hours": 100,
+            "topics": [
+              {
+                "name": "Topic 1",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 3",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 4",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 5",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "CSAT",
+            "priority": "High",
+            "allocated_hours": 80,
+            "topics": [
+              {
+                "name": "Topic 1",
+                "hours": 10,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2",
+                "hours": 10,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 3",
+                "hours": 10,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 4",
+                "hours": 10,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 5",
+                "hours": 10,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "History",
+            "priority": "Medium",
+            "allocated_hours": 60,
+            "topics": [
+              {
+                "name": "Topic 1",
+                "hours": 8,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 2",
+                "hours": 8,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3",
+                "hours": 8,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 4",
+                "hours": 8,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 5",
+                "hours": 8,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Geography",
+            "priority": "Medium",
+            "allocated_hours": 50,
+            "topics": [
+              {
+                "name": "Topic 1",
+                "hours": 7,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 2",
+                "hours": 7,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3",
+                "hours": 7,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 4",
+                "hours": 7,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 5",
+                "hours": 7,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Economics",
+            "priority": "Low",
+            "allocated_hours": 40,
+            "topics": [
+              {
+                "name": "Topic 1",
+                "hours": 6,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 2",
+                "hours": 6,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 3",
+                "hours": 6,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 4",
+                "hours": 6,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 5",
+                "hours": 6,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Environment",
+            "priority": "Low",
+            "allocated_hours": 30,
+            "topics": [
+              {
+                "name": "Topic 1",
+                "hours": 5,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 2",
+                "hours": 5,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 3",
+                "hours": 5,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 4",
+                "hours": 5,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic 5",
+                "hours": 5,
+                "priority": "Low"
+              }
+            ]
+          }
+        ],
+        "weekly_schedule": {
+          "daily_targets": [
+            "Finish Foundation stage",
+            "Complete topics in Science & Technology",
+            "Finish Core Concepts stage",
+            "Complete topics in Karnataka GK",
+            "Finish Advanced & Practice stage",
+            "Complete topics in Current Affairs",
+            "Finish Revision & Mock Tests stage"
+          ],
+          "mock_test_frequency": "Every 2 weeks"
+        }
+      },
+      "created_at": "2026-05-30T11:47:06.374877",
+      "expires_at": "2026-05-31T11:47:06.374877"
+    },
+    "planning:91d1ff16f8e173cee89fcb2c1ceb3ac8": {
+      "data": {
+        "preparation_roadmap": {
+          "duration_months": 6,
+          "stages": [
+            {
+              "stage_name": "Foundation",
+              "duration_weeks": 4,
+              "focus_subjects": [
+                "History",
+                "Science & Technology",
+                "English"
+              ],
+              "weekly_hours": 30
+            },
+            {
+              "stage_name": "Core Concepts",
+              "duration_weeks": 8,
+              "focus_subjects": [
+                "Karnataka GK",
+                "Current Affairs",
+                "CSAT"
+              ],
+              "weekly_hours": 24
+            },
+            {
+              "stage_name": "Advanced & Practice",
+              "duration_weeks": 6,
+              "focus_subjects": [
+                "Science & Technology",
+                "Current Affairs",
+                "CSAT"
+              ],
+              "weekly_hours": 20
+            },
+            {
+              "stage_name": "Revision & Mock Tests",
+              "duration_weeks": 4,
+              "focus_subjects": [
+                "Karnataka GK",
+                "Polity",
+                "Economics"
+              ],
+              "weekly_hours": 18
+            }
+          ]
+        },
+        "subject_plan": [
+          {
+            "subject": "Science & Technology",
+            "priority": "Very High",
+            "allocated_hours": 120,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 30,
+                "priority": "Very High"
+              },
+              {
+                "name": "Topic3",
+                "hours": 20,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "Karnataka GK",
+            "priority": "High",
+            "allocated_hours": 100,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 25,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 20,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 15,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Current Affairs",
+            "priority": "High",
+            "allocated_hours": 90,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 30,
+                "priority": "Very High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic3",
+                "hours": 10,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "CSAT",
+            "priority": "High",
+            "allocated_hours": 80,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 25,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 20,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 15,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "History",
+            "priority": "Low",
+            "allocated_hours": 60,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 20,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic2",
+                "hours": 15,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic3",
+                "hours": 10,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "English",
+            "priority": "Low",
+            "allocated_hours": 50,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 20,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic2",
+                "hours": 15,
+                "priority": "Low"
+              },
+              {
+                "name": "Topic3",
+                "hours": 10,
+                "priority": "Low"
+              }
+            ]
+          }
+        ],
+        "weekly_schedule": {
+          "daily_targets": [
+            "Science & Technology",
+            "Karnataka GK",
+            "Current Affairs",
+            "CSAT",
+            "History",
+            "English"
+          ],
+          "mock_test_frequency": "Every 2 weeks",
+          "revision_sessions": 2
+        }
+      },
+      "created_at": "2026-05-30T11:49:16.064774",
+      "expires_at": "2026-05-31T11:49:16.064774"
+    },
+    "planning:dbed7c679f5e07284c8e01e51a46640c": {
+      "data": {
+        "preparation_roadmap": {
+          "duration_months": 6,
+          "stages": [
+            {
+              "stage_name": "Foundation",
+              "duration_weeks": 4,
+              "focus_subjects": [
+                "Science & Technology",
+                "Karnataka GK"
+              ],
+              "weekly_hours": 6
+            },
+            {
+              "stage_name": "Core Concepts",
+              "duration_weeks": 8,
+              "focus_subjects": [
+                "Current Affairs",
+                "CSAT"
+              ],
+              "weekly_hours": 6
+            },
+            {
+              "stage_name": "Advanced & Practice",
+              "duration_weeks": 6,
+              "focus_subjects": [
+                "History",
+                "Polity",
+                "Geography",
+                "Economics",
+                "Environment"
+              ],
+              "weekly_hours": 6
+            },
+            {
+              "stage_name": "Revision & Mock Tests",
+              "duration_weeks": 4,
+              "focus_subjects": [],
+              "weekly_hours": 6
+            }
+          ]
+        },
+        "subject_plan": [
+          {
+            "subject": "Science & Technology",
+            "priority": "Very High",
+            "allocated_hours": 240,
+            "topics": [
+              {
+                "name": "Topic1: S&T Prelims",
+                "hours": 80,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2: S&T Mains",
+                "hours": 100,
+                "priority": "High"
+              },
+              {
+                "name": "Topic3: S&T Practice",
+                "hours": 60,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "Karnataka GK",
+            "priority": "Medium",
+            "allocated_hours": 180,
+            "topics": [
+              {
+                "name": "Topic1: Karnataka History",
+                "hours": 60,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2: Karnataka Geography",
+                "hours": 60,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3: Karnataka Polity",
+                "hours": 60,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "Current Affairs",
+            "priority": "High",
+            "allocated_hours": 200,
+            "topics": [
+              {
+                "name": "Topic1: National Current Affairs",
+                "hours": 80,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2: International Current Affairs",
+                "hours": 60,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3: Karnataka Current Affairs",
+                "hours": 60,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "CSAT",
+            "priority": "High",
+            "allocated_hours": 220,
+            "topics": [
+              {
+                "name": "Topic1: CSAT Prelims",
+                "hours": 80,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2: CSAT Mains",
+                "hours": 100,
+                "priority": "High"
+              },
+              {
+                "name": "Topic3: CSAT Practice",
+                "hours": 40,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "History",
+            "priority": "Medium",
+            "allocated_hours": 160,
+            "topics": [
+              {
+                "name": "Topic1: Indian History",
+                "hours": 60,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2: Karnataka History",
+                "hours": 60,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3: World History",
+                "hours": 40,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "Polity",
+            "priority": "Medium",
+            "allocated_hours": 160,
+            "topics": [
+              {
+                "name": "Topic1: Indian Polity",
+                "hours": 60,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2: Karnataka Polity",
+                "hours": 60,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3: International Polity",
+                "hours": 40,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "Geography",
+            "priority": "Medium",
+            "allocated_hours": 160,
+            "topics": [
+              {
+                "name": "Topic1: Indian Geography",
+                "hours": 60,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2: Karnataka Geography",
+                "hours": 60,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3: World Geography",
+                "hours": 40,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "Economics",
+            "priority": "Medium",
+            "allocated_hours": 160,
+            "topics": [
+              {
+                "name": "Topic1: Indian Economy",
+                "hours": 60,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2: Karnataka Economy",
+                "hours": 60,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3: World Economy",
+                "hours": 40,
+                "priority": "Medium"
+              }
+            ]
+          },
+          {
+            "subject": "Environment",
+            "priority": "Low",
+            "allocated_hours": 140,
+            "topics": [
+              {
+                "name": "Topic1: Environmental Issues",
+                "hours": 60,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic2: Environmental Laws",
+                "hours": 40,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3: Environmental Practice",
+                "hours": 40,
+                "priority": "Low"
+              }
+            ]
+          }
+        ],
+        "weekly_schedule": {
+          "daily_targets": [
+            "Study 2 hours of Science & Technology",
+            "Study 1 hour of Karnataka GK",
+            "Practice Current Affairs",
+            "Practice CSAT",
+            "Study 1 hour of History",
+            "Study 1 hour of Polity",
+            "Study 1 hour of Geography",
+            "Study 1 hour of Economics",
+            "Study 1 hour of Environment"
+          ],
+          "mock_test_frequency": "every 4 weeks"
+        }
+      },
+      "created_at": "2026-05-30T12:18:51.587194",
+      "expires_at": "2026-05-31T12:18:51.587204"
+    },
+    "planning:48ad2669e60193ed73b8909a1c358ed9": {
+      "data": {
+        "preparation_roadmap": {
+          "duration_months": 6,
+          "stages": [
+            {
+              "stage_name": "Foundation",
+              "duration_weeks": 4,
+              "focus_subjects": [
+                "History",
+                "Geography",
+                "Polity",
+                "Mathematics"
+              ],
+              "weekly_hours": 5
+            },
+            {
+              "stage_name": "Core Concepts",
+              "duration_weeks": 8,
+              "focus_subjects": [
+                "Science & Technology",
+                "Karnataka GK",
+                "Current Affairs",
+                "CSAT"
+              ],
+              "weekly_hours": 7
+            },
+            {
+              "stage_name": "Advanced & Practice",
+              "duration_weeks": 6,
+              "focus_subjects": [
+                "Science & Technology",
+                "Karnataka GK",
+                "Current Affairs",
+                "CSAT"
+              ],
+              "weekly_hours": 8
+            },
+            {
+              "stage_name": "Revision & Mock Tests",
+              "duration_weeks": 4,
+              "focus_subjects": [
+                "History",
+                "Geography",
+                "Polity",
+                "Mathematics"
+              ],
+              "weekly_hours": 6
+            }
+          ]
+        },
+        "subject_plan": [
+          {
+            "subject": "Science & Technology",
+            "priority": "Very High",
+            "allocated_hours": 240,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 40,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 30,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 20,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Karnataka GK",
+            "priority": "High",
+            "allocated_hours": 180,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 30,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 20,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 10,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Current Affairs",
+            "priority": "High",
+            "allocated_hours": 160,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 25,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 15,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 10,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "CSAT",
+            "priority": "High",
+            "allocated_hours": 140,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 10,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 5,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "History",
+            "priority": "Medium",
+            "allocated_hours": 120,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 20,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 15,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 10,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Geography",
+            "priority": "Medium",
+            "allocated_hours": 100,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 15,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 10,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 5,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Polity",
+            "priority": "Medium",
+            "allocated_hours": 100,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 15,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 10,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 5,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Mathematics",
+            "priority": "Low",
+            "allocated_hours": 80,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 10,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 5,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 5,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Economics",
+            "priority": "Low",
+            "allocated_hours": 80,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 10,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 5,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 5,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Environment",
+            "priority": "Low",
+            "allocated_hours": 60,
+            "topics": [
+              {
+                "name": "Topic1",
+                "hours": 5,
+                "priority": "High"
+              },
+              {
+                "name": "Topic2",
+                "hours": 5,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic3",
+                "hours": 5,
+                "priority": "Low"
+              }
+            ]
+          }
+        ],
+        "weekly_schedule": {
+          "daily_targets": [
+            "Complete 3 chapters in Science & Technology",
+            "Practice 20 questions in CSAT"
+          ],
+          "mock_test_frequency": "Every 4 weeks"
+        }
+      },
+      "created_at": "2026-05-30T12:23:12.148240",
+      "expires_at": "2026-05-31T12:23:12.148253"
+    },
+    "student_analysis:5645d8d49174dcad62f2731952cae81d": {
+      "data": {
+        "readiness_score": 70.0,
+        "strengths": [
+          {
+            "subject": "Karnataka GK",
+            "score": 0,
+            "weightage": 10.9,
+            "priority": "High",
+            "recommendation": "Start studying Karnataka GK as it has high weightage"
+          },
+          {
+            "subject": "Current Affairs",
+            "score": 0,
+            "weightage": 12.7,
+            "priority": "High",
+            "recommendation": "Start studying Current Affairs as it has high weightage"
+          },
+          {
+            "subject": "CSAT",
+            "score": 0,
+            "weightage": 14.5,
+            "priority": "High",
+            "recommendation": "Start studying CSAT as it has high weightage"
+          }
+        ],
+        "weaknesses": [
+          {
+            "subject": "History",
+            "score": 0,
+            "weightage": 4.1,
+            "priority": "Medium",
+            "recommendation": "Focus on History as it has medium weightage"
+          },
+          {
+            "subject": "Geography",
+            "score": 0,
+            "weightage": 5.0,
+            "priority": "Medium",
+            "recommendation": "Focus on Geography as it has medium weightage"
+          },
+          {
+            "subject": "Environment",
+            "score": 0,
+            "weightage": 2.3,
+            "priority": "Medium",
+            "recommendation": "Focus on Environment as it has low weightage"
+          },
+          {
+            "subject": "Science & Technology",
+            "score": 0,
+            "weightage": 39.4,
+            "priority": "Very High",
+            "recommendation": "Focus on Science & Technology as it has very high weightage"
+          },
+          {
+            "subject": "Polity",
+            "score": 0,
+            "weightage": 7.2,
+            "priority": "Medium",
+            "recommendation": "Focus on Polity as it has medium weightage"
+          },
+          {
+            "subject": "Economics",
+            "score": 0,
+            "weightage": 4.1,
+            "priority": "Medium",
+            "recommendation": "Focus on Economics as it has medium weightage"
+          }
+        ],
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "high",
+            "action": "Allocate 2 hours daily to Karnataka GK, Current Affairs, CSAT"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "medium",
+            "action": "Allocate 1 hour daily to History, Geography, Environment, Polity, Economics"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "high",
+            "action": "Allocate 3 hours daily to Science & Technology"
+          }
+        ],
+        "risk_indicators": [
+          {
+            "type": "no_mock_scores",
+            "severity": "high",
+            "message": "No mock scores available. Consider taking practice tests"
+          },
+          {
+            "type": "no_hours_allocated",
+            "severity": "high",
+            "message": "No hours allocated for studying. Consider allocating dedicated study time"
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 16,
+          "completed_tasks": 0,
+          "completion_rate": 0.0,
+          "current_readiness": 70.0,
+          "last_updated": "2026-05-30T13:54:14.327521"
+        }
+      },
+      "created_at": "2026-05-30T13:54:24.858885",
+      "expires_at": "2026-05-31T13:54:24.858885"
+    },
+    "planning:7795b78850534fee945baca4153a1f29": {
+      "data": {
+        "preparation_roadmap": {
+          "duration_months": 6,
+          "stages": [
+            {
+              "stage_name": "Foundation",
+              "duration_weeks": 4,
+              "focus_subjects": [
+                "Science & Technology",
+                "Karnataka GK",
+                "Current Affairs"
+              ],
+              "weekly_hours": 6
+            },
+            {
+              "stage_name": "Core Concepts",
+              "duration_weeks": 8,
+              "focus_subjects": [
+                "CSAT",
+                "History",
+                "Polity"
+              ],
+              "weekly_hours": 6
+            },
+            {
+              "stage_name": "Advanced & Practice",
+              "duration_weeks": 6,
+              "focus_subjects": [
+                "Geography",
+                "Economics",
+                "Environment"
+              ],
+              "weekly_hours": 6
+            },
+            {
+              "stage_name": "Revision & Mock Tests",
+              "duration_weeks": 4,
+              "focus_subjects": [],
+              "weekly_hours": 6
+            }
+          ]
+        },
+        "subject_plan": [
+          {
+            "subject": "Science & Technology",
+            "priority": "Very High",
+            "allocated_hours": 108,
+            "topics": [
+              {
+                "name": "Topic 1: Basics of Science",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: Science in Daily Life",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: Science in Karnataka",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Karnataka GK",
+            "priority": "Medium",
+            "allocated_hours": 72,
+            "topics": [
+              {
+                "name": "Topic 1: Karnataka History",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: Karnataka Geography",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: Karnataka Culture",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Current Affairs",
+            "priority": "High",
+            "allocated_hours": 72,
+            "topics": [
+              {
+                "name": "Topic 1: National Current Affairs",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: International Current Affairs",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: Karnataka Current Affairs",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "CSAT",
+            "priority": "High",
+            "allocated_hours": 72,
+            "topics": [
+              {
+                "name": "Topic 1: CSAT Basics",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: CSAT Practice",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: CSAT Strategy",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "History",
+            "priority": "Medium",
+            "allocated_hours": 72,
+            "topics": [
+              {
+                "name": "Topic 1: Ancient History",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: Medieval History",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: Modern History",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Polity",
+            "priority": "Low",
+            "allocated_hours": 48,
+            "topics": [
+              {
+                "name": "Topic 1: Indian Polity",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: Karnataka Polity",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: Polity Strategy",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Geography",
+            "priority": "Low",
+            "allocated_hours": 48,
+            "topics": [
+              {
+                "name": "Topic 1: World Geography",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: Karnataka Geography",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: Geography Strategy",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Economics",
+            "priority": "Low",
+            "allocated_hours": 48,
+            "topics": [
+              {
+                "name": "Topic 1: Micro Economics",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: Macro Economics",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: Economics Strategy",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          },
+          {
+            "subject": "Environment",
+            "priority": "Low",
+            "allocated_hours": 48,
+            "topics": [
+              {
+                "name": "Topic 1: Environmental Basics",
+                "hours": 12,
+                "priority": "High"
+              },
+              {
+                "name": "Topic 2: Environmental Issues",
+                "hours": 12,
+                "priority": "Medium"
+              },
+              {
+                "name": "Topic 3: Environmental Strategy",
+                "hours": 12,
+                "priority": "Low"
+              }
+            ]
+          }
+        ],
+        "weekly_schedule": {
+          "daily_targets": [
+            "Complete Foundation Stage",
+            "Complete Core Concepts Stage",
+            "Complete Advanced & Practice Stage",
+            "Complete Revision & Mock Tests Stage"
+          ],
+          "mock_test_frequency": "biweekly"
+        }
+      },
+      "created_at": "2026-05-30T13:54:29.722960",
+      "expires_at": "2026-05-31T13:54:29.722960"
+    },
+    "revision:6e63e2abf1e58e1288f7fe7664cecdf7": {
+      "data": {
+        "revision_plan": {
+          "weekly_revision": [
+            {
+              "week": 1,
+              "focus_topics": [
+                "Current Affairs",
+                "Karnataka GK",
+                "Science & Technology"
+              ],
+              "practice_recommendation": "Complete 50 Current Affairs PYQs and 30 Karnataka GK PYQs. Focus on revising Science & Technology concepts with a 20-minute video tutorial."
+            },
+            {
+              "week": 2,
+              "focus_topics": [
+                "History",
+                "Geography"
+              ],
+              "practice_recommendation": "Complete 40 History PYQs and 30 Geography PYQs. Focus on revising key dates and events in History and Geography concepts."
+            }
+          ]
+        },
+        "high_yield_topics": [
+          {
+            "topic": "Current Affairs",
+            "frequency": 142,
+            "priority": "High"
+          },
+          {
+            "topic": "Karnataka GK",
+            "frequency": 95,
+            "priority": "High"
+          },
+          {
+            "topic": "Science & Technology",
+            "frequency": 282,
+            "priority": "Very High"
+          },
+          {
+            "topic": "History",
+            "frequency": 29,
+            "priority": "Medium"
+          },
+          {
+            "topic": "Geography",
+            "frequency": 42,
+            "priority": "Medium"
+          }
+        ],
+        "weak_area_focus": [
+          {
+            "subject": "History",
+            "topics_needing_revision": [
+              "Ancient History",
+              "Medieval History",
+              "Modern History"
+            ],
+            "recommended_practice": "Watch video tutorials on these topics and complete practice questions related to them."
+          },
+          {
+            "subject": "Geography",
+            "topics_needing_revision": [
+              "Indian Geography",
+              "World Geography",
+              "Geographical Features"
+            ],
+            "recommended_practice": "Focus on revising geographical features, capitals, and major rivers of different states in India."
+          }
+        ],
+        "practice_recommendations": {
+          "pyq_practice": "Focus on completing 50-60 PYQs per day in each subject.",
+          "mock_tests": "Schedule 2-3 mock tests every week with a focus on weak subjects.",
+          "karnataka_specific": "Focus on revising Karnataka GK and Current Affairs with a 20-minute video tutorial every day."
+        }
+      },
+      "created_at": "2026-05-30T13:54:55.681989",
+      "expires_at": "2026-05-31T13:54:55.681989"
+    },
+    "replan:e9343f48d5457f7f2bc08d6d1708c228": {
+      "data": {
+        "trend_analysis": {
+          "yearly_trends": [
+            {
+              "year": "2020",
+              "top_topics": [
+                "Science & Technology",
+                "Karnataka GK"
+              ],
+              "weightage_shifts": [
+                "Increased focus on Science & Technology",
+                "Significant emphasis on Karnataka GK"
+              ]
+            },
+            {
+              "year": "2021",
+              "top_topics": [
+                "Science & Technology",
+                "Current Affairs"
+              ],
+              "weightage_shifts": [
+                "Further emphasis on Science & Technology",
+                "Growing importance of Current Affairs"
+              ]
+            },
+            {
+              "year": "2022",
+              "top_topics": [
+                "Science & Technology",
+                "Karnataka GK"
+              ],
+              "weightage_shifts": [
+                "Continued focus on Science & Technology",
+                "Steady emphasis on Karnataka GK"
+              ]
+            }
+          ],
+          "subject_trends": [
+            {
+              "subject": "Science & Technology",
+              "weightage_change": "15%",
+              "priority": "Very High"
+            },
+            {
+              "subject": "Karnataka GK",
+              "weightage_change": "10%",
+              "priority": "High"
+            },
+            {
+              "subject": "Current Affairs",
+              "weightage_change": "12%",
+              "priority": "High"
+            }
+          ]
+        },
+        "actionable_insights": [
+          {
+            "insight": "Focus on Science & Technology and Karnataka GK to improve scores",
+            "recommendation": "Increase study hours for these subjects",
+            "impact": "High"
+          },
+          {
+            "insight": "Current Affairs is gaining importance",
+            "recommendation": "Allocate dedicated time for Current Affairs study",
+            "impact": "Medium"
+          }
+        ],
+        "preparation_strategy": {
+          "key_focus_areas": [
+            "Science & Technology",
+            "Karnataka GK",
+            "Current Affairs"
+          ],
+          "time_allocation_tips": [
+            "Allocate 2-3 hours daily for Science & Technology and Karnataka GK",
+            "Dedicate 1-2 hours daily for Current Affairs"
+          ],
+          "karnataka_specific_emphasis": [
+            "Focus on Karnataka GK and Current Affairs for better understanding of state-specific topics"
+          ]
+        }
+      },
+      "created_at": "2026-05-30T13:55:32.724756",
+      "expires_at": "2026-05-31T13:55:32.724756"
+    },
+    "student_analysis:e103ca51e547dc8c561d86b67d0f82a3": {
+      "data": {
+        "readiness_score": 70,
+        "strengths": [
+          {
+            "subject": "Current Affairs",
+            "score": 100,
+            "weightage": 18.2,
+            "priority": "High",
+            "recommendation": "Continue practicing previous year questions"
+          },
+          {
+            "subject": "CSAT",
+            "score": 100,
+            "weightage": 14.5,
+            "priority": "High",
+            "recommendation": "Focus on CSAT strategy and practice"
+          },
+          {
+            "subject": "Karnataka GK",
+            "score": 100,
+            "weightage": 10.9,
+            "priority": "High",
+            "recommendation": "Practice Karnataka specific GK questions"
+          }
+        ],
+        "weaknesses": [
+          {
+            "subject": "History",
+            "score": 0,
+            "weightage": 3.2,
+            "priority": "Medium",
+            "recommendation": "Focus on History and Geography concepts"
+          },
+          {
+            "subject": "Geography",
+            "score": 0,
+            "weightage": 5.0,
+            "priority": "Medium",
+            "recommendation": "Practice Geography previous year questions"
+          },
+          {
+            "subject": "Environment",
+            "score": 0,
+            "weightage": 3.4,
+            "priority": "Medium",
+            "recommendation": "Focus on Environment and Ecology concepts"
+          }
+        ],
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "high",
+            "action": "Allocate 4 hours daily to History and Geography"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "high",
+            "action": "Allocate 2 hours daily to Environment"
+          }
+        ],
+        "risk_indicators": [
+          {
+            "type": "low_completion_rate",
+            "severity": "medium",
+            "message": "Low completion rate of tasks. Focus on regular task completion."
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 16,
+          "completed_tasks": 2,
+          "completion_rate": 12.5,
+          "current_readiness": 70,
+          "last_updated": "2026-05-30T13:54:14.327521"
+        }
+      },
+      "created_at": "2026-05-30T14:03:55.034261",
+      "expires_at": "2026-05-31T14:03:55.034261"
+    },
+    "revision:dcf8ea5748da3b57ff899f1a70f05b66": {
+      "data": {
+        "revision_plan": {
+          "weekly_revision": [
+            {
+              "week": 1,
+              "focus_topics": [
+                "Science & Technology",
+                "Current Affairs",
+                "CSAT",
+                "Karnataka GK"
+              ],
+              "practice_recommendation": "Practice CSAT and Current Affairs questions from recent exams. Focus on Science & Technology and Karnataka GK as they are high-yield topics."
+            },
+            {
+              "week": 2,
+              "focus_topics": [
+                "Economics",
+                "Geography",
+                "History"
+              ],
+              "practice_recommendation": "Practice Economics, Geography, and History questions from past exams. Emphasize weak areas in these subjects."
+            },
+            {
+              "week": 3,
+              "focus_topics": [
+                "Polity",
+                "Environment"
+              ],
+              "practice_recommendation": "Practice Polity and Environment questions from recent exams. Focus on weak areas in these subjects."
+            },
+            {
+              "week": 4,
+              "focus_topics": [
+                "Science & Technology",
+                "Karnataka GK",
+                "Current Affairs"
+              ],
+              "practice_recommendation": "Practice Science & Technology, Karnataka GK, and Current Affairs questions from recent exams. Review and reinforce previously studied material."
+            }
+          ]
+        },
+        "high_yield_topics": [
+          {
+            "topic": "Science & Technology",
+            "frequency": 282,
+            "priority": "Very High"
+          },
+          {
+            "topic": "Current Affairs",
+            "frequency": 142,
+            "priority": "High"
+          },
+          {
+            "topic": "CSAT",
+            "frequency": 117,
+            "priority": "High"
+          },
+          {
+            "topic": "Karnataka GK",
+            "frequency": 95,
+            "priority": "High"
+          }
+        ],
+        "weak_area_focus": [
+          {
+            "subject": "History",
+            "topics_needing_revision": [
+              "Ancient Indian History",
+              "Medieval Indian History"
+            ],
+            "recommended_practice": "Practice History questions from past exams and focus on weak areas."
+          },
+          {
+            "subject": "Geography",
+            "topics_needing_revision": [
+              "Indian Geography",
+              "World Geography"
+            ],
+            "recommended_practice": "Practice Geography questions from past exams and focus on weak areas."
+          }
+        ],
+        "practice_recommendations": {
+          "pyq_practice": "Practice a mix of easy, medium, and difficult questions from Science & Technology, Current Affairs, CSAT, and Karnataka GK.",
+          "mock_tests": "Schedule mock tests to simulate the actual exam experience. Focus on weak areas and improve time management.",
+          "karnataka_specific": "Focus on Karnataka-specific content, especially in Science & Technology, Current Affairs, and CSAT."
+        }
+      },
+      "created_at": "2026-05-30T14:08:03.558413",
+      "expires_at": "2026-05-31T14:08:03.558413"
+    },
+    "revision:1a526e13823cc24f2e4f341112b938ab": {
+      "data": {
+        "revision_plan": {
+          "weekly_revision": [
+            {
+              "week": 1,
+              "focus_topics": [
+                "Science & Technology",
+                "Current Affairs"
+              ],
+              "practice_recommendation": "Practice at least 40 questions from Science & Technology and 30 questions from Current Affairs"
+            },
+            {
+              "week": 2,
+              "focus_topics": [
+                "Karnataka GK",
+                "CSAT"
+              ],
+              "practice_recommendation": "Practice at least 30 questions from Karnataka GK and 20 questions from CSAT"
+            },
+            {
+              "week": 3,
+              "focus_topics": [
+                "History",
+                "Geography"
+              ],
+              "practice_recommendation": "Practice at least 20 questions from History and 30 questions from Geography"
+            }
+          ],
+          "high_yield_topics": [
+            {
+              "topic": "Science & Technology",
+              "frequency": 282,
+              "priority": "Very High"
+            },
+            {
+              "topic": "Current Affairs",
+              "frequency": 142,
+              "priority": "High"
+            },
+            {
+              "topic": "Karnataka GK",
+              "frequency": 95,
+              "priority": "High"
+            },
+            {
+              "topic": "CSAT",
+              "frequency": 117,
+              "priority": "High"
+            }
+          ]
+        },
+        "weak_area_focus": [
+          {
+            "subject": "History",
+            "topics_needing_revision": [
+              "Topic1",
+              "Topic2"
+            ],
+            "recommended_practice": "Practice questions from History section of previous years' question papers"
+          },
+          {
+            "subject": "Geography",
+            "topics_needing_revision": [
+              "Topic1",
+              "Topic2"
+            ],
+            "recommended_practice": "Practice questions from Geography section of previous years' question papers"
+          }
+        ],
+        "practice_recommendations": {
+          "pyq_practice": "Practice at least 50 questions from Science & Technology, Current Affairs, Karnataka GK, CSAT, History, and Geography",
+          "mock_tests": "Take at least 2 mock tests in Science & Technology, Current Affairs, Karnataka GK, CSAT, History, and Geography",
+          "karnataka_specific": "Focus on Karnataka GK, Current Affairs, Science & Technology, and CSAT for Karnataka-specific content"
+        }
+      },
+      "created_at": "2026-05-30T14:08:11.671625",
+      "expires_at": "2026-05-31T14:08:11.671625"
+    },
+    "student_analysis:2055ef3a0daf63fe6716728549ea961e": {
+      "data": {
+        "readiness_score": 20,
+        "strengths": [
+          {
+            "subject": "Science & Technology",
+            "score": 0,
+            "weightage": 70.4,
+            "priority": "Very High",
+            "recommendation": "Continue practicing previous year questions"
+          },
+          {
+            "subject": "Current Affairs",
+            "score": 0,
+            "weightage": 30.9,
+            "priority": "High",
+            "recommendation": "Continue practicing previous year questions"
+          },
+          {
+            "subject": "CSAT",
+            "score": 0,
+            "weightage": 27.9,
+            "priority": "High",
+            "recommendation": "Continue practicing previous year questions"
+          }
+        ],
+        "weaknesses": [
+          {
+            "subject": "History",
+            "score": 0,
+            "weightage": 7.3,
+            "priority": "Medium",
+            "recommendation": "Focus on History and Polity concepts"
+          },
+          {
+            "subject": "Polity",
+            "score": 0,
+            "weightage": 13.9,
+            "priority": "Medium",
+            "recommendation": "Focus on History and Polity concepts"
+          },
+          {
+            "subject": "Geography",
+            "score": 0,
+            "weightage": 10,
+            "priority": "Medium",
+            "recommendation": "Focus on Geography and Economics concepts"
+          },
+          {
+            "subject": "Economics",
+            "score": 0,
+            "weightage": 11.3,
+            "priority": "Medium",
+            "recommendation": "Focus on Geography and Economics concepts"
+          },
+          {
+            "subject": "Environment",
+            "score": 0,
+            "weightage": 5.7,
+            "priority": "Medium",
+            "recommendation": "Focus on Environment and Science & Technology concepts"
+          },
+          {
+            "subject": "Karnataka GK",
+            "score": 0,
+            "weightage": 22.3,
+            "priority": "High",
+            "recommendation": "Focus on Current Affairs and Science & Technology concepts"
+          }
+        ],
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "high",
+            "action": "Allocate 2 hours daily to History and Science & Technology"
+          },
+          {
+            "type": "subject_focus",
+            "priority": "high",
+            "action": "Allocate 2 hours daily to Geography and Economics"
+          }
+        ],
+        "risk_indicators": [
+          {
+            "type": "low_completion_rate",
+            "severity": "high",
+            "message": "Low completion rate in the last week. Consider revising previous topics."
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 36,
+          "completed_tasks": 2,
+          "completion_rate": 5.555555555555555,
+          "current_readiness": 20,
+          "last_updated": "2026-05-30T14:09:49.115380"
+        }
+      },
+      "created_at": "2026-05-30T14:09:53.518352",
+      "expires_at": "2026-05-31T14:09:53.518352"
+    },
+    "student_analysis:857c86b727102823b177432e1d951979": {
+      "data": {
+        "readiness_score": 20,
+        "strengths": [],
+        "weaknesses": [
+          {
+            "subject": "History",
+            "score": 0,
+            "weightage": 3.2,
+            "priority": "Medium",
+            "difficulty": "Medium",
+            "recommendation": "Focus on History concepts"
+          },
+          {
+            "subject": "Polity",
+            "score": 0,
+            "weightage": 6.9,
+            "priority": "Medium",
+            "difficulty": "Medium",
+            "recommendation": "Focus on Polity concepts"
+          },
+          {
+            "subject": "Geography",
+            "score": 0,
+            "weightage": 5,
+            "priority": "Medium",
+            "difficulty": "Medium",
+            "recommendation": "Focus on Geography concepts"
+          },
+          {
+            "subject": "Economics",
+            "score": 0,
+            "weightage": 7.2,
+            "priority": "Medium",
+            "difficulty": "Medium",
+            "recommendation": "Focus on Economics concepts"
+          },
+          {
+            "subject": "Science & Technology",
+            "score": 0,
+            "weightage": 31.2,
+            "priority": "Very High",
+            "difficulty": "Medium",
+            "recommendation": "Focus on Science & Technology concepts"
+          },
+          {
+            "subject": "Karnataka GK",
+            "score": 0,
+            "weightage": 11.4,
+            "priority": "High",
+            "difficulty": "Medium",
+            "recommendation": "Focus on Karnataka GK concepts"
+          },
+          {
+            "subject": "Current Affairs",
+            "score": 0,
+            "weightage": 18.2,
+            "priority": "High",
+            "difficulty": "Medium",
+            "recommendation": "Focus on Current Affairs concepts"
+          },
+          {
+            "subject": "CSAT",
+            "score": 0,
+            "weightage": 13.6,
+            "priority": "High",
+            "difficulty": "Medium",
+            "recommendation": "Focus on CSAT concepts"
+          }
+        ],
+        "recommendations": [
+          {
+            "type": "subject_focus",
+            "priority": "high",
+            "action": "Allocate 2 hours daily to each weak subject"
+          }
+        ],
+        "risk_indicators": [
+          {
+            "type": "low_completion_rate",
+            "severity": "high",
+            "message": "Low completion rate of tasks (8.57% in 3 tasks). Consider increasing study hours or reviewing study goals."
+          },
+          {
+            "type": "no_rest_days",
+            "severity": "medium",
+            "message": "No rest days in the last week. Consider taking a break."
+          },
+          {
+            "type": "low_readiness_score",
+            "severity": "high",
+            "message": "Low readiness score of 20. Consider increasing study hours or reviewing study goals."
+          }
+        ],
+        "performance_summary": {
+          "total_tasks": 35,
+          "completed_tasks": 3,
+          "completion_rate": 8.571428571428571,
+          "current_readiness": 20,
+          "last_updated": "2026-05-30T14:09:49.115380"
+        }
+      },
+      "created_at": "2026-05-30T14:24:34.636814",
+      "expires_at": "2026-05-31T14:24:34.636814"
+    }
+  }
+}

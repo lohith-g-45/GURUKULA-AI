@@ -20,9 +20,9 @@ class PromptInjector:
 
     @staticmethod
     def inject_context(base_prompt: str, context_data: Dict[str, Any]) -> str:
-        context_str = "\n\n=== CONTEXT ===\n"
+        context_str = "\n\nCONTEXT:\n"
         for key, value in context_data.items():
-            context_str += f"{key}:\n{json.dumps(value, indent=2)}\n\n"
+            context_str += f"{key}: {json.dumps(value, separators=(',', ':'))}\n"
         return base_prompt + context_str
 
 
@@ -128,6 +128,8 @@ class LLMService:
         messages.append({"role": "user", "content": full_prompt + "\n\nPlease respond only in valid JSON format."})
 
         try:
+            logger.info(f"[LLM Request] Model: {self.config.model}")
+            logger.info(f"[LLM Request] Payload: messages={json.dumps(messages)}, temperature={self.config.temperature}, max_tokens={self.config.max_tokens}")
             client = AsyncGroq(api_key=self.config.api_key)
             chat_completion = await client.chat.completions.create(
                 messages=messages,
@@ -136,6 +138,7 @@ class LLMService:
                 max_tokens=self.config.max_tokens,
                 response_format={"type": "json_object"}
             )
+            logger.info(f"[LLM Response] Payload: {json.dumps(chat_completion.model_dump())}")
             response_text = chat_completion.choices[0].message.content
 
             result = self.response_validator.validate_json(response_text)
@@ -153,10 +156,18 @@ class LLMService:
                 }
             }
         except Exception as e:
-            logger.error(f"Generation failed: {type(e).__name__} - {str(e)}")
+            logger.error(f"[LLM Error] str(e): {str(e)}")
+            logger.error(f"[LLM Error] repr(e): {repr(e)}")
+            import traceback
+            logger.error(f"[LLM Error] Traceback: {traceback.format_exc()}")
+            logger.error(f"[LLM Error] Model: {self.config.model}")
+            logger.error(f"[LLM Error] Request Payload: {json.dumps(messages)}")
+            if hasattr(e, 'response') and e.response:
+                logger.error(f"[LLM Error] Response Status: {e.response.status_code}")
+                logger.error(f"[LLM Error] Response Body: {e.response.text}")
             return {
                 "success": False,
-                "error": type(e).__name__
+                "error": f"{type(e).__name__}: {str(e)}"
             }
 
     async def generate_stream(

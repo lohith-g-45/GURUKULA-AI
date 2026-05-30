@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from app.services.data_loader import DataLoader
 from app.orchestration.context_store import context_store
+from app.database.user_store import user_profile_store
 from app.utils.logger import logger
 
 
@@ -124,7 +125,7 @@ class InsightAgent:
             "total_tasks": total_tasks,
             "completed_tasks": completed_tasks,
             "completion_rate": round(completion_rate, 2),
-            "current_readiness": student_data.get("readiness_score", 50),
+            "current_readiness": user_profile_store.get_readiness_score(),
             "study_streak": student_data.get("consecutive_study_days", 0),
             "last_updated": datetime.now().isoformat()
         }
